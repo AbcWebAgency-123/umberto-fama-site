@@ -36,12 +36,24 @@ AddDefaultCharset utf-8
   # Il modulo contatti risponde solo via POST: nessuna riscrittura per invia.php
   RewriteRule ^invia\.php$ - [L]
 
-  # File di /.well-known/: sul server stanno in /well-known/ (l'FTP di Aruba non accetta cartelle col punto)
-  # Solo mcp/: /.well-known/acme-challenge/ resta ad Aruba per il rinnovo del certificato
-  RewriteRule ^\.well-known/mcp/(.+)$ well-known/mcp/$1 [L]
-
-  # Vecchio indirizzo della pagina del Dottore
-  RewriteRule ^chi-siamo/?$ /chi-sono/ [R=301,L]
+  # Vecchi indirizzi del sito WordPress -> pagine nuove (da SEO Migration Audit)
+  # Confronto esatto (con o senza barra finale), destinazione assoluta: un solo redirect.
+  # Paginazione: tutte le pagine successive vanno alla stessa destinazione.
+  RewriteRule ^author/wp-backend/page/[0-9]+/?$ https://www.dottorfamaumberto.it/mappa-del-sito/ [R=301,L]
+  RewriteRule ^category/blog/page/[0-9]+/?$ https://www.dottorfamaumberto.it/tecnologie/ [R=301,L]
+  RewriteRule ^category/chirurgia-estetica/page/[0-9]+/?$ https://www.dottorfamaumberto.it/chirurgia-estetica-roma-aprilia/ [R=301,L]
+  RewriteRule ^category/medicina-estetica/page/[0-9]+/?$ https://www.dottorfamaumberto.it/medicina-estetica-roma-aprilia/ [R=301,L]
+  RewriteRule ^category/trattamenti-laser/page/[0-9]+/?$ https://www.dottorfamaumberto.it/trattamenti-laser-roma-aprilia/ [R=301,L]
+  RewriteRule ^author/wp-backend/?$ https://www.dottorfamaumberto.it/chi-sono/ [R=301,L]
+  RewriteRule ^category/blog/?$ https://www.dottorfamaumberto.it/blog/ [R=301,L]
+  RewriteRule ^category/chirurgia-dermatologica/?$ https://www.dottorfamaumberto.it/chirurgia-dermatologica-roma-aprilia/ [R=301,L]
+  RewriteRule ^category/chirurgia-estetica/?$ https://www.dottorfamaumberto.it/chirurgia-estetica-roma-aprilia/ [R=301,L]
+  RewriteRule ^category/medicina-estetica/?$ https://www.dottorfamaumberto.it/medicina-estetica-roma-aprilia/ [R=301,L]
+  RewriteRule ^category/trattamenti-laser/?$ https://www.dottorfamaumberto.it/trattamenti-laser-roma-aprilia/ [R=301,L]
+  RewriteRule ^chi-siamo/?$ https://www.dottorfamaumberto.it/chi-sono/ [R=301,L]
+  RewriteRule ^filler-labbra-roma-eur-aprilia/?$ https://www.dottorfamaumberto.it/rimodellamento-labbra-roma/ [R=301,L]
+  RewriteRule ^rinofiller-roma-aprilia/?$ https://www.dottorfamaumberto.it/rinofiller-roma/ [R=301,L]
+  RewriteRule ^(project|servizi)/?$ https://www.dottorfamaumberto.it/ [R=301,L]
 
   # Pagine senza barra finale -> con barra finale (come sulla preview)
   RewriteCond %{REQUEST_FILENAME} !-f

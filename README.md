@@ -19,7 +19,7 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 - Intestazioni `Link` e `Vary` sulla home → `dist/.htaccess` (mod_headers)
 - Endpoint MCP `/mcp` → `dist/mcp.php` (PHP 8.1 o superiore)
 - `X-Robots-Tag: noindex` e robots.txt della preview → **non** presenti: in produzione il sito è indicizzabile
-- 301 `/chi-siamo/` → `/chi-sono/` e barra finale → `dist/.htaccess`
+- 301 dai vecchi indirizzi WordPress (`/chi-siamo/`, `/category/...`, `/author/wp-backend/...`, `/servizi/`, `/project/`, ecc.) e barra finale → `dist/.htaccess`
 
 ## Configurazione di produzione
 
