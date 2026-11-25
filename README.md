@@ -29,6 +29,10 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 - **Immagini del vecchio WordPress** (`/wp-content/uploads/...`): la cartella viene caricata a parte sul server;
   il deploy non la tocca.
 - **https e www**: `dist/.htaccess` reindirizza `http://` e `dottorfamaumberto.it` a `https://www.dottorfamaumberto.it`.
+- **Google Tag Manager** (`GTM-NCCVDKGP`): in ogni pagina, subito dopo i valori predefiniti di Consent Mode v2,
+  come `<script type="text/plain" data-cc="statistiche">`. Il banner lo attiva solo dopo il consenso alle Statistiche
+  (anche senza ricaricare la pagina); al dataLayer arriva anche l'evento `fama_consenso` con le scelte del visitatore.
+  La cookie policy (`web-policy-privacy/`) elenca Google Analytics.
 - **PHP**: su Aruba è attivo PHP 8.3 (servono almeno 8.1 per `mcp.php` e `invia.php`).
 
 ## Rigenerare dist/
@@ -37,4 +41,5 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 python3 tools/esporta_preview.py https://sito-production-fc43.up.railway.app dist
 ```
 Dopo l'esportazione vanno ripristinati i file specifici di produzione (`.htaccess`, `robots.txt`, `mcp.php`, `invia.php`, immagini in `static/img/`)
+lo snippet GTM in tutte le pagine con il testo aggiornato del banner e della cookie policy,
 e la pagina `contatti/index.html` senza la nota «Versione di anteprima» e con il campo trappola `sito_web`.

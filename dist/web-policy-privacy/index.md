@@ -25,7 +25,7 @@ I cookie sono piccoli file di testo che un sito salva nel browser per far funzio
 - **Necessari:** indispensabili al funzionamento del sito o a un servizio richiesto. Non richiedono consenso.
 - **Contenuti esterni:** mappe e altri contenuti forniti da terze parti, caricati solo con il Suo consenso o su Sua richiesta.
 
-- **Statistiche:** misurano in forma aggregata l’uso del sito. **Al momento non sono utilizzati.** Se verranno introdotti (ad esempio Google Analytics), saranno attivati solo dopo il Suo consenso e questa pagina sarà aggiornata.
+- **Statistiche:** misurano in forma aggregata l’uso del sito. Il sito utilizza Google Analytics, caricato tramite Google Tag Manager, **solo dopo il Suo consenso**.
 - **Marketing:** misurano l’efficacia di campagne pubblicitarie o mostrano annunci. **Al momento non sono utilizzati.** Se verranno introdotti (ad esempio Meta Pixel o Google Ads), saranno attivati solo dopo il Suo consenso e questa pagina sarà aggiornata.
 
 Per i servizi Google il sito utilizza Google Consent Mode v2: fino a quando non esprime il consenso, ai servizi di statistica e pubblicità di Google viene comunicato il rifiuto e i relativi strumenti non vengono caricati. Quando accetta o modifica le preferenze, la scelta viene trasmessa per le sole categorie autorizzate.
@@ -36,9 +36,10 @@ Per i servizi Google il sito utilizza Google Consent Mode v2: fino a quando non 
 | --- | --- | --- | --- | --- |
 | fama_consenso | Questo sito (prima parte) | Necessario | Ricorda le scelte espresse nel banner dei cookie | 6 mesi |
 | Google Maps (mappe nelle pagine delle sedi) | Google Ireland Ltd / Google LLC | Contenuti esterni | Mostra la posizione della sede. Al caricamento Google riceve l’indirizzo IP e può impostare propri cookie, descritti nella informativa di Google | Stabilita da Google |
+| Google Analytics 4, tramite Google Tag Manager (cookie _ga e _ga_*) | Google Ireland Ltd / Google LLC | Statistiche | Misura in forma aggregata le visite e l’uso del sito (pagine viste, provenienza, richieste inviate dal modulo). Viene caricato solo se accetta le «Statistiche» nel banner; Google riceve l’indirizzo IP e i dati di navigazione, come descritto nella informativa di Google | Fino a 2 anni |
 | Video YouTube (pagine con video) | Google Ireland Ltd / Google LLC | Contenuti esterni | Riproduce il video. Il lettore, in modalità «privacy avanzata» (youtube-nocookie.com), si carica solo quando preme il pulsante di riproduzione; da quel momento Google riceve l’indirizzo IP e può memorizzare dati nel browser | Stabilita da Google |
 
-Il sito non utilizza strumenti di statistica né di marketing. I caratteri tipografici sono ospitati sul sito stesso e non richiedono collegamenti a servizi esterni.
+Il sito non utilizza strumenti di marketing. I caratteri tipografici sono ospitati sul sito stesso e non richiedono collegamenti a servizi esterni.
 
 ## Le mappe
 

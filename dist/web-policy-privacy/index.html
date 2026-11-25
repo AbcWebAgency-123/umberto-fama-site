@@ -8,6 +8,12 @@ gtag("consent","default",{ad_storage:"denied",ad_user_data:"denied",ad_personali
 gtag("set","ads_data_redaction",true);
 (function(){var m=document.cookie.match(/(?:^|; )fama_consenso=v2\.[01]\.([01])\.([01])/);if(m){var st=m[1]==="1"?"granted":"denied",mk=m[2]==="1"?"granted":"denied";gtag("consent","update",{analytics_storage:st,ad_storage:mk,ad_user_data:mk,ad_personalization:mk});}})();
 </script>
+<script type="text/plain" data-cc="statistiche">/* Google Tag Manager (GTM-NCCVDKGP): caricato dal banner solo dopo il consenso alle Statistiche */
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+(function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtm.js?id=GTM-NCCVDKGP';document.head.appendChild(s);})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cookie policy | Dott. Umberto Fama</title>
 <meta name="description" content="Quali cookie e contenuti esterni utilizza il sito del Dott. Umberto Fama e come può gestire le Sue preferenze.">
@@ -248,7 +254,7 @@ gtag("set","ads_data_redaction",true);
 <ul>
 <li><strong>Necessari:</strong> indispensabili al funzionamento del sito o a un servizio richiesto. Non richiedono consenso.</li>
 <li><strong>Contenuti esterni:</strong> mappe e altri contenuti forniti da terze parti, caricati solo con il Suo consenso o su Sua richiesta.</li>
-<li><strong>Statistiche:</strong> misurano in forma aggregata l’uso del sito. <strong>Al momento non sono utilizzati.</strong> Se verranno introdotti (ad esempio Google Analytics), saranno attivati solo dopo il Suo consenso e questa pagina sarà aggiornata.</li>
+<li><strong>Statistiche:</strong> misurano in forma aggregata l’uso del sito. Il sito utilizza Google Analytics, caricato tramite Google Tag Manager, <strong>solo dopo il Suo consenso</strong>.</li>
 <li><strong>Marketing:</strong> misurano l’efficacia di campagne pubblicitarie o mostrano annunci. <strong>Al momento non sono utilizzati.</strong> Se verranno introdotti (ad esempio Meta Pixel o Google Ads), saranno attivati solo dopo il Suo consenso e questa pagina sarà aggiornata.</li>
 </ul>
 <p>Per i servizi Google il sito utilizza Google Consent Mode v2: fino a quando non esprime il consenso, ai servizi di statistica e pubblicità di Google viene comunicato il rifiuto e i relativi strumenti non vengono caricati. Quando accetta o modifica le preferenze, la scelta viene trasmessa per le sole categorie autorizzate.</p>
@@ -259,10 +265,11 @@ gtag("set","ads_data_redaction",true);
 <tbody>
 <tr><td>fama_consenso</td><td>Questo sito (prima parte)</td><td>Necessario</td><td>Ricorda le scelte espresse nel banner dei cookie</td><td>6 mesi</td></tr>
 <tr><td>Google Maps (mappe nelle pagine delle sedi)</td><td>Google Ireland Ltd / Google LLC</td><td>Contenuti esterni</td><td>Mostra la posizione della sede. Al caricamento Google riceve l’indirizzo IP e può impostare propri cookie, descritti nella <a href="https://policies.google.com/technologies/cookies?hl=it" target="_blank" rel="noopener">informativa di Google</a></td><td>Stabilita da Google</td></tr>
+<tr><td>Google Analytics 4, tramite Google Tag Manager (cookie _ga e _ga_*)</td><td>Google Ireland Ltd / Google LLC</td><td>Statistiche</td><td>Misura in forma aggregata le visite e l’uso del sito (pagine viste, provenienza, richieste inviate dal modulo). Viene caricato solo se accetta le «Statistiche» nel banner; Google riceve l’indirizzo IP e i dati di navigazione, come descritto nella <a href="https://policies.google.com/technologies/partner-sites?hl=it" target="_blank" rel="noopener">informativa di Google</a></td><td>Fino a 2 anni</td></tr>
 <tr><td>Video YouTube (pagine con video)</td><td>Google Ireland Ltd / Google LLC</td><td>Contenuti esterni</td><td>Riproduce il video. Il lettore, in modalità «privacy avanzata» (youtube-nocookie.com), si carica solo quando preme il pulsante di riproduzione; da quel momento Google riceve l’indirizzo IP e può memorizzare dati nel browser</td><td>Stabilita da Google</td></tr>
 </tbody>
 </table></div>
-<p>Il sito non utilizza strumenti di statistica né di marketing. I caratteri tipografici sono ospitati sul sito stesso e non richiedono collegamenti a servizi esterni.</p>
+<p>Il sito non utilizza strumenti di marketing. I caratteri tipografici sono ospitati sul sito stesso e non richiedono collegamenti a servizi esterni.</p>
 
 <h2>Le mappe</h2>
 <p>Nelle pagine delle sedi la mappa di Google Maps non viene caricata automaticamente: al suo posto compare un riquadro con il pulsante «Mostra la mappa». La mappa si carica solo se preme il pulsante oppure se ha accettato i «Contenuti esterni» nel banner. In ogni caso può consultare l’indirizzo e aprire le indicazioni stradali direttamente su Google Maps con il collegamento presente nella pagina.</p>
@@ -413,7 +420,7 @@ consulta l’informativa estesa presente al link “Privacy Policy” nel footer
 var NOME="fama_consenso", DURATA=15552000, POLICY="/web-policy-privacy/";
 var CAT=[
 {k:"esterni",t:"Contenuti esterni",d:"Mappe di Google Maps nelle pagine delle sedi. Caricando la mappa, Google riceve il Suo indirizzo IP e può impostare propri cookie."},
-{k:"statistiche",t:"Statistiche",d:"Strumenti che misurano le visite al sito in forma aggregata (ad esempio Google Analytics). Al momento non sono attivi: se verranno introdotti, saranno caricati solo con il Suo consenso."},
+{k:"statistiche",t:"Statistiche",d:"Google Analytics, tramite Google Tag Manager: misura le visite al sito in forma aggregata. Viene caricato solo con il Suo consenso."},
 {k:"marketing",t:"Marketing",d:"Strumenti di misurazione pubblicitaria e remarketing (ad esempio Meta Pixel o Google Ads). Al momento non sono attivi: se verranno introdotti, saranno caricati solo con il Suo consenso."}
 ];
 function leggi(){
