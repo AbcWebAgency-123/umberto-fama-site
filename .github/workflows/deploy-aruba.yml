@@ -1,0 +1,85 @@
+# Pubblica dist/ sull'hosting Aruba via FTP(S).
+#
+# Si avvia:
+#   - a ogni push su main che modifica dist/ o questo file;
+#   - a mano da Actions → "Deploy su Aruba" → Run workflow (con opzione "prova a vuoto").
+#
+# Segreti da impostare in Settings → Secrets and variables → Actions:
+#   FTP_SERVER    es. ftp.dottorfamaumberto.it
+#   FTP_USERNAME  utente FTP del pannello Aruba
+#   FTP_PASSWORD  password FTP
+# Variabili facoltative (scheda "Variables"):
+#   FTP_SERVER_DIR  cartella di destinazione sul server (predefinita: ./ cioè la radice FTP)
+#   FTP_PROTOCOL    ftps (predefinito) oppure ftp se Aruba rifiuta la connessione cifrata
+#
+# La sincronizzazione è incrementale: l'azione salva sul server lo stato
+# .ftp-deploy-sync-state.json e carica solo i file cambiati. Cancella soltanto
+# i file che lei stessa aveva caricato e poi sono stati tolti da dist/, quindi
+# non tocca wp-content/ né altro già presente sul server.
+
+name: Deploy su Aruba
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dist/**"
+      - ".github/workflows/deploy-aruba.yml"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Prova a vuoto: mostra cosa verrebbe caricato senza toccare il server"
+        type: boolean
+        default: true
+
+concurrency:
+  group: deploy-aruba
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: produzione
+      url: https://www.dottorfamaumberto.it
+    steps:
+      - name: Controlla i segreti FTP
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          mancanti=""
+          [ -z "$FTP_SERVER" ] && mancanti="$mancanti FTP_SERVER"
+          [ -z "$FTP_USERNAME" ] && mancanti="$mancanti FTP_USERNAME"
+          [ -z "$FTP_PASSWORD" ] && mancanti="$mancanti FTP_PASSWORD"
+          if [ -n "$mancanti" ]; then
+            echo "::error::Segreti mancanti:$mancanti. Impostali in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Controlla dist/
+        run: |
+          test -f dist/index.html || { echo "::error::dist/index.html non trovato"; exit 1; }
+          test -f dist/.htaccess  || { echo "::error::dist/.htaccess non trovato"; exit 1; }
+          echo "File da pubblicare: $(find dist -type f | wc -l)"
+
+      - name: Carica su Aruba
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          port: 21
+          local-dir: ./dist/
+          server-dir: ${{ vars.FTP_SERVER_DIR || './' }}
+          dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          log-level: standard
+          timeout: 120000

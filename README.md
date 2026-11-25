@@ -11,7 +11,7 @@ Sito statico pronto per l'hosting Aruba (Apache + PHP), esportato dalla preview 
 | `tools/esporta_preview.py` | Script che rigenera `dist/` scaricando la preview Railway e sostituendo gli indirizzi con `https://www.dottorfamaumberto.it` |
 | `preview-railway/` | Solo riferimento: codice del server Bun della preview e registro delle modifiche. Non viene pubblicato su Aruba |
 
-Non serve nessuna build: `dist/` va caricata così com'è (vedi `.github/workflows/deploy-aruba.yml`, da aggiungere).
+Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.github/workflows/deploy-aruba.yml` (FTP verso Aruba; segreti `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`).
 
 ## Equivalenze preview → Aruba
 
