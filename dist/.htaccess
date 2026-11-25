@@ -40,7 +40,7 @@ AddDefaultCharset utf-8
   # Confronto esatto (con o senza barra finale), destinazione assoluta: un solo redirect.
   # Paginazione: tutte le pagine successive vanno alla stessa destinazione.
   RewriteRule ^author/wp-backend/page/[0-9]+/?$ https://www.dottorfamaumberto.it/mappa-del-sito/ [R=301,L]
-  RewriteRule ^category/blog/page/[0-9]+/?$ https://www.dottorfamaumberto.it/tecnologie/ [R=301,L]
+  RewriteRule ^category/blog/page/[0-9]+/?$ https://www.dottorfamaumberto.it/blog/ [R=301,L]
   RewriteRule ^category/chirurgia-estetica/page/[0-9]+/?$ https://www.dottorfamaumberto.it/chirurgia-estetica-roma-aprilia/ [R=301,L]
   RewriteRule ^category/medicina-estetica/page/[0-9]+/?$ https://www.dottorfamaumberto.it/medicina-estetica-roma-aprilia/ [R=301,L]
   RewriteRule ^category/trattamenti-laser/page/[0-9]+/?$ https://www.dottorfamaumberto.it/trattamenti-laser-roma-aprilia/ [R=301,L]
