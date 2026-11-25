@@ -81,6 +81,22 @@ jobs:
           fi
           find dist/well-known -type f
 
+      - name: Elenca le cartelle sul server (solo prova a vuoto)
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_SERVER_DIR: ${{ vars.FTP_SERVER_DIR }}
+        run: |
+          printf 'user = "%s:%s"\n' "$FTP_USERNAME" "$FTP_PASSWORD" > "$RUNNER_TEMP/curlrc"
+          elenca() { echo "== /$1"; curl -sS --ssl-reqd --config "$RUNNER_TEMP/curlrc" "ftp://$FTP_SERVER/$1" || true; }
+          echo "Cartella iniziale dopo l'accesso:"
+          curl -sS --ssl-reqd --config "$RUNNER_TEMP/curlrc" -Q PWD "ftp://$FTP_SERVER/" -o /dev/null -v 2>&1 | grep -E '^< 257' || true
+          elenca ""
+          [ -n "$FTP_SERVER_DIR" ] && elenca "${FTP_SERVER_DIR#./}"
+          rm -f "$RUNNER_TEMP/curlrc"
+
       - name: Carica su Aruba
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
