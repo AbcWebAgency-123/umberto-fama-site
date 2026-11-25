@@ -1,0 +1,18 @@
+# Segreti e configurazioni locali
+.env
+.env.*
+*.pem
+*.key
+.ftp-deploy-sync-state.json
+
+# Dipendenze e build intermedie
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+tmp/
+
+# File di sistema e log
+.DS_Store
+Thumbs.db
+*.log

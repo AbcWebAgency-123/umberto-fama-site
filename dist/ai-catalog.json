@@ -1,0 +1,533 @@
+{
+  "name": "Dott. Umberto Fama",
+  "description": "Il dott. Fama Umberto è specialista in medicina e chirurgia plastica ed estetica a Roma ed Aprilia: lo contatti per un appuntamento conoscitivo",
+  "url": "https://www.dottorfamaumberto.it/",
+  "canonical_url": "https://www.dottorfamaumberto.it/",
+  "language": "it",
+  "resources": {
+    "llms_txt": "https://www.dottorfamaumberto.it/llms.txt",
+    "sitemap": "https://www.dottorfamaumberto.it/sitemap.xml",
+    "robots": "https://www.dottorfamaumberto.it/robots.txt",
+    "markdown": {
+      "how": "Richiedere qualsiasi pagina con l’intestazione Accept: text/markdown",
+      "content_type": "text/markdown; charset=utf-8"
+    }
+  },
+  "sections": [
+    {
+      "name": "Pagine principali",
+      "pages": [
+        {
+          "title": "Contatti",
+          "url": "https://www.dottorfamaumberto.it/contatti/",
+          "description": "Prenota una visita con il Dott. Umberto Fama: modulo di contatto, WhatsApp, telefoni, agenda online MioDottore e le quattro sedi di Roma e Aprilia."
+        },
+        {
+          "title": "Domande frequenti",
+          "url": "https://www.dottorfamaumberto.it/domande-frequenti/",
+          "description": "Le risposte alle domande più frequenti su prenotazione, sedi, visita gratuita di medicina estetica, anestesia, durata e ripresa dei principali trattamenti."
+        },
+        {
+          "title": "Chirurgo plastico a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/",
+          "description": "Il dott. Fama Umberto è specialista in medicina e chirurgia plastica ed estetica a Roma ed Aprilia: lo contatti per un appuntamento conoscitivo"
+        }
+      ]
+    },
+    {
+      "name": "Chirurgia estetica",
+      "pages": [
+        {
+          "title": "Chirurgia estetica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/chirurgia-estetica-roma-aprilia/",
+          "description": "Il dottor Umberto Fama è specializzato in chirurgia estetica e riceve nei suoi studi di Roma e Aprilia: lo contatti per un appuntamento."
+        },
+        {
+          "title": "Blefaroplastica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/blefaroplastica-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato in interventi di blefaroplastica a Roma e Aprilia? Contatta il dott. Umberto Fama per un appuntamento."
+        },
+        {
+          "title": "Cheiloplastica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/cheiloplastica-roma/",
+          "description": "La cheiloplastica è un intervento di chirurgia estetica che migliora l’aspetto delle labbra, correggendo eventuali difetti di forma, dimensione o simmetria."
+        },
+        {
+          "title": "Ginecomastia a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/ginecomastia-roma-aprilia/",
+          "description": "L’intervento per la ginecomastia viene eseguito per correggere le deformità o gli inestetismi delle regioni mammarie dell'uomo."
+        },
+        {
+          "title": "Lifting delle cosce a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/lifting-cosce-braccia-aprilia-roma/",
+          "description": "L’intervento di lifting delle cosce e delle braccia è volto alla correzione di inestetismi dovuti ad eccesso di grasso o rilassatezza cutanea"
+        },
+        {
+          "title": "Lifting delle braccia a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/lifting-delle-braccia/",
+          "description": "L’intervento di lifting delle braccia è volto alla correzione di inestetismi dovuti ad eccesso di grasso o rilassatezza cutanea"
+        },
+        {
+          "title": "Lifting facciale a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/lifting-facciale-roma/",
+          "description": "L’intervento di lifting facciale si svolge in anestesia generale o locale con sedazione, a seconda dei casi e delle preferenze del paziente."
+        },
+        {
+          "title": "Lipofilling a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/lipofilling/",
+          "description": "L’intervento di lipofilling si svolge in anestesia locale o generale, a seconda dei casi e delle preferenze del paziente."
+        },
+        {
+          "title": "Liposuzione e liposcultura Roma Aprilia",
+          "url": "https://www.dottorfamaumberto.it/liposuzione-specialista-trattamento-liposcultura-roma-aprilia/",
+          "description": "Il trattamento di liposcultura viene eseguito per asportare gli eccessi di tessuto adiposo localizzati in sedi diverse: contattami per un appuntamento!"
+        },
+        {
+          "title": "Mastoplastica additiva a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/mastoplastica-additiva-roma-parioli-aprilia/",
+          "description": "L’intervento di mastoplastica additiva consiste nell’inserimento di apposite protesi, sotto alla ghiandola, oppure più in profondità, sotto il muscolo pettorale"
+        },
+        {
+          "title": "Mastoplastica riduttiva Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/mastoplastica-riduttiva-aprilia-roma/",
+          "description": "L’intervento di mastoplastica riduttiva si esegue per ridurre le dimensioni e correggere la forma di mammelle eccessivamente sviluppate e cadenti"
+        },
+        {
+          "title": "Miniaddominoplastica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/miniaddominoplastica-roma/",
+          "description": "Migliora l’aspetto del tuo addome inferiore, eliminando l’eccesso di pelle e di grasso e rassodando i muscoli della parete addominale."
+        },
+        {
+          "title": "Rinoplastica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/rinoplastica-aprilia-roma/",
+          "description": "La rinoplastica è un intervento chirurgico che consente la correzione del profilo e della morfologia del naso."
+        },
+        {
+          "title": "Addominoplastica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/specialista-addominoplastica-roma-aprilia/",
+          "description": "L’intervento di addominoplastica consiste nell’asportazione dell’eccesso di pelle e conferisce all’addome un aspetto più gradevole e naturale"
+        },
+        {
+          "title": "Mastopessi a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/specialista-mastopessi-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specialista in mastopessi a Roma e Aprilia? Contatta il dott. Umberto Fama per un appuntamento conoscitivo"
+        },
+        {
+          "title": "Otoplastica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/specialista-otoplastica-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specialista in otoplastica a Roma e Aprilia? Contatta il dott. Umberto Fama per un appuntamento conoscitivo."
+        },
+        {
+          "title": "Labioplastica e chirurgia dei genitali esterni femminili a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/chirurgia-genitali-esterni-femminili-roma-aprilia/",
+          "description": "Labioplastica riduttiva delle piccole labbra a Roma e Aprilia: normale variabilità anatomica, visita, alternative, intervento, recupero e rischi. Prima visita gratuita."
+        },
+        {
+          "title": "Chirurgia riparativa del lobo auricolare a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/chirurgia-riparativa-lobo-auricolare-roma-aprilia/",
+          "description": "Riparazione del lobo dell’orecchio a Roma e Aprilia: schisi del lobo, foro dell’orecchino allargato, esiti di lacerazioni, nuovo foro. Prima visita gratuita."
+        }
+      ]
+    },
+    {
+      "name": "Chirurgia dermatologica ricostruttiva",
+      "pages": [
+        {
+          "title": "Chirurgia dermatologica ricostruttiva Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/chirurgia-dermatologica-roma-aprilia/",
+          "description": "Una lesione cutanea deve essere valutata clinicamente prima di decidere se e come rimuoverla. Quando indicato, il percorso comprende esame istologico, definizione dei margini, scelta della tecnica e controlli successivi."
+        },
+        {
+          "title": "Asportazione di cisti a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/asportazione-cisti-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nell'asportazione di cisti a Roma e Aprilia? Contatta il dott. Fama, chirurgo dermatologico a Roma e Aprilia!"
+        },
+        {
+          "title": "Asportazione di nevi a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/asportazione-nevi-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nell’asportazione di cisti a Roma e Aprilia? Contatta il dott. Fama chirurgo dermatologico a Roma e Aprilia!"
+        },
+        {
+          "title": "Asportazione tumori cutanei a Roma",
+          "url": "https://www.dottorfamaumberto.it/asportazione-tumori-cutanei-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nell’asportazione di tumori cutanei a Roma? Contatta il dott. Fama chirurgo dermatologico a Roma e Aprilia!"
+        },
+        {
+          "title": "Chirurgia del melanoma a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/chirurgia-del-melanoma/",
+          "description": "La chirurgia del melanoma consiste nell’asportare il melanoma e una certa quantità di pelle sana intorno, attraverso un’incisione cutanea."
+        },
+        {
+          "title": "Chirurgia di Mohs a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/chirurgia-micrografica-di-mohs/",
+          "description": "La chirurgia di Mohs per i tumori cutanei maligni del viso: asportazione a strati con esame al microscopio, in anestesia locale. Dott. Umberto Fama, Roma e Aprilia."
+        }
+      ]
+    },
+    {
+      "name": "Medicina estetica",
+      "pages": [
+        {
+          "title": "Medicina estetica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/medicina-estetica-roma-aprilia/",
+          "description": "Il dottor Umberto Fama è specializzato in medicina estetica e riceve nei suoi studi di Roma e Aprilia: lo contatti per un appuntamento."
+        },
+        {
+          "title": "Dietologia e detox a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/dietologia-percorsi-detox-roma-aprilia/",
+          "description": "Sei alla ricerca di un medico estetico specializzato in dietologia a Roma e Aprilia? Contattami per un appuntamento conoscitivo!"
+        },
+        {
+          "title": "Fotoringiovanimento a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/fotoringiovanimento-roma-aprilia/",
+          "description": "Sei alla ricerca di un medico estetico specializzato in trattamenti di fotoringiovanimento a Roma e Aprilia? Contattami per un appuntamento!"
+        },
+        {
+          "title": "Liposcultura non chirurgica a Roma",
+          "url": "https://www.dottorfamaumberto.it/liposcultura-non-chirurgica-roma-aprilia/",
+          "description": "Sei alla ricerca di un medico estetico specializzato in trattamenti di liposcultura non chirurgica a Roma e Aprilia? Contattami per informazioni!"
+        },
+        {
+          "title": "PRP per crono e fotoaging Roma Aprilia",
+          "url": "https://www.dottorfamaumberto.it/prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging/",
+          "description": "Il PRP (plasma ricco di piastrine) per la prevenzione e il trattamento del crono e fotoaging: come funziona, durata della seduta e ripresa immediata. Dott. Umberto Fama."
+        },
+        {
+          "title": "Rimodellamento labbra a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/rimodellamento-labbra-roma/",
+          "description": "Il dott. Umberto Fama è specializzato nei trattamenti di medicina estetica per rimodellamento labbra: lo contatti per un appuntamento!"
+        },
+        {
+          "title": "Rinofiller a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/rinofiller-roma/",
+          "description": "Il dott. Umberto Fama è specializzato nei trattamenti di medicina estetica con filler riassorbibili: lo contatti per un appuntamento!"
+        },
+        {
+          "title": "Trattamento cellulite a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/specialista-trattamento-cellulite-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento della cellulite a Roma e Aprilia? Contattami subito!"
+        },
+        {
+          "title": "Filler riassorbibili a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/specialista-trattamento-fillers-riassorbibili-roma-aprilia/",
+          "description": "Il dott. Umberto Fama è specializzato nei trattamenti di medicina estetica con filler riassorbibili: lo contatti per un appuntamento conoscitivo"
+        },
+        {
+          "title": "Tossina botulinica a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/tossina-botulinica-roma-aprilia/",
+          "description": "La tossina botulinica è una sostanza prodotta da alcuni batteri che riduce o elimina rughe e solchi dalla glabella: contattami per informazioni"
+        },
+        {
+          "title": "Biostimolazione a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/trattamento-biostimolazione-biorivitalizzazione-roma-aprilia/",
+          "description": "Sei alla ricerca di un medico estetico specializzato nel trattamento di biostimolazione e trattamento di biorivitalizzazione a Roma e Aprilia? Contattami!"
+        },
+        {
+          "title": "Iperidrosi: trattamento Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/trattamento-iperidrosi-roma-sudorazione-eccessiva/",
+          "description": "Il dott. Umberto Fama è specializzato nei trattamenti di medicina estetica contro la sudorazione eccessiva: lo contatti per un appuntamento!"
+        },
+        {
+          "title": "Trattamento smagliature Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/trattamento-smagliature-roma/",
+          "description": "Il dott. Umberto Fama è specializzato nei trattamenti di medicina estetica contro cellulite e smagliature: lo contatti per un appuntamento!"
+        }
+      ]
+    },
+    {
+      "name": "Trattamenti laser",
+      "pages": [
+        {
+          "title": "Trattamenti laser a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/trattamenti-laser-roma-aprilia/",
+          "description": "Il dottor Umberto Fama è specializzato in trattamenti laser estetici e riceve nei suoi studi di Roma e Aprilia: lo contatti per un appuntamento."
+        },
+        {
+          "title": "Angiomi e capillari a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/angiomi-capillari-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento di angiomi e capillari a Roma e Aprilia? Contattami ora!"
+        },
+        {
+          "title": "Cicatrici, cheloidi e acne Roma Aprilia",
+          "url": "https://www.dottorfamaumberto.it/cicatrici-cheloidi-esiti-acne-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento laser di cicatrici cheloidi e esiti di acne a Roma e Aprilia? Contattami!"
+        },
+        {
+          "title": "Couperose e rosacea a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/couperose-rosacea-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento di couperose e rosacea a Roma e Aprilia? Contattami per informazioni!"
+        },
+        {
+          "title": "Depilazione laser a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/depilazione-laser-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nella depilazione laser a Roma e Aprilia? Contattami per un appuntamento!"
+        },
+        {
+          "title": "Laser frazionato a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/laser-frazionato-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento con laser frazionato a Roma e Aprilia? Contattami per un appuntamento!"
+        },
+        {
+          "title": "Nevi, verruche, fibromi Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/nevi-verruche-cisti-fibromi-condilomi-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento laser di nevi, verruche, cisti, fibromi e condilomi a Roma e Aprilia? Contattami!"
+        },
+        {
+          "title": "Rimozione laser tatuaggi Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/rimozione-laser-tatuaggi-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specialista nella rimozione laser dei tatuaggi a Roma e Aprilia? Contatta il dott. Umberto Fama, chirurgo dermatologico a Roma!"
+        },
+        {
+          "title": "Rughe e laser resurfacing Roma Aprilia",
+          "url": "https://www.dottorfamaumberto.it/rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento laser delle rughe per il ringiovanimento cutaneo a Roma e Aprilia? Contattami ora!"
+        },
+        {
+          "title": "Teleangectasie e varici Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/teleangectasie-varici-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento di teleangectasie e varici a Roma e Aprilia? Contattami subito!"
+        },
+        {
+          "title": "Laser macchie della pelle Roma Aprilia",
+          "url": "https://www.dottorfamaumberto.it/trattamento-laser-iperpigmentazioni-macchie-pelle-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento laser per iperpigmentazioni e macchie della pelle a Roma e Aprilia? Contattami!"
+        },
+        {
+          "title": "Smagliature laser a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/trattamento-laser-smagliature-roma-aprilia/",
+          "description": "Sei alla ricerca di un chirurgo estetico specializzato nel trattamento laser delle smagliature a Roma e Aprilia? Contattami per informazioni!"
+        }
+      ]
+    },
+    {
+      "name": "Medicina rigenerativa",
+      "pages": [
+        {
+          "title": "Medicina rigenerativa a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/medicina-rigenerativa/",
+          "description": "Il PRP è una procedura che utilizza una componente del sangue del paziente preparata secondo protocolli specifici. Indicazioni, risultati e qualità delle evidenze variano secondo l’impiego clinico: la valutazione preliminare è indispensabile."
+        },
+        {
+          "title": "PRP cuoio capelluto a Roma e Aprilia",
+          "url": "https://www.dottorfamaumberto.it/trattamento-prp-roma-cuoio-capelluto-terapia-alopecia/",
+          "description": "Il trattamento con PRP per l’alopecia offre numerosi vantaggi: contatta il Dott. Fama per un appuntamento conoscitivo"
+        }
+      ]
+    },
+    {
+      "name": "Chi sono",
+      "pages": [
+        {
+          "title": "Chi sono",
+          "url": "https://www.dottorfamaumberto.it/chi-sono/",
+          "description": "Il Dott. Umberto Fama, specialista in Chirurgia Plastica Ricostruttiva ed Estetica, dal 2009 si dedica a chirurgia e medicina estetica, laser terapia e chirurgia dermatologica a Roma e Aprilia."
+        },
+        {
+          "title": "Curriculum",
+          "url": "https://www.dottorfamaumberto.it/curriculum/",
+          "description": "Formazione, specializzazione, pubblicazioni scientifiche, congressi, interventi e dispositivi laser del Dott. Umberto Fama, chirurgo plastico a Roma e Aprilia."
+        },
+        {
+          "title": "Dicono di me",
+          "url": "https://www.dottorfamaumberto.it/recensioni/",
+          "description": "Le recensioni dei pazienti del Dott. Umberto Fama su MioDottore, i certificati di eccellenza e i profili iDoctors e TopDoctors."
+        },
+        {
+          "title": "Tecnologie laser",
+          "url": "https://www.dottorfamaumberto.it/tecnologie/",
+          "description": "Le sette piattaforme laser e luce pulsata utilizzate dal Dott. Umberto Fama, con le relative indicazioni terapeutiche."
+        }
+      ]
+    },
+    {
+      "name": "Sedi",
+      "pages": [
+        {
+          "title": "Le mie sedi",
+          "url": "https://www.dottorfamaumberto.it/dove-siamo/",
+          "description": "Le quattro sedi del Dott. Umberto Fama: Flaminio/Parioli (Skin Laser), Centocelle/Prenestina, EUR (FisioEuropa) e Aprilia, con indirizzi, orari e telefoni."
+        },
+        {
+          "title": "Chirurgo plastico Aprilia (LT)",
+          "url": "https://www.dottorfamaumberto.it/sedi/aprilia/",
+          "description": "Prima visita con il Dott. Umberto Fama in Via degli Olivi 31, Aprilia (LT): chirurgia plastica, medicina estetica, chirurgia dermatologica, laser e PRP."
+        },
+        {
+          "title": "Chirurgo plastico Roma Centocelle / Prenestina",
+          "url": "https://www.dottorfamaumberto.it/sedi/centocelle/",
+          "description": "Prima visita con il Dott. Umberto Fama in Via Giacomo Bresadola 26, Roma est: chirurgia plastica, medicina estetica, chirurgia dermatologica, laser e PRP."
+        },
+        {
+          "title": "Chirurgo plastico Roma EUR",
+          "url": "https://www.dottorfamaumberto.it/sedi/eur/",
+          "description": "Prima visita con il Dott. Umberto Fama presso FisioEuropa, Viale dell'Umanesimo 308, Roma EUR: chirurgia plastica, medicina estetica, chirurgia dermatologica, laser e PRP."
+        },
+        {
+          "title": "Chirurgo plastico Roma Flaminio / Parioli",
+          "url": "https://www.dottorfamaumberto.it/sedi/parioli/",
+          "description": "Prima visita con il Dott. Umberto Fama all’ambulatorio Skin Laser, Piazzale delle Belle Arti 2, Roma: chirurgia plastica, medicina estetica, chirurgia dermatologica, laser e PRP."
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "pages": [
+        {
+          "title": "Blog",
+          "url": "https://www.dottorfamaumberto.it/blog/",
+          "description": "Gli articoli del Dott. Umberto Fama su chirurgia estetica, medicina estetica, laser, chirurgia dermatologica e medicina rigenerativa."
+        },
+        {
+          "title": "Capillari e macchie rosse: il laser KTP",
+          "url": "https://www.dottorfamaumberto.it/come-eliminare-capillari-macchie-rosse-viso-laser-ktp/",
+          "description": "Se vuoi liberarti dei disturbi vascolari del viso e ritrovare una pelle sana e splendente, contatta il dottor Fama e prenota una visita."
+        },
+        {
+          "title": "Cicatrici da acne e laser UltraPulse",
+          "url": "https://www.dottorfamaumberto.it/come-eliminare-cicatrici-acne-laser-ultrapulse-lumenis/",
+          "description": "Il trattamento con il laser Ultrapulse Lumenis® è una delle soluzioni più avanzate per eliminare le cicatrici da acne"
+        },
+        {
+          "title": "Laser chirurgici e imperfezioni cutanee",
+          "url": "https://www.dottorfamaumberto.it/come-eliminare-imperfezioni-pelle-laser-chirurgici/",
+          "description": "Se vuoi saperne di più sulla laser terapia e sulle sue applicazioni, contattami per una consulenza personalizzata."
+        },
+        {
+          "title": "Il seno dopo la mastoplastica additiva",
+          "url": "https://www.dottorfamaumberto.it/come-prendersi-cura-del-seno-dopo-mastoplastica-additiva/",
+          "description": "Qualunque sia la tecnica e il tipo di protesi scelti il decorso post operatorio della mastoplastica additiva richiede alcune attenzioni"
+        },
+        {
+          "title": "Brachioplastica dopo un dimagrimento",
+          "url": "https://www.dottorfamaumberto.it/brachioplastica-rimodellare-braccia-dopo-dimagrimento/",
+          "description": "L’intervento di brachioplastica si svolge in anestesia generale e richiede una notte di degenza in ospedale."
+        },
+        {
+          "title": "Come curare le cicatrici patologiche",
+          "url": "https://www.dottorfamaumberto.it/come-curare-cicatrici-patologiche/",
+          "description": "Il dott. Umberto Fama è un chirurgo plastico che vanta una lunga e consolidata esperienza nel trattamento delle cicatrici patologiche"
+        },
+        {
+          "title": "Il laser erbium ablativo per la pelle",
+          "url": "https://www.dottorfamaumberto.it/come-avere-pelle-perfetta-laser-erbium-ablativo/",
+          "description": "Il laser erbium ablativo è un laser che emette una luce con una lunghezza d’onda di 2940 nm, che viene assorbita dall’acqua contenuta nelle cellule della pelle."
+        },
+        {
+          "title": "Contrattura capsulare e mastoplastica",
+          "url": "https://www.dottorfamaumberto.it/prevenire-curare-contrattura-capsulare-dopo-mastoplastica-additiva/",
+          "description": "La contrattura capsulare può comparire in qualsiasi momento dopo l'intervento, ma di solito si manifesta entro i primi due anni."
+        },
+        {
+          "title": "Dismorfofobia: il corpo come ossessione",
+          "url": "https://www.dottorfamaumberto.it/dismorfofobia-corpo-ossessione/",
+          "description": "La dismorfofobia si manifesta con una serie di comportamenti compulsivi, che hanno lo scopo di verificare, nascondere o modificare il difetto"
+        },
+        {
+          "title": "Fraxel: il laser per la pelle",
+          "url": "https://www.dottorfamaumberto.it/fraxel-laser-cura-pelle/",
+          "description": "Il laser fraxel agisce sulla pelle danneggiata con microscopici raggi laser che penetrano nella pelle in profondità: contattaci ora!"
+        },
+        {
+          "title": "Equilibrio e armonia nell’estetica",
+          "url": "https://www.dottorfamaumberto.it/equilibrio-armonia-principi-chirurgia-medicina-estetica/",
+          "description": "Per raggiungere l’equilibrio e l’armonia, i professionisti della chirurgia e della medicina estetica si avvalgono di strumenti e tecniche avanzati"
+        },
+        {
+          "title": "PRP per la calvizie: come scegliere",
+          "url": "https://www.dottorfamaumberto.it/come-scegliere-centro-giusto-trattamento-prp-calvizie/",
+          "description": "Il trattamento PRP si svolge in ambulatorio, in circa un’ora, e non richiede anestesia generale. Contattaci per informazioni!"
+        },
+        {
+          "title": "Laser resurfacing palpebra inferiore",
+          "url": "https://www.dottorfamaumberto.it/ringiovanire-sguardo-senza-bisturi-il-laser-resurfacing-palpebra-inferiore/",
+          "description": "Il laser resurfacing è una tecnica che sfrutta l'azione di un raggio laser per vaporizzare gli strati superficiali della pelle"
+        },
+        {
+          "title": "Tagliacozzi e la chirurgia plastica",
+          "url": "https://www.dottorfamaumberto.it/gaspare-tagliacozzi-il-genio-italiano-della-chirurgia-plastica-e-le-prospettive-future-della-sua-disciplina/",
+          "description": "La chirurgia plastica ha subito una notevole evoluzione nel corso dei secoli, grazie ai progressi della scienza e della tecnologia..."
+        },
+        {
+          "title": "Onde d’urto per la cellulite",
+          "url": "https://www.dottorfamaumberto.it/onde-durto-soluzione-eliminare-cellulite/",
+          "description": "Il trattamento con le onde d’urto è sicuro, indolore e non invasivo. Non richiede anestesia, tempi di recupero o precauzioni particolari."
+        },
+        {
+          "title": "Profhilo®: ringiovanimento del viso",
+          "url": "https://www.dottorfamaumberto.it/profhilo-ringiovanire-viso-naturale-duraturo/",
+          "description": "Profhilo® è un dispositivo medico ad uso iniettivo che contiene una formulazione unica di acido ialuronico ad alto e basso peso molecolare"
+        },
+        {
+          "title": "Melanoma: come prevenirlo e curarlo",
+          "url": "https://www.dottorfamaumberto.it/melanoma-come-prevenirlo-e-curarlo/",
+          "description": "La prevenzione del melanoma si basa su alcune semplici regole da seguire per proteggere la pelle dai danni dei raggi UV. Vediamole insieme!"
+        },
+        {
+          "title": "Luce pulsata o laser: quale scegliere?",
+          "url": "https://www.dottorfamaumberto.it/luce-pulsata-laser-quale-scegliere-per-bellezza/",
+          "description": "IPL e laser presentano alcune differenze significative, sia dal punto di vista tecnico che applicativo. Vediamole insieme nel dettaglio!"
+        },
+        {
+          "title": "Medicina rigenerativa: PRP e staminali",
+          "url": "https://www.dottorfamaumberto.it/medicina-rigenerativa-prp-cellule-staminali-ringiovanire-corpo/",
+          "description": "Il PRP, acronimo di Plasma Ricco di Piastrine, è uno dei prodotti più utilizzati nella medicina rigenerativa. Contattami per saperne di più!"
+        },
+        {
+          "title": "Melanoma: come riconoscerlo in tempo",
+          "url": "https://www.dottorfamaumberto.it/melanoma-riconoscerlo-curarlo-in-tempo/",
+          "description": "Se individuato e rimosso nelle sue fasi iniziali, il melanoma ha un’ottima prognosi, con una sopravvivenza a 5 anni che supera il 90%"
+        },
+        {
+          "title": "Chirurgia di Mohs e tumori del volto",
+          "url": "https://www.dottorfamaumberto.it/chirurgia-mohs-soluzione-tumori-cutanei-roma/",
+          "description": "Il dottor Fama vi offrirà la sua professionalità, la sua competenza e la sua umanità, per garantirvi la migliore soluzione per il vostro caso."
+        },
+        {
+          "title": "Protesi al seno e BIA-ALCL: cosa sapere",
+          "url": "https://www.dottorfamaumberto.it/come-proteggere-seno-dalle-protesi-bia-alcl/",
+          "description": "Si raccomanda una sorveglianza attiva e una informazione corretta per i pazienti portatori di protesi mammarie, sia testurizzate che lisce."
+        },
+        {
+          "title": "Fosfatidilcolina e grasso localizzato",
+          "url": "https://www.dottorfamaumberto.it/fosfatidilcolina-alleato-naturale-contro-cellulite-grasso-localizzato/",
+          "description": "La fosfatidilcolina riduce gli accumuli di grasso localizzato, resistenti alla dieta e all’esercizio fisico, grazie alla mesoterapia"
+        },
+        {
+          "title": "Luce pulsata e acne rosacea",
+          "url": "https://www.dottorfamaumberto.it/luce-pulsata-alta-intensita-soluzione-per-acne-rosacea/",
+          "description": "Non esiste una cura definitiva per l’acne rosacea, ma esistono diversi trattamenti che possono controllare i sintomi e prevenire il peggioramento della malattia."
+        },
+        {
+          "title": "Iperidrosi e tossina botulinica a Roma",
+          "url": "https://www.dottorfamaumberto.it/trattamento-iperidrosi-roma-cura-tossina-botulinica/",
+          "description": "L’uso della tossina botulinica per l’iperidrosi richiede una valutazione medica preliminare, per escludere controindicazioni."
+        },
+        {
+          "title": "Alopecia e trattamento PRP a Roma",
+          "url": "https://www.dottorfamaumberto.it/trattamento-prp-roma-soluzione-alopecia/",
+          "description": "Il plasma arricchito di piastrine viene poi iniettato nelle zone interessate dall’alopecia, mediante delle sottili e indolori microcannule."
+        },
+        {
+          "title": "Carcinoma basocellulare metatipico: revisione clinica",
+          "url": "https://www.dottorfamaumberto.it/carcinoma-basocellulare-metatipico-revisione-clinica/",
+          "description": "Sintesi della revisione clinica sul carcinoma basocellulare metatipico pubblicata nel 2008 sul Journal of Experimental & Clinical Cancer Research, tra i cui autori figura il Dott. Umberto Fama."
+        }
+      ]
+    },
+    {
+      "name": "Optional",
+      "pages": [
+        {
+          "title": "Mappa del sito",
+          "url": "https://www.dottorfamaumberto.it/mappa-del-sito/",
+          "description": "Tutte le pagine del sito del Dott. Umberto Fama: aree, trattamenti, sedi, blog e pagine di servizio."
+        },
+        {
+          "title": "Privacy",
+          "url": "https://www.dottorfamaumberto.it/privacy/",
+          "description": "Come vengono trattati i dati personali di chi visita il sito e di chi usa il modulo di contatto del Dott. Umberto Fama."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+TESTO_PATCH127 FAQ iperidrosi (4 coppie, ricostruite a mano: workspace perso); atteso sost 3706
+TESTO_PATCH128 h1+lead dietologia (2 varianti h1, una sola deve combaciare); atteso sost 3707
+TESTO_PATCH129 blocchi dietologia (6 coppie per paragrafo, h6/prose-richiamo alternativi); atteso sost 3712
+TESTO_PATCH130 FAQ dietologia (3 coppie); atteso sost 3715
+TESTO_PATCH131 h1+lead smagliature (2 varianti h1); atteso sost 3716
+TESTO_PATCH132 blocchi smagliature (h3 + h4/prose-dato alternativi); atteso sost 3718
+TESTO_PATCH133 FAQ smagliature (2 coppie); atteso sost 3720
+TESTO_PATCH134 lead area laser (2 varianti lo contatti/contattalo); atteso sost 3721
+TESTO_PATCH135 fisarmonica area laser senza testi brevi (solo link); atteso sost 3722
+TESTO_PATCH136 FAQ area chirurgia estetica (inserite prima del blog, ld nel body); atteso sost 3723
+TESTO_PATCH137 FAQ area medicina estetica + laser; atteso sost 3725
+TESTO_PATCH138 h1+lead laser frazionato; atteso sost 3726
+TESTO_PATCH139 corpo laser frazionato 7 blocchi; atteso sost 3726+~5
+TESTO_PATCH140 FAQ laser frazionato (ld + 5 item + rimozione 6,7); atteso sost 3739
+TESTO_PATCH141 h1+lead resurfacing (rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia); atteso sost 3741
+TESTO_PATCH141 CORRETTO: lead generico toccava 13 pagine (3754); ora h1+lead legati; atteso sost 3740. ATTENZIONE: lead 'Scheda a cura...' è condiviso, legarlo sempre all'h1
+TESTO_PATCH141 v3 con varianti em; atteso 3740
+TESTO_PATCH142 corpo resurfacing 7 blocchi; atteso 3743
+TESTO_PATCH143 FAQ resurfacing (6 coppie, faqtr.py); atteso 3749
+LIMITE VARIABILI raggiunto (deploy FAILED istantaneo con TP143). TESTO_PATCH143="[]".
+NUOVO: servizio funzione "patch-fama" (a1d28402-079e-4db1-a773-9647c0886230, PORT 8080) serve D = base64(brotli(JSON lista di patch)); sito lo legge da http://patch-fama.railway.internal:8080/ e applica dopo le TESTO_PATCH*. Sorgente locale: store.json (lista) -> store.ts. Patch1 dell'archivio = FAQ resurfacing; atteso 3749.
+Flusso nuovo: python3 addstore.py tpNNN.json -> update-function-source-code patch-fama con store.ts -> attendere ~60s -> redeploy sito -> log 'testo patch'
+STORE patch2 = TP144 h1+lead cicatrici; atteso 3750
+STORE patch3 = TP145 corpo cicatrici; atteso 3752
+STORE patch4 = TP146 FAQ cicatrici; atteso 3758
+STORE patch5 = TP147 h1+lead macchie; patch6 = TP148 corpo macchie; atteso 3761
+STORE patch7 = TP149 FAQ macchie; atteso 3767
+STORE patch8 = TP150 h1+lead laser smagliature; atteso 3768
+STORE patch9 = TP151 corpo laser smagliature; atteso 3770
+ARCHIVIO 2: servizio "patch-fama-2" (2e785d30-b77b-48b7-ac5f-7dfb8d5d88b1, PORT 8080). sito legge patch-fama poi patch-fama-2 (PATCH_URLS opz.). archivio1 CHIUSO (9 patch, fino a TP151). Nuove patch: python3 addstore.py tpNNN.json 2 -> store2.ts -> update-function-source-code patch-fama-2 -> redeploy sito.
+STORE2 patch1 = TP152 FAQ laser smagliature; atteso 3776
+STORE2 patch2 = TP153 h1+lead tatuaggi; atteso 3777
+STORE2 patch3 = TP154 corpo tatuaggi (frase PICO omessa); atteso 3779
+STORE2 patch4 = TP155 FAQ tatuaggi; atteso 3785
+STORE2 patch5 = TP156 h1+lead depilazione->epilazione; atteso 3786
+STORE2 patch6 = TP157 corpo epilazione (GentleMax Pro omesso); atteso 3788
+STORE2 patch7 = TP158 FAQ epilazione (4 Q, Q GentleMax trattenuta); atteso 3794. Prossimo archivio: crea patch-fama-3 e imposta PATCH_URLS su sito (3 url).
+ARCHIVIO 3: patch-fama-3 (b4734523-45f8-422f-bebc-08736e55410b, PORT 8080); sito PATCH_URLS = 3 url. archivio2 CHIUSO (7 patch, fino a TP158). Nuove: addstore.py tpNNN.json 3. STORE3 patch1 = TP159 h1+lead couperose; atteso 3795
+STORE3 patch2 = TP160 corpo couperose (img 7.jpg/8.jpeg rimosse); atteso 3797
+STORE3 patch3 = TP161 FAQ couperose; atteso 3803
+STORE3 patch4 = TP162 h1+lead teleangectasie; atteso 3804
+STORE3 patch5 = TP163 corpo teleangectasie; atteso 3806
+ARCHIVIO 4: patch-fama-4 (d618e35a-4149-431d-b5a6-ae1abec9a69c, PORT 8080). archivio3 CHIUSO (5 patch, fino a TP163). PATCH_URLS 4 url. STORE4 patch1 = TP164 FAQ teleangectasie; atteso 3812
+STORE4 patch2 = TP165 h1+lead angiomi; atteso 3813
+STORE4 patch3 = TP166 corpo angiomi; atteso 3815
+STORE4 patch4 = TP167 FAQ angiomi (7 coppie, 6 vecchie); atteso 3822
+ARCHIVIO 5: patch-fama-5 (69645836-023b-4852-af4f-a498ceb59e82). archivio4 CHIUSO (4 patch, fino a TP167). PATCH_URLS 5 url. STORE5 patch1 = TP168 h1+lead nevi; atteso 3823
+STORE5 patch2 = TP169 corpo nevi; atteso 3825
+STORE5 patch3 = TP170 FAQ nevi; atteso 3831. SEZIONE LASER COMPLETA (11/11).
+STORE5 patch4 = TP171 lead area chirurgia dermatologica (lead+meta desc, 4 occ.); atteso 3835
+STORE5 patch5 = TP172 fisarmonica area chirurgia dermatologica (no breve, fxarea.py); atteso 3836
+ARCHIVIO 6: patch-fama-6 (28e924d2-8e4b-466e-a927-6dca3de4a949). archivio5 CHIUSO (5 patch, fino a TP172). PATCH_URLS 6 url. STORE6 patch1 = TP173 breve derm (troncati all'ultima frase completa); atteso 3841
+STORE6 patch2 = TP174 breve laser (lead completi delle schede; frazionato = 1a frase); atteso 3852
+STORE6 patch3 = TP175 h1+lead cisti + breve cisti completo; atteso 3854
+STORE6 patch4 = TP176 corpo cisti (A+E unito, h6 condiviso tra pagine derm!); atteso 3855
+ARCHIVIO 7: patch-fama-7 (b2613cab-027c-423c-b752-de5d35024a3f). archivio6 CHIUSO (4 patch, fino a TP176). PATCH_URLS 7 url. STORE7 patch1 = TP177 FAQ cisti (4 vecchie -> 5 nuove); atteso 3860
+STORE7 patch2 = TP178 h1+lead nevi + breve nevi; atteso 3862
+STORE7 patch3 = TP179 corpo nevi; atteso 3863
+ARCHIVIO 8: patch-fama-8 (b89f4573-7395-4504-a90d-457f2fa79d9c). archivio7 CHIUSO (3 patch, fino a TP179). PATCH_URLS 8 url. STORE8 patch1 = TP180 FAQ nevi; atteso 3868
+STORE8 patch2 = TP181 h1+lead tumori + breve; atteso 3870
+STORE8 patch3 = TP182 corpo tumori; atteso 3871
+ARCHIVIO 9: patch-fama-9 (50ab2a5f-08fb-400f-97ef-7d1d97a0ddbc). archivio8 CHIUSO (3 patch, fino a TP182). PATCH_URLS 9 url. STORE9 patch1 = TP183 FAQ tumori; atteso 3876
+STORE9 patch2 = TP184 h1+lead Mohs + breve; atteso 3878
+STORE9 patch3 = TP185 corpo Mohs 9 blocchi; atteso 3879
+ARCHIVIO 10: patch-fama-10 (9c111f59-91a4-4017-b987-d328b7dbd1b5). archivio9 CHIUSO (3 patch, fino a TP185). PATCH_URLS 10 url. STORE10 patch1 = TP186 FAQ Mohs (5 Q, Q istologico trattenuta; 3 vecchie); atteso 3883
+STORE10 patch2 = TP187 h1+lead melanoma + breve; atteso 3885
+STORE10 patch3 = TP188 corpo melanoma 8 blocchi; atteso 3886
+STORE10 patch4 = TP189 FAQ melanoma (5 Q, 4 vecchie); atteso 3891
+STORE10 patch5 = TP190 h1+lead area medicina rigenerativa (+meta/ld); atteso 3895
+STORE10 patch6 = TP191 area medicina rigenerativa: intro sopra grp, sezione valutazione+sedi prima del blog, fisarmonica fx (no breve); atteso 3898
+STORE10 patch7 = TP192 FAQ area medicina rigenerativa (3 Q, faqarea); atteso 3899
+STORE10 patch8 = TP193 brevi fisarmonica medicina rigenerativa (solo prima frase, testi troncati); atteso 3901
+STORE10 patch6 MODIFICATO: tolte intro + sezione valutazione/sedi (richiesta utente), resta solo fisarmonica; atteso 3899
+STORE10 patch9 = TP194 h1+lead PRP cuoio capelluto + breve completo; atteso 3901
+STORE10 patch10 = TP195 corpo PRP cuoio capelluto 6 blocchi (video mantenuto); atteso 3902
+ARCHIVIO 11: patch-fama-11 (b440d534-bc9f-4cae-86cf-94b427fbbecc). archivio10 CHIUSO (10 patch, fino a TP195). STORE11 patch1 = TP196 FAQ PRP cuoio capelluto (6 Q, 4 vecchie); atteso 3907
+STORE11 patch2 = TP197 h1+lead PRP crono/fotoaging + breve; atteso 3909
+NOTA: TP197 verificato live via browser (h1 e breve OK); conteggio reale 3908 (atteso 3909 era errato). Base attuale 3908
+STORE11 patch3 = TP198 breve fotoaging frase completata (medicina estetica + medicina rigenerativa); atteso 3910
+STORE11 patch4 = TP199 corpo PRP fotoaging 7 blocchi; atteso 3911
+STORE11 patch5 = TP200 dove-siamo h1+lead; atteso 3912
+STORE11 patch6 = TP201 titoli sedi (h3 mappa su home/sedi/dove-siamo/contatti + h2 dove-siamo); atteso 3932
+STORE11 patch7 = TP202 h1 sede parioli; atteso 3933
+STORE11 patch8 = TP203 sede parioli: lead + 5 sezioni (al posto di Come arrivare); atteso 3935
+STORE11 patch9 = TP204 script fix mappa prima di </body> (tutte le pagine, ~118 sost.)
+ARCHIVIO 12 patch-fama-12 (ed95e024-62cf-44ac-ac05-dde16435f275, store11 chiuso a 9 patch fino a TP204). STORE12 patch1 = TP205 parioli 4 sezioni + testo come arrivare (HTML live letto via funzione ispeziona-pagina 0510f029); atteso 4048
+STORE12 patch2 = TP206 indirizzo aside sedi su una riga (4 sedi); atteso 4052
+STORE12 patch3 = TP207 rimuove script TP204; mappa Google Maps al posto di OSM (OSM hidden) 4 sedi; indirizzo come-a su una riga
+STORE12 patch4 = TP208 style orari sede affiancati in </head> (tutte le pagine)
+STORE12 patch5 = TP209 corregge stile orari (col minmax, dd 100%); verificato con playwright locale
+STORE12 patch6 = TP210 h1 sede centocelle; atteso 4394
+ANCORE LIVE sedi (da ispeziona-pagina 0510f029): galleria finisce con alt "<nome>, foto N" ... </a></div>\n  </section>\n  <section class="sede-sec come"...; come-n "Indicazioni stradali e mezzi pubblici sono disponibili su Google Maps."; dopo iframe google: ...referrerpolicy="no-referrer-when-downgrade"></iframe></div>\n  </section>\n  <section class="sede-sec" aria-labelledby="h-tratt">
+STORE12 patch7 = TP211 centocelle lead + 4 sezioni + come; atteso 4398
+STORE12 patch8 = TP212 orari 3 colonne (minmax 108px, gap 18)
+STORE12 patch9 = TP213 h1 sede eur; atteso 4510
+STORE12 patch10 = TP214 eur lead + 4 sezioni + come; atteso 4514
+STORE12 patch11 = TP215 aprilia h1+lead + 4 sezioni + come; atteso 4518
+STORE12 patch12 = TP216 nomi sedi allineati ai titoli (home accordion/mappa, sr-only, footer, select contatti, chi-siamo, CTA)
+STORE12 patch13 = TP217 title/og/description pagine sede (SEO)
+STORE12 patch14 = TP218 tecnologie h1+lead; atteso 5354
+STORE12 patch15 = TP219 tecnologie CO2 (titolo, testo al posto indicazioni, voce elenco); atteso 5356
+STORE12 patch16 = TP220 tecnologie Erbium; atteso 5358
+STORE12 patch17 = TP221 tecnologie GentleMax Pro; atteso 5360
+STORE12 patch18 = TP222 tecnologie Q-Switched; atteso 5362
+STORE12 patch19 = TP223 tecnologie KTP; atteso 5364
+STORE12 patch20 = TP224 tecnologie M22; atteso 5366
+STORE12 patch21 = TP225 tecnologie Nd:YAG; atteso 5368
+STORE13 patch1 = TP226 banner cookie + mappe su consenso + privacy/cookie policy nuove (template vecchie) + checkbox modulo
+ARCHIVIO 14: patch-fama-14. STORE14 patch1 = TP227 date 'aggiornato' anteriori alla pubblicazione tolte (18) + melanoma frase accreditamento ripristinata; atteso 5705+19
+STORE14 patch2 = TP228 blog: card articolo carcinoma metatipico + conteggi 27; atteso +5 (5729). ARCHIVIO PAGINE pagine-fama: articolo carcinoma-basocellulare-metatipico-revisione-clinica (modello mohs). Codice sito: caricatore pagine aggiunto dopo patch testo
+STORE14 patch3 = TP229 nomi macchinari allineati: home (7 piattaforme+tag), link laterali schede, riquadro Dispositivo schede e FAQ
+STORE14 patch4 = TP230 Consent Mode v2: script head default denied + banner v2 (categoria statistiche, gtag update, evento dataLayer) + testi cookie/privacy
+STORE14 patch5 = TP231 FAQ home sostituite (5 nuove)
+ARCHIVIO 15: patch-fama-15 (da creare). archivio14 CHIUSO (5 patch, fino a TP231). STORE15 patch1 = TP232 ricerca home ridisegnata (5 coppie); atteso 6022
+STORE15 patch2 = TP233 CSS foto interne z1 senza verde/archi (dopo link site.css su ogni pagina)
+STORE15 patch3 = TP234 didascalia Ambulatorio chirurgico Skin Laser prima indirizzo Parioli (menu, footer, elenchi sedi, scheda); atteso 6115+189=6304
+STORE15 patch4 = TP235 tolto Parioli dai recapiti Contatti; atteso 6309
+STORE15 patch5 = TP236 didascalia FisioEuropa prima indirizzo EUR; atteso 6309+189=6498
+STORE15 patch6 = TP237 /chi-siamo/ -> /chi-sono/ in tutti gli html. PAGINE: chi-sono (copia), chi-siamo -> pagina di reindirizzamento, sitemap
+PAGINE: chi-sono sost = poesia -> elenco trattamenti (accordion per area)
+PAGINE: chi-sono = 5 macroaree in cl-grid (testi: lead aree + 2 testi del Dottore), poesia tolta
+STORE15 patch7 = TP238 menu/area/home/otoplastica per 2 pagine nuove (labioplastica, lobo); PAGINE: 2 pagine nuove da modello otoplastica
+STORE15 patch8 = TP239 foto Mohs (foto-fama-production.up.railway.app/mohs.webp); atteso +2 (7497)
+STORE15 patch7 RISCRITTA = TP238b (correzioni PDF Giorgia 21/11): sottogruppo menu "Orecchio e lobo auricolare" (in fondo a Viso), etichetta genitali, area con sottogruppo, hasPart 17, select Contatti +2, ricerca (setter CERCA_IDX), modulo action=/invia.php + nota anteprima, mappa HTML +2. PAGINE: 2 pagine rigenerate da nuove/gen2.py
+STORE15 patch7 TP238b: + CSS nasconde voce menu doppia "Il Dottore" (regola /chi-siamo/ non più valida dopo TP237)
+STORE15 patch9 = TP240 "Chirurgia dermatologica ricostruttiva" in menu (tab, mobile, footer) e home (card, percorso)
+STORE15 patch10 = TP241 "Chirurgia dermatologica ricostruttiva" ovunque come etichetta (titoli area, briciole, JSON-LD, eye schede, blog, FAQ, Contatti, mappa, sedi); prosa invariata
+PAGINE: chi-sono macroarea 04 -> "Chirurgia dermatologica ricostruttiva"
+STORE15 patch11 = TP242 tab menu "Chirurgia dermatologica / ricostruttiva" su 2 righe (nowrap + 1.02rem)
+STORE15 patch12 = TP243 tab dermatologica a dimensione normale + colonna aree mega menu 320->352px (desktop)
+STORE15 patch13 = TP244 menu medicina rigenerativa: tolta riga lunga sopra "Tutti i trattamenti"
+STORE15 patch14 = TP245 riga sopra "Tutti i trattamenti" tolta in tutti i pannelli del menu (desktop)
+STORE15 patch15 = TP246 tolta frase "La sede di visita può essere diversa dalla sede di esecuzione."
+PAGINE: tolta frase luogo visita/intervento da "Prima visita e sedi" (labioplastica, lobo)
+STORE15 patch16 = TP247 foto melanoma (foto-fama-2-production.up.railway.app/melanoma.webp) + og:image
+STORE15 patch17 = TP248 tumori cutanei: epitelioma (basocellulare/spinocellulare) in sezione 01 + tolta variante frase sede visita
+STORE15 patch7 TP238b: ricerca, sinonimi aggiunti a voci esistenti (epitelioma su tumori cutanei e Mohs)
+STORE15 patch18 = TP249 socio ordinario AICPE: curriculum, chi sono (cl-lead), home (about-sub), JSON-LD memberOf
+TP249 AICPE socio ordinario (curriculum li, chi-sono lead, home about-sub, JSON-LD memberOf) - store15 18 patch 8368 6524e914e923a24b - verificato K38 2026-11-23
+TP250 logo AICPE (foto-fama-3 64f8f36c, /aicpe.webp 192px 11574B sha 6a6c92d0bb050023): badge chi-sono dopo cl-lead + logo 48px nella voce curriculum - store15 19 patch 8576 f5022dfb7d303ff5 - verificato K41
+TP251 rimozione diciture bozza/da validare/da confermare/In validazione (chir. estetica card, iperidrosi FAQ, privacy, cookie policy, faq-rev tutte le pagine) - store15 20 patch 9176 92e7f52fb23b3ea6; PAGINE gen2.py senza bozza (backup gen2_pre_bozza.py) 12384 f38ded1304d83155 - verificato K45 94 pagine 0 occorrenze
+TP252 privacy: sede titolare Via Dell'Origan 4, 00157 Roma (da privacy sito attuale) - store15 21 patch 9228 8e70627775752551 - verificato K47
+TP252 corretto Origano; TP253 privacy: voce destinatari Docplanner Italy (MioDottore) responsabile + link informativa pazienti MioDottore - store15 22 patch 9548 da2220dbb29e4f10 - verificato K49
+TP254 privacy base giuridica modulo = consenso (6.1.a + 9.2.a per info salute), revoca; casella modulo 'e acconsento al trattamento...'; sez.4 consenso necessario - store15 23 patch 9984 c0abf6a633fca8e8 - verificato K52
+GEO robots.txt: PAGINE +voce robots.txt (allow 10 bot AI + Content-Signal search=yes, ai-input=yes, ai-train=no; Bytespider/Meta-ExternalAgent e * restano Disallow) 12712 39aa02c4ad76485b; codice sito: /robots.txt servito da FILES (backup srv/start2_pre_robots.ts); X-Robots-Tag noindex,nofollow invariato - verificato K56 sha robots 20218b8eb8d736af
+GEO Sitemap in robots.txt: Sitemap: https://sito-production-fc43.up.railway.app/sitemap.xml (PAGINE 12720 0af9cc0f0cc54172) - verificato K58 robots sha 039866678e92148b, sitemap 200 93 loc
+TP255 spazio sopra/sotto testo pagine prosa (header+.wrap-n>article.prose padding clamp 40-72 / 64-104) -> privacy, cookie policy - store15 24 patch 10080 0f18e4a9dae15a1f - verificato K61
+GEO agenti: codice sito (srv/start2.ts, backup start2_pre_agenti.ts) -> /llms.txt (generato da sitemap+title+meta, gruppi da breadcrumb), /ai-catalog.json, Accept: text/markdown -> Markdown da <main>, Vary: Accept su html, Link header su home - verificato K63 (llms 93 link, 10 sezioni)
+GEO MCP: codice sito (backup start2_pre_mcp.ts) -> /mcp (JSON-RPC sola lettura: cerca_pagine, leggi_pagina, elenco_sezioni; risorse llms.txt, ai-catalog), /.well-known/mcp/server-card.json, /webmcp.js (navigator.modelContext, 4 tool incl. apri_pagina) iniettato prima di </body> in tutte le pagine; Link home + service-desc - verificato K64

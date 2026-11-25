@@ -1,0 +1,118 @@
+{
+  "name": "it.dottorfamaumberto/sito",
+  "version": "1.0.0",
+  "title": "Sito del Dott. Umberto Fama",
+  "description": "Server MCP in sola lettura per cercare e leggere le pagine pubbliche del sito del Dott. Umberto Fama, chirurgo plastico a Roma e Aprilia. Non prenota visite e non raccoglie dati personali.",
+  "websiteUrl": "https://www.dottorfamaumberto.it/",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "dottorfama-sito",
+    "title": "Sito del Dott. Umberto Fama",
+    "version": "1.0.0"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.dottorfamaumberto.it/mcp"
+    }
+  ],
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://www.dottorfamaumberto.it/mcp"
+  },
+  "authentication": {
+    "required": false
+  },
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    },
+    "resources": {
+      "listChanged": false
+    }
+  },
+  "tools": [
+    {
+      "name": "cerca_pagine",
+      "title": "Cerca nel sito",
+      "description": "Cerca tra le pagine del sito (trattamenti, sedi, blog, informazioni) per parole chiave nel titolo e nella descrizione. Restituisce titolo, indirizzo e descrizione delle pagine trovate.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Parole da cercare, ad esempio: blefaroplastica, Aprilia, laser"
+          },
+          "max": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30,
+            "description": "Numero massimo di risultati (predefinito 10)"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "leggi_pagina",
+      "title": "Leggi una pagina",
+      "description": "Restituisce il contenuto di una pagina del sito in formato Markdown, dato il suo percorso (ad esempio /blefaroplastica-roma-aprilia/ o /contatti/).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Percorso della pagina sul sito, che inizia con /"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "elenco_sezioni",
+      "title": "Sezioni del sito",
+      "description": "Elenca le sezioni del sito (aree di trattamento, sedi, blog, pagine informative) con le relative pagine.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    }
+  ],
+  "resources": [
+    {
+      "uri": "https://www.dottorfamaumberto.it/llms.txt",
+      "name": "llms.txt",
+      "title": "Indice del sito per agenti",
+      "mimeType": "text/plain",
+      "description": "Elenco ragionato delle pagine del sito in formato llms.txt"
+    },
+    {
+      "uri": "https://www.dottorfamaumberto.it/ai-catalog.json",
+      "name": "ai-catalog",
+      "title": "Catalogo del sito",
+      "mimeType": "application/json",
+      "description": "Sezioni e pagine del sito in formato JSON"
+    }
+  ],
+  "prompts": [],
+  "documentation": "https://www.dottorfamaumberto.it/llms.txt"
+}
