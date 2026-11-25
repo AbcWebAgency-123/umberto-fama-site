@@ -2,6 +2,11 @@
 # (sostituisce le funzioni server della preview Railway)
 
 Options -Indexes
+
+# Stato della sincronizzazione FTP del deploy: non va servito
+<Files "ftp-deploy-sync-state.json">
+  Require all denied
+</Files>
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 AddDefaultCharset utf-8
@@ -30,6 +35,10 @@ AddDefaultCharset utf-8
 
   # Il modulo contatti risponde solo via POST: nessuna riscrittura per invia.php
   RewriteRule ^invia\.php$ - [L]
+
+  # File di /.well-known/: sul server stanno in /well-known/ (l'FTP di Aruba non accetta cartelle col punto)
+  # Solo mcp/: /.well-known/acme-challenge/ resta ad Aruba per il rinnovo del certificato
+  RewriteRule ^\.well-known/mcp/(.+)$ well-known/mcp/$1 [L]
 
   # Vecchio indirizzo della pagina del Dottore
   RewriteRule ^chi-siamo/?$ /chi-sono/ [R=301,L]

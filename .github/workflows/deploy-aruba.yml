@@ -13,7 +13,7 @@
 #   FTP_PROTOCOL    ftps (predefinito) oppure ftp se Aruba rifiuta la connessione cifrata
 #
 # La sincronizzazione è incrementale: l'azione salva sul server lo stato
-# .ftp-deploy-sync-state.json e carica solo i file cambiati. Cancella soltanto
+# ftp-deploy-sync-state.json (senza punto iniziale, bloccato dal web in .htaccess) e carica solo i file cambiati. Cancella soltanto
 # i file che lei stessa aveva caricato e poi sono stati tolti da dist/, quindi
 # non tocca wp-content/ né altro già presente sul server.
 
@@ -70,6 +70,17 @@ jobs:
           test -f dist/.htaccess  || { echo "::error::dist/.htaccess non trovato"; exit 1; }
           echo "File da pubblicare: $(find dist -type f | wc -l)"
 
+      - name: Sposta .well-known fuori dalle cartelle col punto
+        # L'FTP di Aruba non permette di creare cartelle che iniziano con il punto:
+        # i file vanno in well-known/ e dist/.htaccess li serve su /.well-known/...
+        run: |
+          if [ -d dist/.well-known ]; then
+            mkdir -p dist/well-known
+            cp -a dist/.well-known/. dist/well-known/
+            rm -rf dist/.well-known
+          fi
+          find dist/well-known -type f
+
       - name: Carica su Aruba
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -81,5 +92,6 @@ jobs:
           local-dir: ./dist/
           server-dir: ${{ vars.FTP_SERVER_DIR || './' }}
           dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          state-name: ftp-deploy-sync-state.json
           log-level: standard
           timeout: 120000
