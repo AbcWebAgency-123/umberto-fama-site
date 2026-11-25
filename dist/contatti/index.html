@@ -251,7 +251,7 @@ gtag("set","ads_data_redaction",true);
       <div><dt>E-mail</dt><dd class="mail"><a href="mailto:umbertofama65@gmail.com">umbertofama65@gmail.com</a></dd></div>
     </dl>
   </div>
-  <form class="form" id="form-contatti" action="/invia.php" method="POST" novalidate data-grazie="/grazie/"><p class="nota-prev" style="grid-column:1/-1;margin:0 0 16px;padding:12px 14px;border:1px solid #49111C;border-radius:10px;background:#fff;color:#49111C;font-size:.92rem;line-height:1.5"><b>Versione di anteprima.</b> Il modulo non è ancora collegato alla segreteria: le richieste non vengono inviate. Per prenotare chiami il <a class="num" href="tel:+393205676353">320 5676353</a>.</p>
+  <form class="form" id="form-contatti" action="/invia.php" method="POST" novalidate data-grazie="/grazie/">
   <div class="form-h"><h3>Richiesta di visita</h3><p>Risponde la segreteria, per telefono o per e-mail.</p></div>
   <div class="form-2">
     <label for="form-contatti-nome"><span id="form-contatti-nome-l">Nome *</span><input type="text" id="form-contatti-nome" name="nome" autocomplete="given-name" required aria-labelledby="form-contatti-nome-l"><small class="err" id="form-contatti-nome-err" hidden></small></label>
@@ -270,6 +270,7 @@ gtag("set","ads_data_redaction",true);
   <p class="err" id="form-contatti-ok-err" hidden></p>
   <p class="err" hidden role="alert"></p>
 
+  <p aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden"><label for="form-contatti-sw">Lasci vuoto questo campo<input type="text" id="form-contatti-sw" name="sito_web" tabindex="-1" autocomplete="off"></label></p>
   <button type="submit" class="btn wide">Invia la richiesta</button>
   <p class="form-note">I campi con * sono obbligatori. I dati sono usati solo per rispondere alla richiesta.</p>
 </form>

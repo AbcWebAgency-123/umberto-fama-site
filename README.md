@@ -21,16 +21,20 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 - `X-Robots-Tag: noindex` e robots.txt della preview → **non** presenti: in produzione il sito è indicizzabile
 - 301 `/chi-siamo/` → `/chi-sono/` e barra finale → `dist/.htaccess`
 
-## Da completare prima della messa online
+## Configurazione di produzione
 
-1. `invia.php`: il modulo contatti invia a `/invia.php`, che non esiste ancora; togliere anche la nota «Versione di anteprima» nella pagina Contatti.
-2. Alcune immagini restano sul vecchio WordPress (`/wp-content/uploads/...`): non cancellare quella cartella dal server, oppure copiare le immagini nel repository.
-3. Attivare in `dist/.htaccess` il redirect a https/www dopo aver verificato il certificato SSL.
-4. Su Aruba impostare PHP 8.1 o superiore (per `mcp.php`).
+- **Modulo contatti**: `dist/invia.php` riceve il modulo della pagina Contatti e lo invia con `mail()` a
+  `umbertofama65@gmail.com`, con mittente `noreply@dottorfamaumberto.it` e risposta diretta al paziente (Reply-To).
+  Indirizzi e limite anti-spam (5 invii/ora per IP, più un campo trappola `sito_web`) si cambiano in cima al file.
+- **Immagini del vecchio WordPress** (`/wp-content/uploads/...`): la cartella viene caricata a parte sul server;
+  il deploy non la tocca.
+- **https e www**: `dist/.htaccess` reindirizza `http://` e `dottorfamaumberto.it` a `https://www.dottorfamaumberto.it`.
+- **PHP**: su Aruba è attivo PHP 8.3 (servono almeno 8.1 per `mcp.php` e `invia.php`).
 
 ## Rigenerare dist/
 
 ```bash
 python3 tools/esporta_preview.py https://sito-production-fc43.up.railway.app dist
 ```
-Dopo l'esportazione vanno ripristinati i file specifici di produzione (`.htaccess`, `robots.txt`, `mcp.php`, immagini in `static/img/`).
+Dopo l'esportazione vanno ripristinati i file specifici di produzione (`.htaccess`, `robots.txt`, `mcp.php`, `invia.php`, immagini in `static/img/`)
+e la pagina `contatti/index.html` senza la nota «Versione di anteprima» e con il campo trappola `sito_web`.

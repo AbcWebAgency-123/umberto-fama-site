@@ -19,12 +19,17 @@ AddDefaultCharset utf-8
   RewriteEngine On
   RewriteBase /
 
-  # Dominio principale con www e https: attivare dopo aver verificato il certificato SSL su Aruba
-  # (togliere il # dalle 4 righe seguenti)
-  # RewriteCond %{HTTPS} !=on [OR]
-  # RewriteCond %{HTTP_HOST} !^www\. [NC]
-  # RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
-  # RewriteRule ^ https://www.%1%{REQUEST_URI} [R=301,L,NE]
+  # Dominio principale: sempre https://www.dottorfamaumberto.it
+  # (X-Forwarded-Proto evita cicli di redirect se Aruba termina l'SSL su un proxy)
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteCond %{HTTP_HOST} ^(www\.)?dottorfamaumberto\.it$ [NC]
+  RewriteRule ^ https://www.dottorfamaumberto.it%{REQUEST_URI} [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^dottorfamaumberto\.it$ [NC]
+  RewriteRule ^ https://www.dottorfamaumberto.it%{REQUEST_URI} [R=301,L,NE]
+
+  # Il modulo contatti risponde solo via POST: nessuna riscrittura per invia.php
+  RewriteRule ^invia\.php$ - [L]
 
   # Vecchio indirizzo della pagina del Dottore
   RewriteRule ^chi-siamo/?$ /chi-sono/ [R=301,L]
