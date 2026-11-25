@@ -29,8 +29,8 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 - **Immagini del vecchio WordPress** (`/wp-content/uploads/...`): la cartella viene caricata a parte sul server;
   il deploy non la tocca.
 - **https e www**: `dist/.htaccess` reindirizza `http://` e `dottorfamaumberto.it` a `https://www.dottorfamaumberto.it`.
-- **Google Tag Manager** (`GTM-NCCVDKGP`): in ogni pagina, subito dopo i valori predefiniti di Consent Mode v2,
-  come `<script type="text/plain" data-cc="statistiche">`. Il banner lo attiva solo dopo il consenso alle Statistiche
+- **Google Analytics** (snippet di Google `gtm.js?id=GTM-NCCVDKGP`, invariato): in ogni pagina, subito dopo i valori predefiniti di Consent Mode v2,
+  con `type="text/plain" data-cc="statistiche"`. Il banner lo attiva solo dopo il consenso alle Statistiche
   (anche senza ricaricare la pagina); al dataLayer arriva anche l'evento `fama_consenso` con le scelte del visitatore.
   La cookie policy (`web-policy-privacy/`) elenca Google Analytics.
 - **PHP**: su Aruba è attivo PHP 8.3 (servono almeno 8.1 per `mcp.php` e `invia.php`).
