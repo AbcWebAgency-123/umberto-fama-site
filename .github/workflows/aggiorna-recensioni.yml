@@ -1,6 +1,6 @@
-# Aggiorna ogni giorno voto e numero di recensioni di MioDottore (dist/data/miodottore.json)
-# con tools/aggiorna-miodottore.php. Se i dati cambiano, salva il file nel repository
-# e lo pubblica su Aruba con il workflow di deploy.
+# Aggiorna ogni giorno il numero di recensioni di MioDottore: tools/aggiorna-miodottore.php scrive
+# dist/data/miodottore.json, tools/applica-recensioni.py riporta numero e data nelle pagine HTML e .md.
+# Se qualcosa cambia, salva nel repository e pubblica su Aruba con il workflow di deploy.
 
 name: Aggiorna recensioni MioDottore
 
@@ -34,14 +34,18 @@ jobs:
           fi
           rm -f errori.txt
 
+      - name: Aggiorna numero e data nelle pagine
+        run: python3 tools/applica-recensioni.py
+
       - name: Salva il file se è cambiato
         id: salva
         run: |
-          if git status --porcelain -- dist/data/miodottore.json | grep -q .; then
+          if git status --porcelain -- dist | grep -q .; then
             cat dist/data/miodottore.json
+            git status --short -- dist
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add dist/data/miodottore.json
+            git add dist
             git commit -m "Recensioni MioDottore aggiornate"
             git push origin HEAD:main
             echo "cambiato=true" >> "$GITHUB_OUTPUT"

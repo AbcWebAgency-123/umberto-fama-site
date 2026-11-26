@@ -2,8 +2,10 @@
 declare(strict_types=1);
 date_default_timezone_set('Europe/Rome');
 
-/* Aggiorna dist/data/miodottore.json con voto medio e numero di recensioni del profilo MioDottore,
-   letti dal JSON-LD (aggregateRating) della pagina pubblica del profilo.
+/* Aggiorna dist/data/miodottore.json con il numero di recensioni del profilo MioDottore,
+   letto dal JSON-LD (aggregateRating) della pagina pubblica del profilo. Il voto medio serve solo
+   a controllare di aver trovato il dato giusto e non viene salvato.
+   Dopo questo script, tools/applica-recensioni.py riporta numero e data nelle pagine HTML e .md.
    Lo esegue ogni giorno il workflow .github/workflows/aggiorna-recensioni.yml; si può lanciare anche a mano:
      php tools/aggiorna-miodottore.php [percorso-del-json]
    In caso di errore lascia il file precedente com'è. */
@@ -104,20 +106,19 @@ if (
 
 // 4. Salvataggio atomico del file JSON
 $payload = [
-    'ratingValue' => round($ratingData['ratingValue'], 1),
     'reviewCount' => $ratingData['reviewCount'],
     'profileUrl'  => $profileUrl,
     'updatedAt'   => date('c'),
 ];
 
-// Se voto e numero non sono cambiati il file resta com'è: niente commit e deploy inutili
+// Se il numero non è cambiato il file resta com'è: niente commit e deploy inutili
 $previous = is_file($cacheFile) ? json_decode((string) file_get_contents($cacheFile), true) : null;
 if (
     is_array($previous) &&
-    (float) ($previous['ratingValue'] ?? 0) === (float) $payload['ratingValue'] &&
+    !array_key_exists('ratingValue', $previous) &&
     (int) ($previous['reviewCount'] ?? 0) === $payload['reviewCount']
 ) {
-    fwrite(STDOUT, sprintf("[%s] Nessuna variazione: %.1f/5 (%d recensioni)\n", date('c'), $payload['ratingValue'], $payload['reviewCount']));
+    fwrite(STDOUT, sprintf("[%s] Nessuna variazione: %d recensioni\n", date('c'), $payload['reviewCount']));
     exit(0);
 }
 
@@ -137,8 +138,7 @@ if (file_put_contents($tmpFile, $json, LOCK_EX) === false || !rename($tmpFile, $
 }
 
 fwrite(STDOUT, sprintf(
-    "[%s] Cache aggiornata: %.1f/5 (%d recensioni)\n",
+    "[%s] Cache aggiornata: %d recensioni\n",
     date('c'),
-    $payload['ratingValue'],
     $payload['reviewCount']
 ));

@@ -223,18 +223,17 @@
 })();
 
 /* ---------- Recensioni MioDottore: numeri aggiornati da /data/miodottore.json ----------
-   Il file lo scrive ogni giorno tools/aggiorna-miodottore.php (workflow aggiorna-recensioni.yml).
-   Nell'HTML restano i valori di partenza: se il file manca o non è valido, non cambia nulla. */
+   Il file lo scrive ogni giorno tools/aggiorna-miodottore.php (workflow aggiorna-recensioni.yml), che
+   aggiorna anche i valori scritti nell'HTML: lo script copre solo le pagine rimaste in cache. */
 (function(){
   var els=document.querySelectorAll("[data-md]");
   if(!els.length||!window.fetch) return;
   fetch("/data/miodottore.json",{cache:"no-cache",credentials:"omit"}).then(function(r){return r.ok?r.json():null}).then(function(d){
     if(!d) return;
-    var n=parseInt(d.reviewCount,10), v=parseFloat(d.ratingValue), t=d.updatedAt?new Date(d.updatedAt):null;
+    var n=parseInt(d.reviewCount,10), t=d.updatedAt?new Date(d.updatedAt):null;
     if(!(n>=1)) return;
     var val={
       recensioni:String(n),
-      voto:(v>0&&v<=5)?v.toFixed(1).replace(".",","):null,
       data:(t&&!isNaN(t))?t.toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric",timeZone:"Europe/Rome"}):null
     };
     function metti(){

@@ -17,9 +17,9 @@ Le recensioni sono scritte dai pazienti sui portali indipendenti, dopo la visita
 
 Recensioni
 
-**932**
+**981**
 
-recensioni dei pazienti sul profilo MioDottoreDato aggiornato al 7 ottobre 2026
+recensioni dei pazienti sul profilo MioDottoreDato aggiornato al 26 novembre 2026
 
 - MioDottore **Eccellenza** Certificato 2018, 2020–2024 [Leggi le recensioni su MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
 - iDoctors **10/10** su 13 recensioni

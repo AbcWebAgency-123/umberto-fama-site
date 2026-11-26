@@ -14,7 +14,7 @@ Sono il Dott. Umberto Fama, medico chirurgo specialista in Chirurgia Plastica, R
 [Prenota una visita](https://www.dottorfamaumberto.it/contatti/)
 Trova il trattamento
 
-- **932** recensioni su MioDottore
+- **981** recensioni su MioDottore
 - **2008** Specializzazione alla Sapienza
 
 - **4** sedi tra Roma e Aprilia
@@ -252,7 +252,7 @@ Le esperienze dei pazienti
 
 Le recensioni sono consultabili sui portali che le ospitano. Può leggerle integralmente, comprese le osservazioni sul percorso di visita.
 
-- MioDottore **932** recensioni dei pazienti
+- MioDottore **981** recensioni dei pazienti
 - iDoctors **10/10** su 13 recensioni
 
 - Certificato di Eccellenza **6** anni premiati da MioDottore
@@ -260,7 +260,7 @@ tra il 2018 e il 2024
 
 [Leggi le recensioni su MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma) [Certificati e riconoscimenti](https://www.dottorfamaumberto.it/recensioni/)
 
-Dati rilevati il 7 ottobre 2026 · Certificato: 2018, 2020, 2021, 2022, 2023, 2024
+Dati rilevati il 26 novembre 2026 · Certificato: 2018, 2020, 2021, 2022, 2023, 2024
 
 Dal blog
 

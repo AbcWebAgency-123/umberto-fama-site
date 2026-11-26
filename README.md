@@ -27,10 +27,11 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
   trattato come «Contenuto esterno»: si carica se il visitatore ha accettato i contenuti esterni o se preme
   «Mostra l'agenda di MioDottore». Il modulo non ha più i menu Trattamento e Sede e si intitola «Scrivi al Dottore».
 - **Recensioni MioDottore**: ogni giorno `.github/workflows/aggiorna-recensioni.yml` esegue
-  `tools/aggiorna-miodottore.php`, che legge `aggregateRating` dal profilo MioDottore e scrive
-  `dist/data/miodottore.json` solo se voto o numero cambiano; in quel caso fa il commit e pubblica con il deploy.
-  `static/js/site.js` legge il file e aggiorna gli elementi `data-md="recensioni"` (menu, home, /recensioni/)
-  e `data-md="data"` (data di rilevazione); nell'HTML restano i valori di partenza se il file manca.
+  `tools/aggiorna-miodottore.php`, che legge il numero di recensioni (`aggregateRating.reviewCount`) dal profilo
+  MioDottore e scrive `dist/data/miodottore.json` solo se è cambiato; poi `tools/applica-recensioni.py` riporta
+  numero e data nelle pagine HTML (elementi `data-md="recensioni"` e `data-md="data"`) e in `index.md` e
+  `recensioni/index.md`. Se qualcosa cambia, il workflow fa il commit e pubblica con il deploy.
+  `static/js/site.js` legge comunque il JSON, per le pagine rimaste in cache nel browser.
 - **Modulo contatti**: `dist/invia.php` riceve il modulo della pagina Contatti e lo invia con `mail()` a
   `umbertofama65@gmail.com`, con mittente `noreply@dottorfamaumberto.it` e risposta diretta al paziente (Reply-To).
   Indirizzi e limite anti-spam (5 invii/ora per IP, più un campo trappola `sito_web`) si cambiano in cima al file.
