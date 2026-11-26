@@ -76,6 +76,7 @@ if ($consenso !== 'si') $errori[] = 'il consenso al trattamento dei dati';
 if ($errori) rispondi(422, 'Manca ' . implode(', ', $errori) . '.', $vuoleJson);
 
 $sedi = ['' => 'Indifferente', 'Parioli' => 'Roma Flaminio / Parioli', 'Centocelle' => 'Roma Centocelle / Prenestina', 'EUR' => 'Roma EUR', 'Aprilia' => 'Aprilia'];
+$sedeScelta = $sede !== '' && isset($sedi[$sede]);
 $sede = $sedi[$sede] ?? 'Indifferente';
 
 /* ---- Limite di invii per indirizzo IP ---- */
@@ -95,8 +96,9 @@ $corpo = "Nuova richiesta dal modulo contatti del sito.\n\n"
        . "Cognome:     $cognome\n"
        . "Telefono:    $telefono\n"
        . "E-mail:      $email\n"
-       . "Trattamento: " . ($trattamento !== '' ? $trattamento : 'Non so ancora, vorrei un consiglio') . "\n"
-       . "Sede:        $sede\n\n"
+       . ($trattamento !== '' ? "Trattamento: $trattamento\n" : '')
+       . ($sedeScelta ? "Sede:        $sede\n" : '')
+       . "\n"
        . "Messaggio:\n" . ($messaggio !== '' ? $messaggio : '(nessun messaggio)') . "\n\n"
        . "Consenso privacy: sì\n"
        . 'Inviata il ' . date('d/m/Y \a\l\l\e H:i') . ' da IP ' . $ip . "\n";

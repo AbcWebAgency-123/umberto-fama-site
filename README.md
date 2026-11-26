@@ -23,6 +23,9 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 
 ## Configurazione di produzione
 
+- **Pagina Contatti**: a destra di «Chieda una visita» c'è il widget ufficiale di MioDottore (`umberto-fama-2`),
+  trattato come «Contenuto esterno»: si carica se il visitatore ha accettato i contenuti esterni o se preme
+  «Mostra l'agenda di MioDottore». Il modulo non ha più i menu Trattamento e Sede e si intitola «Scrivi al Dottore».
 - **Modulo contatti**: `dist/invia.php` riceve il modulo della pagina Contatti e lo invia con `mail()` a
   `umbertofama65@gmail.com`, con mittente `noreply@dottorfamaumberto.it` e risposta diretta al paziente (Reply-To).
   Indirizzi e limite anti-spam (5 invii/ora per IP, più un campo trappola `sito_web`) si cambiano in cima al file.
@@ -42,4 +45,4 @@ python3 tools/esporta_preview.py https://sito-production-fc43.up.railway.app dis
 ```
 Dopo l'esportazione vanno ripristinati i file specifici di produzione (`.htaccess`, `robots.txt`, `mcp.php`, `invia.php`, immagini in `static/img/`)
 lo snippet GTM in tutte le pagine con il testo aggiornato del banner e della cookie policy,
-e la pagina `contatti/index.html` senza la nota «Versione di anteprima» e con il campo trappola `sito_web`.
+e la pagina `contatti/index.html` con il widget di MioDottore, il modulo semplificato, senza la nota «Versione di anteprima» e con il campo trappola `sito_web`.

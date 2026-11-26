@@ -237,7 +237,8 @@ gtag("set","ads_data_redaction",true);
 </header>
 
 <main id="contenuto" tabindex="-1">
-<header class="ph"><div class="wrap">
+<header class="ph"><div class="wrap ph-split">
+<div class="ph-t">
   <nav class="crumb" aria-label="Percorso di navigazione"><ol>
   <li><a href="/">Home</a></li>
 <li aria-current="page">Contatti</li></ol></nav>
@@ -247,10 +248,25 @@ gtag("set","ads_data_redaction",true);
   <p class="lead">La prenotazione on-line dell’appuntamento avviene sull’agenda digitale di Mio Dottore: scelga data e sede, riceverà una e-mail di conferma. Oppure scriva al Dottore con il modulo, su WhatsApp o per telefono.</p>
   <p class="ph-cta"><a class="btn" href="https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma" target="_blank" rel="noopener">Prenota su MioDottore<span class="sr-only"> (si apre in una nuova scheda)</span></a> <a class="btn ghost" href="https://wa.me/393205676353" target="_blank" rel="noopener">Scrivi su WhatsApp<span class="sr-only"> (si apre in una nuova scheda)</span></a>
 </p>
+</div>
+<aside class="zl-box" aria-label="Agenda di MioDottore">
+  <a id="zl-url" class="zl-url" href="https://www.miodottore.it/umberto-fama-2" rel="nofollow" data-zlw-doctor="umberto-fama-2" data-zlw-type="big_with_calendar" data-zlw-opinion="true" data-zlw-hide-branding="true" data-zlw-saas-only="false">Umberto Famà - MioDottore.it</a>
+  <div class="zl-ph">
+    <p>L’agenda delle visite è fornita da MioDottore. Caricandola, MioDottore riceve il Suo indirizzo IP e può impostare propri cookie (<a href="/web-policy-privacy/">Cookie policy</a>).</p>
+    <button type="button">Mostra l’agenda di MioDottore</button>
+  </div>
+  <script type="text/plain" data-cc="esterni">!function($_x,_s,id){var js,fjs=$_x.getElementsByTagName(_s)[0];if(!$_x.getElementById(id)){js = $_x.createElement(_s);js.id = id;js.src = "//platform.docplanner.com/js/widget.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","zl-widget-s");</script>
+  <script>(function(){var b=document.currentScript.parentNode,ph=b.querySelector(".zl-ph");
+  function via(){if(ph&&ph.parentNode)ph.parentNode.removeChild(ph);}
+  function carica(){via();if(document.getElementById("zl-widget-s"))return;!function($_x,_s,id){var js,fjs=$_x.getElementsByTagName(_s)[0];if(!$_x.getElementById(id)){js = $_x.createElement(_s);js.id = id;js.src = "//platform.docplanner.com/js/widget.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","zl-widget-s");}
+  ph.querySelector("button").addEventListener("click",carica);
+  document.addEventListener("fama:consenso",function(e){if(e.detail&&e.detail.esterni)via();});
+  if(/(?:^|; )fama_consenso=v2\.1\./.test(document.cookie))via();})();</script>
+</aside>
 </div></header>
 <section class="sec contact"><div class="wrap contact-in">
   <div class="contact-t">
-    <p class="eye">Scrivi al Dottore</p>
+    <p class="eye">Segreteria</p>
     <h2>Lasci i Suoi <em>recapiti</em></h2>
     <p>La segreteria la richiamerà per fissare la visita nella sede che preferisce.</p>
     <dl class="tels">
@@ -259,7 +275,7 @@ gtag("set","ads_data_redaction",true);
     </dl>
   </div>
   <form class="form" id="form-contatti" action="/invia.php" method="POST" novalidate data-grazie="/grazie/">
-  <div class="form-h"><h3>Richiesta di visita</h3><p>Risponde la segreteria, per telefono o per e-mail.</p></div>
+  <div class="form-h"><h3>Scrivi al Dottore</h3><p>Risponde la segreteria, per telefono o per e-mail.</p></div>
   <div class="form-2">
     <label for="form-contatti-nome"><span id="form-contatti-nome-l">Nome *</span><input type="text" id="form-contatti-nome" name="nome" autocomplete="given-name" required aria-labelledby="form-contatti-nome-l"><small class="err" id="form-contatti-nome-err" hidden></small></label>
     <label for="form-contatti-cognome"><span id="form-contatti-cognome-l">Cognome *</span><input type="text" id="form-contatti-cognome" name="cognome" autocomplete="family-name" required aria-labelledby="form-contatti-cognome-l"><small class="err" id="form-contatti-cognome-err" hidden></small></label>
@@ -267,10 +283,6 @@ gtag("set","ads_data_redaction",true);
   <div class="form-2">
     <label for="form-contatti-tel"><span id="form-contatti-tel-l">Telefono *</span><small class="form-note" id="form-contatti-tel-help">Almeno 6 cifre, anche con prefisso</small><input type="tel" id="form-contatti-tel" name="telefono" autocomplete="tel" required aria-labelledby="form-contatti-tel-l" aria-describedby="form-contatti-tel-help"><small class="err" id="form-contatti-tel-err" hidden></small></label>
     <label for="form-contatti-email"><span id="form-contatti-email-l">E-mail *</span><input type="email" id="form-contatti-email" name="email" autocomplete="email" required aria-labelledby="form-contatti-email-l"><small class="err" id="form-contatti-email-err" hidden></small></label>
-  </div>
-  <div class="form-2">
-    <label for="form-contatti-tr"><span>Trattamento di interesse</span><select id="form-contatti-tr" name="trattamento"><option value="">Non so ancora, vorrei un consiglio</option><optgroup label="Chirurgia estetica"><option>Mastoplastica additiva</option><option>Mastoplastica riduttiva</option><option>Mastopessi</option><option>Ginecomastia</option><option>Lifting facciale</option><option>Rinoplastica</option><option>Blefaroplastica</option><option>Otoplastica</option><option>Lipofilling</option><option>Cheiloplastica</option><option>Addominoplastica</option><option>Miniaddominoplastica</option><option>Liposuzione e liposcultura</option><option>Lifting delle cosce</option><option>Lifting delle braccia</option><option>Chirurgia riparativa del lobo auricolare</option><option>Chirurgia dei genitali esterni femminili</option></optgroup><optgroup label="Medicina estetica"><option>Tossina botulinica</option><option>Filler riassorbibili</option><option>Rinofiller</option><option>Rimodellamento labbra</option><option>Biostimolazione e biorivitalizzazione</option><option>Fotoringiovanimento</option><option>PRP crono e fotoaging</option><option>Cellulite e onde d’urto</option><option>Liposcultura non chirurgica</option><option>Iperidrosi</option><option>Dietologia e percorsi detox</option><option>Smagliature</option></optgroup><optgroup label="Trattamenti laser"><option>Laser frazionato</option><option>Rughe e skin resurfacing</option><option>Cicatrici, cheloidi, esiti acne</option><option>Iperpigmentazioni e macchie</option><option>Smagliature (laser)</option><option>Rimozione tatuaggi</option><option>Depilazione laser</option><option>Couperose e rosacea</option><option>Teleangectasie e varici</option><option>Angiomi e capillari</option><option>Nevi, verruche, cisti, fibromi</option></optgroup><optgroup label="Chirurgia dermatologica ricostruttiva"><option>Asportazione cisti</option><option>Asportazione nevi</option><option>Tumori cutanei</option><option>Chirurgia micrografica di Mohs</option><option>Chirurgia del melanoma</option></optgroup><optgroup label="Medicina rigenerativa"><option>PRP cuoio capelluto (alopecia)</option><option>PRP crono e fotoaging</option></optgroup></select></label>
-    <label for="form-contatti-sede"><span>Sede preferita</span><select id="form-contatti-sede" name="sede"><option value="">Indifferente</option><option value="Parioli">Roma Flaminio / Parioli</option><option value="Centocelle">Roma Centocelle / Prenestina</option><option value="EUR">Roma EUR</option><option value="Aprilia">Aprilia</option></select></label>
   </div>
   <label for="form-contatti-msg"><span>Messaggio</span><textarea id="form-contatti-msg" name="messaggio" rows="4"></textarea></label>
   <label class="ck" for="form-contatti-ok"><input type="checkbox" id="form-contatti-ok" name="consenso" value="si" required><span>* Ho letto l’<a href="/privacy/">informativa privacy</a> e acconsento al trattamento dei miei dati per ricevere risposta e prenotare la visita</span></label>
@@ -381,7 +393,7 @@ gtag("set","ads_data_redaction",true);
 <script>(function(){
 var NOME="fama_consenso", DURATA=15552000, POLICY="/web-policy-privacy/";
 var CAT=[
-{k:"esterni",t:"Contenuti esterni",d:"Mappe di Google Maps nelle pagine delle sedi. Caricando la mappa, Google riceve il Suo indirizzo IP e può impostare propri cookie."},
+{k:"esterni",t:"Contenuti esterni",d:"Mappe di Google Maps nelle pagine delle sedi e agenda di MioDottore nella pagina Contatti. Caricandoli, Google e MioDottore ricevono il Suo indirizzo IP e possono impostare propri cookie."},
 {k:"statistiche",t:"Statistiche",d:"Google Analytics, tramite Google Tag Manager: misura le visite al sito in forma aggregata. Viene caricato solo con il Suo consenso."},
 {k:"marketing",t:"Marketing",d:"Strumenti di misurazione pubblicitaria e remarketing (ad esempio Meta Pixel o Google Ads). Al momento non sono attivi: se verranno introdotti, saranno caricati solo con il Suo consenso."}
 ];
