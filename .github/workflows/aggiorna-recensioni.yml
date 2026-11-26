@@ -1,0 +1,62 @@
+# Aggiorna ogni giorno voto e numero di recensioni di MioDottore (dist/data/miodottore.json)
+# con tools/aggiorna-miodottore.php. Se i dati cambiano, salva il file nel repository
+# e lo pubblica su Aruba con il workflow di deploy.
+
+name: Aggiorna recensioni MioDottore
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # ogni giorno alle 4:17 UTC (5:17 o 6:17 in Italia)
+  workflow_dispatch:
+
+concurrency:
+  group: aggiorna-recensioni
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      cambiato: ${{ steps.salva.outputs.cambiato }}
+      commit: ${{ steps.salva.outputs.commit }}
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Legge i dati da MioDottore
+        run: |
+          php -v | head -1
+          php tools/aggiorna-miodottore.php 2> errori.txt || true
+          if [ -s errori.txt ]; then
+            echo "::warning::$(cat errori.txt)"
+          fi
+          rm -f errori.txt
+
+      - name: Salva il file se è cambiato
+        id: salva
+        run: |
+          if git status --porcelain -- dist/data/miodottore.json | grep -q .; then
+            cat dist/data/miodottore.json
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add dist/data/miodottore.json
+            git commit -m "Recensioni MioDottore aggiornate"
+            git push origin HEAD:main
+            echo "cambiato=true" >> "$GITHUB_OUTPUT"
+            echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          else
+            echo "Nessuna variazione da pubblicare."
+            echo "cambiato=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  pubblica:
+    needs: aggiorna
+    if: needs.aggiorna.outputs.cambiato == 'true'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/deploy-aruba.yml
+    with:
+      ref: ${{ needs.aggiorna.outputs.commit }}
+    secrets: inherit

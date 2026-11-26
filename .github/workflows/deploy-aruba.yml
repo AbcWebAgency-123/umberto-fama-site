@@ -2,7 +2,8 @@
 #
 # Si avvia:
 #   - a ogni push su main che modifica dist/ o questo file;
-#   - a mano da Actions → "Deploy su Aruba" → Run workflow (con opzione "prova a vuoto").
+#   - a mano da Actions → "Deploy su Aruba" → Run workflow (con opzione "prova a vuoto");
+#   - da aggiorna-recensioni.yml quando cambiano i dati di MioDottore.
 #
 # Segreti da impostare in Settings → Secrets and variables → Actions:
 #   FTP_SERVER    es. ftp.dottorfamaumberto.it
@@ -25,6 +26,13 @@ on:
     paths:
       - "dist/**"
       - ".github/workflows/deploy-aruba.yml"
+  workflow_call:
+    # Usato da aggiorna-recensioni.yml dopo il commit del nuovo dist/data/miodottore.json
+    inputs:
+      ref:
+        description: "Commit o branch da pubblicare"
+        type: string
+        default: main
   workflow_dispatch:
     inputs:
       dry_run:
@@ -63,6 +71,8 @@ jobs:
 
       - name: Scarica il repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
 
       - name: Controlla dist/
         run: |
@@ -80,7 +90,7 @@ jobs:
           port: 21
           local-dir: ./dist/
           server-dir: ${{ vars.FTP_SERVER_DIR || './' }}
-          dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          dry-run: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) == true }}
           state-name: ftp-deploy-sync-state.json
           log-level: standard
           timeout: 120000

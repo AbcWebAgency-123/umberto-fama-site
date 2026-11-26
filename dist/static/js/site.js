@@ -221,3 +221,29 @@
   }
   var facts=$(".facts"); if(facts) count(facts,650);
 })();
+
+/* ---------- Recensioni MioDottore: numeri aggiornati da /data/miodottore.json ----------
+   Il file lo scrive ogni giorno tools/aggiorna-miodottore.php (workflow aggiorna-recensioni.yml).
+   Nell'HTML restano i valori di partenza: se il file manca o non è valido, non cambia nulla. */
+(function(){
+  var els=document.querySelectorAll("[data-md]");
+  if(!els.length||!window.fetch) return;
+  fetch("/data/miodottore.json",{cache:"no-cache",credentials:"omit"}).then(function(r){return r.ok?r.json():null}).then(function(d){
+    if(!d) return;
+    var n=parseInt(d.reviewCount,10), v=parseFloat(d.ratingValue), t=d.updatedAt?new Date(d.updatedAt):null;
+    if(!(n>=1)) return;
+    var val={
+      recensioni:String(n),
+      voto:(v>0&&v<=5)?v.toFixed(1).replace(".",","):null,
+      data:(t&&!isNaN(t))?t.toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric",timeZone:"Europe/Rome"}):null
+    };
+    function metti(){
+      for(var i=0;i<els.length;i++){
+        var k=els[i].getAttribute("data-md"); if(val[k]==null) continue;
+        if(els[i].hasAttribute("data-count")) els[i].setAttribute("data-count",val[k]);
+        els[i].textContent=val[k];
+      }
+    }
+    metti(); setTimeout(metti,1400); /* dopo un eventuale conteggio animato già partito */
+  }).catch(function(){});
+})();
