@@ -1011,3 +1011,13 @@ h1,h2,h3,h4,.faq summary{hyphens:auto;-webkit-hyphens:auto}
   .mbar a.go{background:var(--ink);box-shadow:none;color:#fff}
   .mbar a.go svg{stroke:#fff}
 }
+
+/* ---------- AICPE tra i dati in evidenza della home ---------- */
+.facts li.f-aicpe{align-content:start}
+.facts .f-aicpe img{display:block;width:clamp(34px,3.2vw,44px);height:auto}
+/* ---------- Widget recensioni MioDottore ---------- */
+.zl-rev{min-height:360px;margin:clamp(18px,2.4vw,28px) auto;width:100%;max-width:760px;text-align:left}
+.rb .zl-rev{margin-left:auto;margin-right:auto;width:100%}
+.zl-ph .link{font-size:.88rem}
+.rst{grid-template-columns:repeat(2,minmax(0,1fr))}
+.zl-ph a,.zl-ph .link{color:var(--ink)}

@@ -45,7 +45,6 @@ def html(t: str) -> str:
 
 MD = {
     "index.md": [
-        (r"(- \*\*)\d+(\*\* recensioni su MioDottore)", rf"\g<1>{num}\g<2>"),
         (r"(- MioDottore \*\*)\d+(\*\* recensioni dei pazienti)", rf"\g<1>{num}\g<2>"),
         (rf"(Dati rilevati il ){DATA_RE}", rf"\g<1>{data}"),
     ],

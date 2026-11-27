@@ -14,7 +14,7 @@ Sono il Dott. Umberto Fama, medico chirurgo specialista in Chirurgia Plastica, R
 [Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/)
 Trova il trattamento
 
-- **981** recensioni su MioDottore
+- Socio ordinario AICPE
 - **2008** Specializzazione alla Sapienza
 
 - **4** sedi tra Roma e Aprilia

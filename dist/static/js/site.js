@@ -246,3 +246,21 @@
     metti(); setTimeout(metti,1400); /* dopo un eventuale conteggio animato già partito */
   }).catch(function(){});
 })();
+
+/* ---------- Riquadri MioDottore (agenda e recensioni) ----------
+   Lo script ufficiale di MioDottore si carica con il consenso ai «Contenuti esterni» (script data-cc nel riquadro)
+   oppure quando il visitatore preme il pulsante del segnaposto. Un solo script disegna tutti i widget della pagina,
+   quindi i segnaposto spariscono tutti insieme. */
+(function(){
+  if(!document.querySelector(".zl-ph")) return;
+  function via(){ [].forEach.call(document.querySelectorAll(".zl-ph"),function(p){ p.parentNode.removeChild(p); }); }
+  function carica(){
+    via();
+    if(document.getElementById("zl-widget-s")) return;
+    var js=document.createElement("script"),f=document.getElementsByTagName("script")[0];
+    js.id="zl-widget-s"; js.src="//platform.docplanner.com/js/widget.js"; f.parentNode.insertBefore(js,f);
+  }
+  [].forEach.call(document.querySelectorAll(".zl-ph button"),function(b){ b.addEventListener("click",carica); });
+  document.addEventListener("fama:consenso",function(e){ if(e.detail&&e.detail.esterni) via(); });
+  if(/(?:^|; )fama_consenso=v2\.1\./.test(document.cookie)) via();
+})();
