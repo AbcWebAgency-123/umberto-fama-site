@@ -970,3 +970,13 @@ body{background:#fff}
 .zl-ph button{font:inherit;font-weight:600;min-height:46px;padding:10px 22px;border-radius:999px;border:1.5px solid #173d37;background:#173d37;color:#fff;cursor:pointer}
 .zl-ph button:focus-visible{outline:3px solid #a8c5ba;outline-offset:2px}
 @media (max-width:62em){ .ph-split{grid-template-columns:minmax(0,1fr)} .zl-box{max-width:560px;width:100%} }
+
+/* --- mobile (novembre 2026) --- */
+/* Header: su telefono niente «Prenota una visita» (c'è già nella pagina), più spazio a logo, ricerca e menu */
+@media (max-width:47.99em){ .head-in>.btn.sm{display:none} }
+/* Home, «Chi sono»: il cerchio dietro la foto resta dentro lo schermo (prima usciva di 32px e la pagina scorreva a destra) */
+@media (max-width:47.99em){ .about .arch-back{right:-8px;top:-16px;width:110px;height:110px} }
+/* Titoli: le parole molto lunghe («Miniaddominoplastica», «Centocelle/Prenestina») vanno a capo
+   invece di allargare la pagina sui telefoni stretti */
+body{overflow-wrap:break-word}
+h1,h2,h3,h4,.faq summary{hyphens:auto;-webkit-hyphens:auto}
