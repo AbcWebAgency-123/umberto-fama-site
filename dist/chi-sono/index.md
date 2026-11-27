@@ -70,7 +70,7 @@ Le sedi
 - [Roma EUR](https://www.dottorfamaumberto.it/sedi/eur/) Studio medico polispecialistico FisioEuropa
 - [Aprilia](https://www.dottorfamaumberto.it/sedi/aprilia/) Studio privato Aprilia
 
-[Mappa riepilogativa delle sedi (Google Maps) (si apre in una nuova scheda)](https://www.google.com/maps/d/u/0/embed?mid=1hMs0xc02sM8qbzGl0MpAly9idCYS3kE&ehbc=2E312F&noprof=1)
+[Tutte le sedi e le indicazioni](https://www.dottorfamaumberto.it/dove-siamo/)
 
 ## Come si svolge la prima valutazione
 
