@@ -38,7 +38,7 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
   «Mostra l'agenda di MioDottore». Il modulo non ha più i menu Trattamento e Sede e si intitola «Scrivi al Dottore».
 - **AICPE e widget recensioni**: in home il logo «Socio ordinario AICPE» (`static/img/aicpe-*.webp`) sostituisce il
   numero di recensioni tra i dati in evidenza; nella sezione recensioni della home e in /recensioni/ c'è il widget
-  ufficiale MioDottore (`data-zlw-type="big"`, recensioni attive), caricato con il consenso ai contenuti esterni.
+  ufficiale MioDottore (stesso formato dell'agenda, `big_with_calendar` con recensioni attive), caricato con il consenso ai contenuti esterni.
 - **Recensioni MioDottore** (numero nelle versioni .md): ogni giorno `.github/workflows/aggiorna-recensioni.yml` esegue
   `tools/aggiorna-miodottore.php`, che legge il numero di recensioni (`aggregateRating.reviewCount`) dal profilo
   MioDottore e scrive `dist/data/miodottore.json` solo se è cambiato; poi `tools/applica-recensioni.py` riporta
