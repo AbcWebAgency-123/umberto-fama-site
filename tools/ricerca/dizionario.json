@@ -1,0 +1,190 @@
+{
+  "_istruzioni": [
+    "Dizionario del motore di ricerca interno (header e «Da dove desidera partire?» in home).",
+    "Ogni voce: «chiavi» = parole o espressioni dei pazienti (bastano minuscole, senza accenti; plurali e piccoli refusi sono già gestiti);",
+    "«pagine» = indirizzi delle pagine (senza barre) in ordine di pertinenza: la prima riceve il punteggio più alto;",
+    "«termini» = parole aggiuntive da cercare nelle pagine quando la voce è riconosciuta (facoltativo).",
+    "Dopo una modifica: python3 tools/genera-indice-ricerca.py  e poi  node tools/ricerca/verifica.js"
+  ],
+  "voci": [
+    {"chiavi": ["rughe", "ruga", "grinze", "segni del tempo", "zampe di gallina", "rughe d espressione", "rughe della fronte", "solchi", "invecchiamento", "pelle invecchiata", "ringiovanimento", "ringiovanire"],
+     "pagine": ["rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia", "tossina-botulinica-roma-aprilia", "specialista-trattamento-fillers-riassorbibili-roma-aprilia", "trattamento-biostimolazione-biorivitalizzazione-roma-aprilia", "laser-frazionato-roma-aprilia", "prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging", "fotoringiovanimento-roma-aprilia", "lifting-facciale-roma", "lipofilling", "medicina-estetica-roma-aprilia", "tecnologie", "come-avere-pelle-perfetta-laser-erbium-ablativo", "fraxel-laser-cura-pelle", "profhilo-ringiovanire-viso-naturale-duraturo", "ringiovanire-sguardo-senza-bisturi-il-laser-resurfacing-palpebra-inferiore", "medicina-rigenerativa-prp-cellule-staminali-ringiovanire-corpo"],
+     "termini": "rughe resurfacing tossina filler"},
+
+    {"chiavi": ["macchie", "macchia", "macchie della pelle", "macchie scure", "macchie solari", "macchie della vecchiaia", "lentigo", "lentiggini", "melasma", "iperpigmentazione", "discromie", "macchie rosse", "chiazze"],
+     "pagine": ["trattamento-laser-iperpigmentazioni-macchie-pelle-roma-aprilia", "fotoringiovanimento-roma-aprilia", "angiomi-capillari-roma-aprilia", "couperose-rosacea-roma-aprilia", "laser-frazionato-roma-aprilia", "asportazione-nevi-roma-aprilia", "trattamenti-laser-roma-aprilia", "tecnologie", "come-eliminare-capillari-macchie-rosse-viso-laser-ktp", "luce-pulsata-laser-quale-scegliere-per-bellezza", "come-eliminare-imperfezioni-pelle-laser-chirurgici", "melanoma-riconoscerlo-curarlo-in-tempo"],
+     "termini": "macchie iperpigmentazioni pigmento"},
+
+    {"chiavi": ["nei", "neo", "nevi", "nevo", "neo sospetto", "nei sospetti", "neo che cambia", "togliere un neo", "togliere i nei", "controllo dei nei", "mappatura dei nei", "voglia sulla pelle"],
+     "pagine": ["asportazione-nevi-roma-aprilia", "nevi-verruche-cisti-fibromi-condilomi-roma-aprilia", "chirurgia-del-melanoma", "chirurgia-dermatologica-roma-aprilia", "asportazione-tumori-cutanei-roma-aprilia", "melanoma-riconoscerlo-curarlo-in-tempo", "melanoma-come-prevenirlo-e-curarlo", "come-eliminare-imperfezioni-pelle-laser-chirurgici"],
+     "termini": "nevi neo melanoma istologico"},
+
+    {"chiavi": ["cicatrici", "cicatrice", "cheloidi", "cheloide", "cicatrice ipertrofica", "cicatrici brutte", "segni", "segni dell acne", "esiti di acne", "esiti cicatriziali", "cicatrice da operazione", "cicatrice del cesareo"],
+     "pagine": ["cicatrici-cheloidi-esiti-acne-roma-aprilia", "laser-frazionato-roma-aprilia", "rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia", "lipofilling", "chirurgia-dermatologica-roma-aprilia", "trattamenti-laser-roma-aprilia", "tecnologie", "come-curare-cicatrici-patologiche", "come-eliminare-cicatrici-acne-laser-ultrapulse-lumenis", "fraxel-laser-cura-pelle", "come-avere-pelle-perfetta-laser-erbium-ablativo"],
+     "termini": "cicatrici cheloidi"},
+
+    {"chiavi": ["seno", "seni", "mammella", "mammelle", "petto", "aumentare il seno", "rifare il seno", "seno piccolo", "seno cadente", "seno grande", "seno pesante", "ridurre il seno", "protesi al seno", "protesi mammarie", "tette"],
+     "pagine": ["mastoplastica-additiva-roma-parioli-aprilia", "specialista-mastopessi-roma-aprilia", "mastoplastica-riduttiva-aprilia-roma", "ginecomastia-roma-aprilia", "lipofilling", "chirurgia-estetica-roma-aprilia", "come-prendersi-cura-del-seno-dopo-mastoplastica-additiva", "prevenire-curare-contrattura-capsulare-dopo-mastoplastica-additiva", "come-proteggere-seno-dalle-protesi-bia-alcl"],
+     "termini": "seno mastoplastica protesi"},
+
+    {"chiavi": ["pancia", "addome", "addominale", "pancetta", "ventre", "grembiule addominale", "pancia dopo la gravidanza", "diastasi", "maniglie dell amore", "fianchi", "grasso sulla pancia"],
+     "pagine": ["specialista-addominoplastica-roma-aprilia", "miniaddominoplastica-roma", "liposuzione-specialista-trattamento-liposcultura-roma-aprilia", "liposcultura-non-chirurgica-roma-aprilia", "trattamento-smagliature-roma", "chirurgia-estetica-roma-aprilia", "fosfatidilcolina-alleato-naturale-contro-cellulite-grasso-localizzato"],
+     "termini": "addome addominoplastica"},
+
+    {"chiavi": ["palpebre", "palpebra", "occhi", "occhio", "sguardo", "sguardo stanco", "palpebre cadenti", "palpebra cadente", "palpebre pesanti", "borse sotto gli occhi", "borse agli occhi", "occhiaie", "pelle sulle palpebre"],
+     "pagine": ["blefaroplastica-roma-aprilia", "ringiovanire-sguardo-senza-bisturi-il-laser-resurfacing-palpebra-inferiore", "rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia", "tossina-botulinica-roma-aprilia", "come-avere-pelle-perfetta-laser-erbium-ablativo"],
+     "termini": "blefaroplastica palpebre"},
+
+    {"chiavi": ["naso", "nasi", "gobba", "gobba sul naso", "naso storto", "naso grande", "punta del naso", "rifare il naso", "setto nasale"],
+     "pagine": ["rinoplastica-aprilia-roma", "rinofiller-roma", "chirurgia-estetica-roma-aprilia", "chirurgia-micrografica-di-mohs", "chirurgia-mohs-soluzione-tumori-cutanei-roma"],
+     "termini": "rinoplastica rinofiller naso"},
+
+    {"chiavi": ["orecchie", "orecchio", "orecchie a sventola", "orecchio a sventola", "sventola", "padiglione auricolare", "orecchie sporgenti"],
+     "pagine": ["specialista-otoplastica-roma-aprilia", "chirurgia-riparativa-lobo-auricolare-roma-aprilia", "chirurgia-estetica-roma-aprilia"],
+     "termini": "otoplastica orecchie"},
+
+    {"chiavi": ["buco dell orecchio allargato", "buco dell orecchino", "lobo allargato", "lobo strappato", "lobo lacerato", "lobo dell orecchio", "orecchino strappato", "dilatatore", "tunnel all orecchio"],
+     "pagine": ["chirurgia-riparativa-lobo-auricolare-roma-aprilia", "specialista-otoplastica-roma-aprilia"],
+     "termini": "lobo auricolare"},
+
+    {"chiavi": ["capelli", "capello", "perdita di capelli", "caduta dei capelli", "calvizie", "alopecia", "diradamento", "capelli radi", "stempiatura", "cuoio capelluto"],
+     "pagine": ["trattamento-prp-roma-cuoio-capelluto-terapia-alopecia", "trattamento-prp-roma-soluzione-alopecia", "come-scegliere-centro-giusto-trattamento-prp-calvizie", "medicina-rigenerativa", "medicina-rigenerativa-prp-cellule-staminali-ringiovanire-corpo"],
+     "termini": "alopecia prp capelli"},
+
+    {"chiavi": ["smagliature", "smagliatura", "strie", "striae", "smagliature rosse", "smagliature bianche", "smagliature dopo la gravidanza"],
+     "pagine": ["trattamento-smagliature-roma", "trattamento-laser-smagliature-roma-aprilia", "laser-frazionato-roma-aprilia", "specialista-addominoplastica-roma-aprilia", "trattamento-biostimolazione-biorivitalizzazione-roma-aprilia", "tecnologie"],
+     "termini": "smagliature"},
+
+    {"chiavi": ["tumori cutanei", "tumore della pelle", "tumori della pelle", "cancro della pelle", "tumore cutaneo", "lesione sospetta", "lesioni cutanee", "neoplasia cutanea", "oncologia cutanea", "dermatologia oncologica"],
+     "pagine": ["asportazione-tumori-cutanei-roma-aprilia", "chirurgia-micrografica-di-mohs", "chirurgia-del-melanoma", "chirurgia-dermatologica-roma-aprilia", "asportazione-nevi-roma-aprilia", "chirurgia-mohs-soluzione-tumori-cutanei-roma", "carcinoma-basocellulare-metatipico-revisione-clinica", "melanoma-riconoscerlo-curarlo-in-tempo", "melanoma-come-prevenirlo-e-curarlo"],
+     "termini": "tumori carcinoma basalioma melanoma"},
+
+    {"chiavi": ["epitelioma", "basalioma", "carcinoma", "carcinoma basocellulare", "carcinoma spinocellulare", "carcinoma squamocellulare", "spinalioma", "carcinomi cutanei", "cheratosi attinica", "metatipico"],
+     "pagine": ["asportazione-tumori-cutanei-roma-aprilia", "chirurgia-micrografica-di-mohs", "carcinoma-basocellulare-metatipico-revisione-clinica", "chirurgia-mohs-soluzione-tumori-cutanei-roma", "chirurgia-dermatologica-roma-aprilia"],
+     "termini": "carcinoma basalioma tumori"},
+
+    {"chiavi": ["melanoma", "melanomi", "neo maligno", "tumore del neo"],
+     "pagine": ["chirurgia-del-melanoma", "melanoma-riconoscerlo-curarlo-in-tempo", "melanoma-come-prevenirlo-e-curarlo", "asportazione-nevi-roma-aprilia", "asportazione-tumori-cutanei-roma-aprilia", "chirurgia-dermatologica-roma-aprilia"],
+     "termini": "melanoma"},
+
+    {"chiavi": ["mohs", "chirurgia di mohs", "chirurgia micrografica", "controllo dei margini", "margini"],
+     "pagine": ["chirurgia-micrografica-di-mohs", "chirurgia-mohs-soluzione-tumori-cutanei-roma", "asportazione-tumori-cutanei-roma-aprilia", "carcinoma-basocellulare-metatipico-revisione-clinica"],
+     "termini": "mohs"},
+
+    {"chiavi": ["chirurgia dermatologica", "dermatochirurgia", "chirurgia della pelle", "chirurgia ricostruttiva", "ricostruzione", "ricostruttiva", "lembo", "lembi", "plastica ricostruttiva"],
+     "pagine": ["chirurgia-dermatologica-roma-aprilia", "asportazione-tumori-cutanei-roma-aprilia", "chirurgia-micrografica-di-mohs", "chirurgia-del-melanoma", "asportazione-nevi-roma-aprilia", "asportazione-cisti-roma-aprilia", "nevi-verruche-cisti-fibromi-condilomi-roma-aprilia", "chirurgia-riparativa-lobo-auricolare-roma-aprilia", "carcinoma-basocellulare-metatipico-revisione-clinica", "gaspare-tagliacozzi-il-genio-italiano-della-chirurgia-plastica-e-le-prospettive-future-della-sua-disciplina"],
+     "termini": "dermatologica ricostruzione"},
+
+    {"chiavi": ["cisti", "cisti sebacea", "cisti sebacee", "lipoma", "lipomi", "cisti e lipomi", "pallina sotto la pelle", "nodulo sotto la pelle", "bozzo", "ateroma"],
+     "pagine": ["asportazione-cisti-roma-aprilia", "nevi-verruche-cisti-fibromi-condilomi-roma-aprilia", "chirurgia-dermatologica-roma-aprilia"],
+     "termini": "cisti lipoma"},
+
+    {"chiavi": ["verruche", "verruca", "fibromi", "fibroma", "fibromi penduli", "porri", "condilomi", "escrescenze", "cheratosi seborroica", "xantelasma", "xantelasmi", "imperfezioni della pelle"],
+     "pagine": ["nevi-verruche-cisti-fibromi-condilomi-roma-aprilia", "come-eliminare-imperfezioni-pelle-laser-chirurgici", "chirurgia-dermatologica-roma-aprilia", "trattamenti-laser-roma-aprilia"],
+     "termini": "verruche fibromi"},
+
+    {"chiavi": ["sudorazione eccessiva", "sudore", "sudo", "sudare", "sudo troppo", "ascelle", "ascella", "sudorazione", "ascelle sudate", "mani sudate", "iperidrosi"],
+     "pagine": ["trattamento-iperidrosi-roma-sudorazione-eccessiva", "trattamento-iperidrosi-roma-cura-tossina-botulinica", "tossina-botulinica-roma-aprilia"],
+     "termini": "iperidrosi"},
+
+    {"chiavi": ["capillari", "capillari rotti", "capillari sul viso", "capillari sulle gambe", "vasi", "vene", "vene varicose", "varici", "venuzze", "teleangectasie", "angiomi", "angioma", "laser vascolare", "laser vascolari", "ragnatele"],
+     "pagine": ["angiomi-capillari-roma-aprilia", "teleangectasie-varici-roma-aprilia", "couperose-rosacea-roma-aprilia", "come-eliminare-capillari-macchie-rosse-viso-laser-ktp", "trattamenti-laser-roma-aprilia", "tecnologie"],
+     "termini": "capillari vascolari"},
+
+    {"chiavi": ["couperose", "rosacea", "rossore", "rossori", "viso arrossato", "guance rosse", "eritrosi", "trattamenti vascolari"],
+     "pagine": ["couperose-rosacea-roma-aprilia", "angiomi-capillari-roma-aprilia", "come-eliminare-capillari-macchie-rosse-viso-laser-ktp", "luce-pulsata-alta-intensita-soluzione-per-acne-rosacea", "fotoringiovanimento-roma-aprilia", "luce-pulsata-laser-quale-scegliere-per-bellezza"],
+     "termini": "couperose rosacea"},
+
+    {"chiavi": ["tatuaggi", "tatuaggio", "tattoo", "togliere un tatuaggio", "cancellare un tatuaggio", "rimozione tatuaggi", "trucco permanente"],
+     "pagine": ["rimozione-laser-tatuaggi-roma-aprilia", "trattamenti-laser-roma-aprilia", "tecnologie"],
+     "termini": "tatuaggi"},
+
+    {"chiavi": ["labbra", "labbro", "labbra sottili", "labbra piccole", "aumentare le labbra", "filler labbra", "volume labbra", "contorno labbra", "codice a barre"],
+     "pagine": ["rimodellamento-labbra-roma", "specialista-trattamento-fillers-riassorbibili-roma-aprilia", "cheiloplastica-roma", "medicina-estetica-roma-aprilia"],
+     "termini": "labbra filler"},
+
+    {"chiavi": ["labbra genitali", "piccole labbra", "grandi labbra", "labioplastica", "ninfoplastica", "genitali femminili", "chirurgia intima", "intimo femminile"],
+     "pagine": ["chirurgia-genitali-esterni-femminili-roma-aprilia", "chirurgia-estetica-roma-aprilia"],
+     "termini": "labioplastica genitali"},
+
+    {"chiavi": ["acne", "brufoli", "cicatrici acneiche", "cicatrici da acne", "buchi dell acne", "pelle butterata", "esiti acne"],
+     "pagine": ["cicatrici-cheloidi-esiti-acne-roma-aprilia", "come-eliminare-cicatrici-acne-laser-ultrapulse-lumenis", "laser-frazionato-roma-aprilia", "luce-pulsata-alta-intensita-soluzione-per-acne-rosacea", "rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia", "fraxel-laser-cura-pelle"],
+     "termini": "acne cicatrici"},
+
+    {"chiavi": ["doppio mento", "sottomento", "regione sottomentoniera", "pappagorgia", "collo", "profilo del collo", "mandibola"],
+     "pagine": ["lifting-facciale-roma", "liposcultura-non-chirurgica-roma-aprilia", "liposuzione-specialista-trattamento-liposcultura-roma-aprilia"],
+     "termini": "collo adiposita"},
+
+    {"chiavi": ["peli superflui", "peli", "pelo", "peluria", "irsutismo", "epilazione", "epilazione laser", "depilazione", "depilazione definitiva", "laser peli"],
+     "pagine": ["depilazione-laser-roma-aprilia", "luce-pulsata-laser-quale-scegliere-per-bellezza", "trattamenti-laser-roma-aprilia", "tecnologie"],
+     "termini": "epilazione depilazione"},
+
+    {"chiavi": ["viso cadente", "viso rilassato", "guance cadenti", "rilassamento cutaneo", "lassita", "pelle rilassata", "ovale del viso", "lifting", "volto stanco", "perdita di volume"],
+     "pagine": ["lifting-facciale-roma", "lipofilling", "specialista-trattamento-fillers-riassorbibili-roma-aprilia", "trattamento-biostimolazione-biorivitalizzazione-roma-aprilia", "prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging", "blefaroplastica-roma-aprilia", "profhilo-ringiovanire-viso-naturale-duraturo"],
+     "termini": "lifting volto"},
+
+    {"chiavi": ["pelle in eccesso", "pelle cadente", "eccesso di pelle", "pelle flaccida", "pelle che pende", "dopo il dimagrimento", "dimagrimento", "dopo una dieta", "ali di pipistrello"],
+     "pagine": ["specialista-addominoplastica-roma-aprilia", "miniaddominoplastica-roma", "lifting-delle-braccia", "lifting-cosce-braccia-aprilia-roma", "blefaroplastica-roma-aprilia", "lifting-facciale-roma", "specialista-mastopessi-roma-aprilia", "brachioplastica-rimodellare-braccia-dopo-dimagrimento"],
+     "termini": "eccesso cutaneo lifting"},
+
+    {"chiavi": ["braccia", "braccio", "braccia flaccide", "brachioplastica", "interno braccia"],
+     "pagine": ["lifting-delle-braccia", "brachioplastica-rimodellare-braccia-dopo-dimagrimento", "liposuzione-specialista-trattamento-liposcultura-roma-aprilia"],
+     "termini": "braccia"},
+
+    {"chiavi": ["cosce", "coscia", "interno coscia", "gambe", "culotte de cheval"],
+     "pagine": ["lifting-cosce-braccia-aprilia-roma", "liposuzione-specialista-trattamento-liposcultura-roma-aprilia", "specialista-trattamento-cellulite-roma-aprilia", "teleangectasie-varici-roma-aprilia"],
+     "termini": "cosce"},
+
+    {"chiavi": ["grasso", "grasso localizzato", "adipe", "adiposita", "accumuli di grasso", "liposuzione", "liposcultura", "intralipoterapia"],
+     "pagine": ["liposuzione-specialista-trattamento-liposcultura-roma-aprilia", "liposcultura-non-chirurgica-roma-aprilia", "fosfatidilcolina-alleato-naturale-contro-cellulite-grasso-localizzato", "lipofilling"],
+     "termini": "liposcultura adiposita"},
+
+    {"chiavi": ["cellulite", "pelle a buccia d arancia", "buccia d arancia", "onde d urto", "ritenzione"],
+     "pagine": ["specialista-trattamento-cellulite-roma-aprilia", "onde-durto-soluzione-eliminare-cellulite", "fosfatidilcolina-alleato-naturale-contro-cellulite-grasso-localizzato", "liposcultura-non-chirurgica-roma-aprilia"],
+     "termini": "cellulite"},
+
+    {"chiavi": ["botox", "botulino", "tossina", "tossina botulinica", "rughe della fronte", "ruga del leone", "rughe tra le sopracciglia"],
+     "pagine": ["tossina-botulinica-roma-aprilia", "trattamento-iperidrosi-roma-cura-tossina-botulinica", "medicina-estetica-roma-aprilia"],
+     "termini": "tossina botulinica"},
+
+    {"chiavi": ["filler", "acido ialuronico", "ialuronico", "riempitivo", "zigomi", "solchi nasogenieni", "occhiaie scavate"],
+     "pagine": ["specialista-trattamento-fillers-riassorbibili-roma-aprilia", "rimodellamento-labbra-roma", "rinofiller-roma", "trattamento-biostimolazione-biorivitalizzazione-roma-aprilia", "profhilo-ringiovanire-viso-naturale-duraturo"],
+     "termini": "filler ialuronico"},
+
+    {"chiavi": ["seno maschile", "ginecomastia", "petto maschile", "seno uomo", "mammelle maschili"],
+     "pagine": ["ginecomastia-roma-aprilia", "liposuzione-specialista-trattamento-liposcultura-roma-aprilia"],
+     "termini": "ginecomastia"},
+
+    {"chiavi": ["labbro leporino", "chirurgia del labbro", "cheiloplastica", "labbro asimmetrico"],
+     "pagine": ["cheiloplastica-roma", "rimodellamento-labbra-roma"],
+     "termini": "cheiloplastica labbro"},
+
+    {"chiavi": ["laser", "tecnologie", "laser co2", "co2", "erbium", "fraxel", "ultrapulse", "luce pulsata", "ipl", "ktp", "laser frazionato"],
+     "pagine": ["tecnologie", "trattamenti-laser-roma-aprilia", "laser-frazionato-roma-aprilia", "rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia", "fotoringiovanimento-roma-aprilia", "fraxel-laser-cura-pelle", "come-avere-pelle-perfetta-laser-erbium-ablativo", "come-eliminare-cicatrici-acne-laser-ultrapulse-lumenis", "luce-pulsata-laser-quale-scegliere-per-bellezza", "come-eliminare-imperfezioni-pelle-laser-chirurgici"],
+     "termini": "laser"},
+
+    {"chiavi": ["prp", "plasma", "piastrine", "plasma ricco di piastrine", "medicina rigenerativa", "cellule staminali", "staminali"],
+     "pagine": ["medicina-rigenerativa", "trattamento-prp-roma-cuoio-capelluto-terapia-alopecia", "prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging", "medicina-rigenerativa-prp-cellule-staminali-ringiovanire-corpo", "trattamento-prp-roma-soluzione-alopecia", "come-scegliere-centro-giusto-trattamento-prp-calvizie"],
+     "termini": "prp rigenerativa"},
+
+    {"chiavi": ["dieta", "dimagrire", "nutrizionista", "dietologo", "alimentazione", "detox", "peso", "sovrappeso"],
+     "pagine": ["dietologia-percorsi-detox-roma-aprilia"],
+     "termini": "dietologia nutrizionale"},
+
+    {"chiavi": ["pelle spenta", "pelle opaca", "idratazione", "biorivitalizzazione", "biostimolazione", "skin booster", "profhilo", "qualita della pelle"],
+     "pagine": ["trattamento-biostimolazione-biorivitalizzazione-roma-aprilia", "profhilo-ringiovanire-viso-naturale-duraturo", "prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging", "fotoringiovanimento-roma-aprilia"],
+     "termini": "biostimolazione pelle"},
+
+    {"chiavi": ["dismorfofobia", "ossessione per il corpo", "insoddisfazione corporea"],
+     "pagine": ["dismorfofobia-corpo-ossessione", "equilibrio-armonia-principi-chirurgia-medicina-estetica"]},
+
+    {"chiavi": ["prenotare", "prenotazione", "appuntamento", "visita", "visita gratuita", "contatti", "telefono", "whatsapp", "segreteria", "costo", "prezzo", "quanto costa"],
+     "pagine": ["contatti", "domande-frequenti", "dove-siamo"]},
+
+    {"chiavi": ["sedi", "dove", "indirizzo", "studio", "ambulatorio", "roma", "parioli", "flaminio", "eur", "centocelle", "prenestina", "aprilia"],
+     "pagine": ["dove-siamo", "sedi/parioli", "sedi/eur", "sedi/centocelle", "sedi/aprilia"]},
+
+    {"chiavi": ["chi e il dottore", "curriculum", "formazione", "pubblicazioni", "esperienza", "chirurgo plastico", "specialista"],
+     "pagine": ["chi-sono", "curriculum", "recensioni"]}
+  ]
+}

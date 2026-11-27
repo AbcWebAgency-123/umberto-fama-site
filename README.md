@@ -23,6 +23,11 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 
 ## Configurazione di produzione
 
+- **Ricerca interna** (header e «Da dove desidera partire?» in home): motore in `static/js/cerca.js`, indice
+  `static/js/cerca-indice.json` scaricato al primo uso. L'indice si rigenera con `python3 tools/genera-indice-ricerca.py`
+  dopo ogni modifica alle pagine o al dizionario dei sinonimi `tools/ricerca/dizionario.json` (espressioni dei pazienti →
+  pagine in ordine di pertinenza); poi `node tools/ricerca/verifica.js` controlla i 12 esempi della home e le altre
+  ricerche di prova. Riconosce plurali, piccoli refusi, inizio di parola e sinonimi.
 - **Visita gratuita** (novembre 2026, `tools/prenota-gratuita.py`, rilanciabile): i pulsanti dicono «Prenota una visita
   gratuita» tranne nella pagina Dietologia (la visita nutrizionale non è gratuita); Contatti è la pagina di arrivo
   («Prenoti una visita gratuita», blocco «Come desidera contattarmi?» con agenda, WhatsApp e telefono); lo stesso blocco

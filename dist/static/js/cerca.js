@@ -1,31 +1,208 @@
-window.CERCA_IDX=[{"t":"Angiomi e capillari","u":"/angiomi-capillari-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"capillari vasi rossi angioma macchie rosse viso"},{"t":"Asportazione cisti","u":"/asportazione-cisti-roma-aprilia/","k":"Trattamento","a":"Chirurgia dermatologica","w":"cisti sebacea pallina sotto pelle lipoma"},{"t":"Asportazione nevi","u":"/asportazione-nevi-roma-aprilia/","k":"Trattamento","a":"Chirurgia dermatologica","w":"nei neo nevo togliere neo controllo nei"},{"t":"Tumori cutanei","u":"/asportazione-tumori-cutanei-roma-aprilia/","k":"Trattamento","a":"Chirurgia dermatologica","w":"tumore pelle basalioma carcinoma lesione"},{"t":"Blefaroplastica","u":"/blefaroplastica-roma-aprilia/","k":"Trattamento","a":"Chirurgia estetica","w":"palpebre occhi borse sotto occhi palpebra cadente sguardo stanco"},{"t":"Cheiloplastica","u":"/cheiloplastica-roma/","k":"Trattamento","a":"Chirurgia estetica","w":"labbra chirurgia labbra"},{"t":"Chirurgia del melanoma","u":"/chirurgia-del-melanoma/","k":"Trattamento","a":"Chirurgia dermatologica","w":"melanoma neo sospetto"},{"t":"Chirurgia micrografica di Mohs","u":"/chirurgia-micrografica-di-mohs/","k":"Trattamento","a":"Chirurgia dermatologica","w":"mohs tumore pelle basalioma"},{"t":"Cicatrici, cheloidi, esiti acne","u":"/cicatrici-cheloidi-esiti-acne-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"cicatrici cheloide acne buchi acne segni acne"},{"t":"Couperose e rosacea","u":"/couperose-rosacea-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"rossore viso rosacea couperose capillari"},{"t":"Depilazione laser","u":"/depilazione-laser-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"peli epilazione depilazione peli superflui"},{"t":"Dietologia e percorsi detox","u":"/dietologia-percorsi-detox-roma-aprilia/","k":"Trattamento","a":"Medicina estetica","w":"dieta peso dimagrire alimentazione"},{"t":"Fotoringiovanimento","u":"/fotoringiovanimento-roma-aprilia/","k":"Trattamento","a":"Medicina estetica","w":"luce pulsata ipl macchie sole pelle spenta ringiovanimento"},{"t":"Ginecomastia","u":"/ginecomastia-roma-aprilia/","k":"Trattamento","a":"Chirurgia estetica","w":"seno maschile petto uomo"},{"t":"Laser frazionato","u":"/laser-frazionato-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"pori dilatati texture pelle cicatrici rughe"},{"t":"Lifting delle cosce","u":"/lifting-cosce-braccia-aprilia-roma/","k":"Trattamento","a":"Chirurgia estetica","w":"cosce pelle in eccesso interno coscia post dimagrimento"},{"t":"Lifting delle braccia","u":"/lifting-delle-braccia/","k":"Trattamento","a":"Chirurgia estetica","w":"braccia pelle cadente tricipiti brachioplastica"},{"t":"Lifting facciale","u":"/lifting-facciale-roma/","k":"Trattamento","a":"Chirurgia estetica","w":"viso cadente rilassamento collo ovale invecchiamento"},{"t":"Lipofilling","u":"/lipofilling/","k":"Trattamento","a":"Chirurgia estetica","w":"grasso autologo volume zigomi glutei"},{"t":"Liposcultura non chirurgica","u":"/liposcultura-non-chirurgica-roma-aprilia/","k":"Trattamento","a":"Medicina estetica","w":"grasso localizzato pancia fianchi senza chirurgia"},{"t":"Liposuzione e liposcultura","u":"/liposuzione-specialista-trattamento-liposcultura-roma-aprilia/","k":"Trattamento","a":"Chirurgia estetica","w":"grasso localizzato pancia fianchi culotte maniglie dell amore"},{"t":"Mastoplastica additiva","u":"/mastoplastica-additiva-roma-parioli-aprilia/","k":"Trattamento","a":"Chirurgia estetica","w":"seno piccolo protesi aumentare seno"},{"t":"Mastoplastica riduttiva","u":"/mastoplastica-riduttiva-aprilia-roma/","k":"Trattamento","a":"Chirurgia estetica","w":"seno grande ridurre seno mal di schiena"},{"t":"Miniaddominoplastica","u":"/miniaddominoplastica-roma/","k":"Trattamento","a":"Chirurgia estetica","w":"pancia addome basso pelle in eccesso"},{"t":"Nevi, verruche, cisti, fibromi","u":"/nevi-verruche-cisti-fibromi-condilomi-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"verruche fibromi condilomi nei laser"},{"t":"PRP crono e fotoaging","u":"/prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging/","k":"Trattamento","a":"Medicina estetica","w":"plasma piastrine pelle invecchiamento"},{"t":"Rimodellamento labbra","u":"/rimodellamento-labbra-roma/","k":"Trattamento","a":"Medicina estetica","w":"labbra sottili volume labbra filler labbra"},{"t":"Rimozione tatuaggi","u":"/rimozione-laser-tatuaggi-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"tatuaggio togliere tatuaggio cancellare"},{"t":"Rinofiller","u":"/rinofiller-roma/","k":"Trattamento","a":"Medicina estetica","w":"naso gobba naso senza chirurgia"},{"t":"Rinoplastica","u":"/rinoplastica-aprilia-roma/","k":"Trattamento","a":"Chirurgia estetica","w":"naso gobba punta del naso respirare"},{"t":"Rughe e skin resurfacing","u":"/rughe-ringiovanimento-cutaneo-laser-skin-resurfacing-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"rughe pelle segnata invecchiamento"},{"t":"Addominoplastica","u":"/specialista-addominoplastica-roma-aprilia/","k":"Trattamento","a":"Chirurgia estetica","w":"pancia addome pelle in eccesso dopo gravidanza diastasi"},{"t":"Mastopessi","u":"/specialista-mastopessi-roma-aprilia/","k":"Trattamento","a":"Chirurgia estetica","w":"seno cadente sollevare seno"},{"t":"Otoplastica","u":"/specialista-otoplastica-roma-aprilia/","k":"Trattamento","a":"Chirurgia estetica","w":"orecchie a sventola orecchie"},{"t":"Cellulite e onde d’urto","u":"/specialista-trattamento-cellulite-roma-aprilia/","k":"Trattamento","a":"Medicina estetica","w":"cellulite buccia d arancia onde d urto"},{"t":"Fillers riassorbibili","u":"/specialista-trattamento-fillers-riassorbibili-roma-aprilia/","k":"Trattamento","a":"Medicina estetica","w":"rughe acido ialuronico volume zigomi solchi"},{"t":"Teleangectasie e varici","u":"/teleangectasie-varici-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"capillari gambe varici vene"},{"t":"Tossina botulinica","u":"/tossina-botulinica-roma-aprilia/","k":"Trattamento","a":"Medicina estetica","w":"rughe fronte zampe di gallina botox espressione"},{"t":"Biostimolazione e biorivitalizzazione","u":"/trattamento-biostimolazione-biorivitalizzazione-roma-aprilia/","k":"Trattamento","a":"Medicina estetica","w":"pelle spenta idratazione ringiovanimento"},{"t":"Iperidrosi","u":"/trattamento-iperidrosi-roma-sudorazione-eccessiva/","k":"Trattamento","a":"Medicina estetica","w":"sudore sudorazione ascelle mani"},{"t":"Iperpigmentazioni e macchie","u":"/trattamento-laser-iperpigmentazioni-macchie-pelle-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"macchie scure macchie sole melasma lentigo"},{"t":"Smagliature (laser)","u":"/trattamento-laser-smagliature-roma-aprilia/","k":"Trattamento","a":"Trattamenti laser","w":"smagliature strie"},{"t":"PRP cuoio capelluto (alopecia)","u":"/trattamento-prp-roma-cuoio-capelluto-terapia-alopecia/","k":"Trattamento","a":"Medicina rigenerativa","w":"capelli caduta capelli calvizie diradamento alopecia"},{"t":"Smagliature","u":"/trattamento-smagliature-roma/","k":"Trattamento","a":"Medicina estetica","w":"smagliature strie"},{"t":"Chirurgia estetica","u":"/chirurgia-estetica-roma-aprilia/","k":"Area","a":"","w":"Seno Viso Corpo"},{"t":"Medicina estetica","u":"/medicina-estetica-roma-aprilia/","k":"Area","a":"","w":"Viso Corpo"},{"t":"Trattamenti laser","u":"/trattamenti-laser-roma-aprilia/","k":"Area","a":"","w":"Pelle e laser"},{"t":"Chirurgia dermatologica","u":"/chirurgia-dermatologica-roma-aprilia/","k":"Area","a":"","w":"Nei e chirurgia dermatologica"},{"t":"Medicina rigenerativa","u":"/medicina-rigenerativa/","k":"Area","a":"","w":"PRP"},{"t":"Brachioplastica: come rimodellare le braccia dopo un dimagrimento importante","u":"/brachioplastica-rimodellare-braccia-dopo-dimagrimento/","k":"Articolo","a":"","w":""},{"t":"Chirurgia di Mohs: una soluzione efficace per i tumori cutanei del volto","u":"/chirurgia-mohs-soluzione-tumori-cutanei-roma/","k":"Articolo","a":"","w":""},{"t":"Come avere una pelle perfetta con il laser erbium ablativo","u":"/come-avere-pelle-perfetta-laser-erbium-ablativo/","k":"Articolo","a":"","w":""},{"t":"Come curare le cicatrici patologiche: i consigli del Dott. Umberto Fama","u":"/come-curare-cicatrici-patologiche/","k":"Articolo","a":"","w":""},{"t":"Come eliminare i capillari e le macchie rosse dal viso con il laser KTP: la tecnologia rivoluzionaria che ti fa ringiovanire di 10 anni","u":"/come-eliminare-capillari-macchie-rosse-viso-laser-ktp/","k":"Articolo","a":"","w":""},{"t":"Come eliminare le cicatrici dell’acne con il laser Ultrapulse Lumenis®","u":"/come-eliminare-cicatrici-acne-laser-ultrapulse-lumenis/","k":"Articolo","a":"","w":""},{"t":"Come eliminare le imperfezioni della pelle con i laser chirurgici","u":"/come-eliminare-imperfezioni-pelle-laser-chirurgici/","k":"Articolo","a":"","w":""},{"t":"Come prendersi cura del seno dopo la mastoplastica additiva: consigli e precauzioni","u":"/come-prendersi-cura-del-seno-dopo-mastoplastica-additiva/","k":"Articolo","a":"","w":""},{"t":"Come proteggere il seno dalle protesi: tutto quello che devi sapere sul BIA-ALCL","u":"/come-proteggere-seno-dalle-protesi-bia-alcl/","k":"Articolo","a":"","w":""},{"t":"Come scegliere il centro giusto per il trattamento PRP per la calvizie","u":"/come-scegliere-centro-giusto-trattamento-prp-calvizie/","k":"Articolo","a":"","w":""},{"t":"Dismorfofobia: quando il corpo diventa un’ossessione","u":"/dismorfofobia-corpo-ossessione/","k":"Articolo","a":"","w":""},{"t":"Equilibrio e armonia: i principi fondamentali della chirurgia e della medicina estetica","u":"/equilibrio-armonia-principi-chirurgia-medicina-estetica/","k":"Articolo","a":"","w":""},{"t":"La fosfatidilcolina: un alleato naturale contro la cellulite e il grasso localizzato","u":"/fosfatidilcolina-alleato-naturale-contro-cellulite-grasso-localizzato/","k":"Articolo","a":"","w":""},{"t":"Fraxel: il laser che ha rivoluzionato la cura della pelle","u":"/fraxel-laser-cura-pelle/","k":"Articolo","a":"","w":""},{"t":"Gaspare Tagliacozzi: il genio italiano della chirurgia plastica e le prospettive future della sua disciplina","u":"/gaspare-tagliacozzi-il-genio-italiano-della-chirurgia-plastica-e-le-prospettive-future-della-sua-disciplina/","k":"Articolo","a":"","w":""},{"t":"Luce pulsata ad alta intensità: una soluzione efficace per l’acne rosacea","u":"/luce-pulsata-alta-intensita-soluzione-per-acne-rosacea/","k":"Articolo","a":"","w":""},{"t":"Luce pulsata o laser: quale scegliere per la tua bellezza?","u":"/luce-pulsata-laser-quale-scegliere-per-bellezza/","k":"Articolo","a":"","w":""},{"t":"La medicina rigenerativa: come il PRP e le cellule staminali possono ringiovanire il nostro corpo","u":"/medicina-rigenerativa-prp-cellule-staminali-ringiovanire-corpo/","k":"Articolo","a":"","w":""},{"t":"Melanoma: come prevenirlo e curarlo","u":"/melanoma-come-prevenirlo-e-curarlo/","k":"Articolo","a":"","w":""},{"t":"Melanoma: come riconoscerlo e curarlo in tempo","u":"/melanoma-riconoscerlo-curarlo-in-tempo/","k":"Articolo","a":"","w":""},{"t":"Onde d’urto: la soluzione definitiva per eliminare la cellulite","u":"/onde-durto-soluzione-eliminare-cellulite/","k":"Articolo","a":"","w":""},{"t":"Come prevenire e curare la contrattura capsulare dopo una mastoplastica additiva","u":"/prevenire-curare-contrattura-capsulare-dopo-mastoplastica-additiva/","k":"Articolo","a":"","w":""},{"t":"Profhilo®: il trattamento rivoluzionario per ringiovanire il viso in modo naturale e duraturo","u":"/profhilo-ringiovanire-viso-naturale-duraturo/","k":"Articolo","a":"","w":""},{"t":"Come ringiovanire lo sguardo senza bisturi: il laser resurfacing della palpebra inferiore","u":"/ringiovanire-sguardo-senza-bisturi-il-laser-resurfacing-palpebra-inferiore/","k":"Articolo","a":"","w":""},{"t":"Trattamento contro l’iperidrosi: cos’è e come si cura con la tossina botulinica","u":"/trattamento-iperidrosi-roma-cura-tossina-botulinica/","k":"Articolo","a":"","w":""},{"t":"Trattamento PRP: una soluzione innovativa per l’alopecia","u":"/trattamento-prp-roma-soluzione-alopecia/","k":"Articolo","a":"","w":""},{"t":"Sede Flaminio · Parioli","u":"/sedi/parioli/","k":"Sede","a":"Ambulatorio chirurgico Skin Laser","w":"Piazzale delle Belle Arti 2 Roma"},{"t":"Sede Centocelle · Prenestina","u":"/sedi/centocelle/","k":"Sede","a":"Studio privato Centocelle","w":"Via Giacomo Bresadola 26 Roma"},{"t":"Sede EUR","u":"/sedi/eur/","k":"Sede","a":"Studio medico polispecialistico FisioEuropa","w":"Viale dell'Umanesimo 308 Roma"},{"t":"Sede Aprilia (LT)","u":"/sedi/aprilia/","k":"Sede","a":"Studio privato Aprilia","w":"Via degli Olivi 31 Aprilia"},{"t":"Chi sono","u":"/chi-siamo/","k":"Pagina","a":"","w":"dottore chirurgo plastico"},{"t":"Curriculum","u":"/curriculum/","k":"Pagina","a":"","w":"formazione pubblicazioni"},{"t":"Tecnologie","u":"/tecnologie/","k":"Pagina","a":"","w":"laser piattaforme"},{"t":"Dicono di me","u":"/recensioni/","k":"Pagina","a":"","w":"recensioni opinioni pazienti"},{"t":"Domande frequenti","u":"/domande-frequenti/","k":"Pagina","a":"","w":"faq domande costi"},{"t":"Contatti","u":"/contatti/","k":"Pagina","a":"","w":"prenotare visita telefono prenotazione"}];
-(function(){
-  var btns=document.querySelectorAll(".srch-btn"),box=document.getElementById("srch");
-  if(!box||!btns.length)return;
-  var inp=box.querySelector("input"),res=box.querySelector(".srch-r"),sug=box.querySelector(".srch-s"),idx=window.CERCA_IDX||[],cur=-1;
-  var ORD={"Trattamento":0,"Area":1,"Pagina":2,"Sede":3,"Articolo":4};
-  function n(s){return (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ")}
-  idx.forEach(function(it){it._t=n(it.t);it._w=n(it.w+" "+it.a)});
-  function open(){box.hidden=false;document.documentElement.classList.add("srch-on");btns.forEach(function(b){b.setAttribute("aria-expanded","true")});setTimeout(function(){inp.focus()},30)}
-  function close(){box.hidden=true;document.documentElement.classList.remove("srch-on");btns.forEach(function(b){b.setAttribute("aria-expanded","false")})}
-  btns.forEach(function(b){b.addEventListener("click",function(){box.hidden?open():close()})});
-  box.querySelector(".srch-x").addEventListener("click",close);
-  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!box.hidden){close();btns[0].focus()}});
-  box.addEventListener("click",function(e){if(e.target===box)close()});
-  sug.addEventListener("click",function(e){var c=e.target.closest("button");if(c){inp.value=c.textContent;run()}});
-  function run(){
-    var q=n(inp.value).trim(),toks=q.split(/\s+/).filter(function(t){return t.length>1});cur=-1;
-    if(!toks.length){res.innerHTML="";sug.hidden=false;return}
-    sug.hidden=true;
-    var out=[];
-    var BON={"Trattamento":4,"Area":3,"Pagina":2,"Sede":1,"Articolo":0};
-    idx.forEach(function(it){var s=0,m=0,art=it.k==="Articolo";toks.forEach(function(t){var re=new RegExp("(^| )"+t),h=0;if(re.test(it._t))h=art?4:10;else if(it._t.indexOf(t)>-1)h=art?2:6;else if(re.test(it._w))h=3;else if(t.length>3&&it._w.indexOf(t)>-1)h=1;if(h){m++;s+=h}});if(m)out.push([m*100+s+BON[it.k],it])});
-    out.sort(function(a,b){return b[0]-a[0]||ORD[a[1].k]-ORD[b[1].k]});
-    out=out.slice(0,8);
-    if(!out.length){res.innerHTML='<li class="srch-0">Nessun risultato per “'+inp.value.replace(/[<>&]/g,"")+'”. Provi con un’altra parola, oppure <a href="/contatti/">chieda alla segreteria</a>.</li>';return}
-    res.innerHTML=out.map(function(o){var it=o[1];return '<li><a href="'+it.u+'"><span class="srch-k">'+it.k+'</span><b>'+it.t.replace(/[<>&]/g,"")+'</b>'+(it.a?'<small>'+it.a.replace(/[<>&]/g,"")+'</small>':'')+'</a></li>'}).join("");
+/* Motore di ricerca interno del sito (header «Cerca» e «Da dove desidera partire?» in home).
+   L'indice /static/js/cerca-indice.json è generato da tools/genera-indice-ricerca.py, che usa la stessa
+   normalizzazione e la stessa radice delle parole: se si cambia qui, cambiare anche lì.
+   Riconosce: plurali e varianti (radice comune), piccoli refusi (distanza di modifica), inizio di parola,
+   sinonimi ed espressioni dei pazienti (dizionario tools/ricerca/dizionario.json). */
+(function (G) {
+  "use strict";
+  var IDX = null, STOP = {}, VOC = [], VOCSET = {}, SCH = {}, DF = {}, N = 1, carica = null;
+  var PESI = [10, 6, 3, 2, 1];                 // titolo, parole chiave, sottotitoli, descrizione, testo
+
+  function norm(s) {
+    return (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
   }
-  inp.addEventListener("input",run);
-  inp.addEventListener("keydown",function(e){var L=res.querySelectorAll("a");if(!L.length)return;if(e.key==="ArrowDown"){e.preventDefault();cur=Math.min(cur+1,L.length-1);L[cur].focus()}});
-  res.addEventListener("keydown",function(e){var L=[].slice.call(res.querySelectorAll("a")),i=L.indexOf(document.activeElement);if(e.key==="ArrowDown"&&i<L.length-1){e.preventDefault();L[i+1].focus()}if(e.key==="ArrowUp"){e.preventDefault();i>0?L[i-1].focus():inp.focus()}});
-})();
+  function stem(w) {
+    while (w.length > 2 && "aeiou".indexOf(w.charAt(w.length - 1)) > -1) w = w.slice(0, -1);
+    if (w.length > 2 && w.charAt(w.length - 1) === "h" && "cg".indexOf(w.charAt(w.length - 2)) > -1) w = w.slice(0, -1);
+    return w;
+  }
+  /* scheletro della parola: senza h e senza lettere doppie (machie/macchie, rughhe/rughe) */
+  function sch(s) { return s.replace(/h/g, "").replace(/(.)\1+/g, "$1"); }
+  function stems(s) {
+    return norm(s).split(" ").filter(function (w) { return w.length > 1 && !STOP[w]; }).map(stem);
+  }
+  /* distanza di Damerau-Levenshtein (trasposizioni comprese), con uscita anticipata oltre max */
+  function dist(a, b, max) {
+    if (Math.abs(a.length - b.length) > max) return max + 1;
+    var d = [], i, j;
+    for (i = 0; i <= a.length; i++) { d[i] = [i]; }
+    for (j = 0; j <= b.length; j++) d[0][j] = j;
+    for (i = 1; i <= a.length; i++) {
+      var minr = max + 1;
+      for (j = 1; j <= b.length; j++) {
+        var c = a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1;
+        d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + c);
+        if (i > 1 && j > 1 && a.charAt(i - 1) === b.charAt(j - 2) && a.charAt(i - 2) === b.charAt(j - 1)) d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);
+        if (d[i][j] < minr) minr = d[i][j];
+      }
+      if (minr > max) return max + 1;
+    }
+    return d[a.length][b.length];
+  }
+
+  function usa(data) {
+    IDX = data; STOP = {}; VOCSET = {}; DF = {}; N = data.docs.length;
+    data.stop.forEach(function (w) { STOP[w] = 1; });
+    data.docs.forEach(function (d) {
+      d._f = d.f.map(function (s) { var o = {}; s.split(" ").forEach(function (x) { if (x) o[x] = 1; }); return o; });
+      var tutte = {};
+      d._f.forEach(function (o) { for (var x in o) tutte[x] = 1; });
+      for (var x in tutte) { DF[x] = (DF[x] || 0) + 1; VOCSET[x] = 1; }
+    });
+    data.diz.forEach(function (v) {
+      v._c = v.c.map(function (c) { return c.split(" "); });
+      v._c.forEach(function (c) { c.forEach(function (x) { VOCSET[x] = 1; }); });
+      v._x = v.x ? v.x.split(" ") : [];
+    });
+    VOC = Object.keys(VOCSET);
+    SCH = {};
+    VOC.forEach(function (v) { if (v.length >= 3) (SCH[sch(v)] = SCH[sch(v)] || []).push(v); });
+  }
+
+  /* per ogni parola cercata: le radici dell'indice a cui può corrispondere, con un fattore di fiducia */
+  function risolvi(q) {
+    var out = {};
+    if (VOCSET[q]) out[q] = 1;
+    if (q.length >= 3) (SCH[sch(q)] || []).forEach(function (v) { if (v !== q) out[v] = Math.max(out[v] || 0, 0.85); });
+    if (q.length >= 4) {
+      var max = q.length >= 7 ? 2 : 1;
+      VOC.forEach(function (v) {
+        if (v === q) return;
+        if (v.length > q.length && v.indexOf(q) === 0) { out[v] = Math.max(out[v] || 0, 0.7); return; }
+        if (v.charAt(0) !== q.charAt(0) && max === 1) return;
+        var dd = dist(q, v, max);
+        if (dd <= max) out[v] = Math.max(out[v] || 0, dd === 1 ? 0.75 : 0.55);
+      });
+    }
+    return out;
+  }
+
+  function cerca(testo) {
+    if (!IDX) return [];
+    var parole = stems(testo);
+    if (!parole.length) return [];
+    var ris = parole.map(risolvi);
+    // voci del dizionario riconosciute: tutte le parole della chiave presenti nella ricerca
+    var attive = [], lmax = 0;
+    IDX.diz.forEach(function (v, iv) {
+      var best = 0, fid = 1;
+      v._c.forEach(function (c) {
+        var ok = 1, f = 1;
+        c.forEach(function (x) {
+          var m = 0;
+          ris.forEach(function (r) { if (r[x] && r[x] > m) m = r[x]; });
+          if (!m) ok = 0; else f = Math.min(f, m);
+        });
+        if (ok && (c.length > best || (c.length === best && f > fid))) { best = c.length; fid = f; }
+      });
+      if (best) { attive.push([v, best, fid]); if (best > lmax) lmax = best; }
+    });
+    // parole in più suggerite dalle voci riconosciute
+    var extra = [];
+    attive.forEach(function (a) { a[0]._x.forEach(function (x) { if (VOCSET[x]) extra.push(x); }); });
+    var punti = [];
+    IDX.docs.forEach(function (d) {
+      var s = 0, prese = 0;
+      ris.forEach(function (r) {
+        var m = 0;
+        for (var x in r) {
+          var idf = Math.log(1 + N / (DF[x] || N));
+          for (var k = 0; k < 5; k++) if (d._f[k][x]) { m = Math.max(m, PESI[k] * idf * r[x]); break; }
+        }
+        if (m) { prese++; s += m; }
+      });
+      extra.forEach(function (x) {
+        var idf = Math.log(1 + N / (DF[x] || N));
+        for (var k = 0; k < 5; k++) if (d._f[k][x]) { s += 0.5 * PESI[k] * idf; break; }
+      });
+      if (prese && ris.length > 1) s *= 0.5 + 0.5 * prese / ris.length;   // premia chi contiene tutte le parole
+      attive.forEach(function (a) {
+        var pos = a[0].p.indexOf(d.u);
+        // l'ordine delle pagine nel dizionario conta: la prima è la più pertinente.
+        // Se una voce più specifica (più parole) è stata riconosciuta, le voci generiche non contano.
+        if (pos > -1 && (a[1] === lmax || lmax < 2)) { s += (120 - Math.min(pos, 6) * 12) * (a[1] === lmax ? 1 : 0.35) * a[2]; d._v = 1; }
+      });
+      if (s > 0) punti.push([s, d, d._v]); d._v = 0;
+    });
+    if (!punti.length) return [];
+    punti.sort(function (a, b) { return b[0] - a[0] || IDX.tipi.indexOf(a[1].k) - IDX.tipi.indexOf(b[1].k); });
+    var soglia = Math.max(6, punti[0][0] * (attive.length ? 0.16 : 0.12));
+    // se la ricerca corrisponde a una voce del dizionario, le pagine non elencate lì devono essere molto pertinenti
+    var soglia2 = attive.length ? Math.max(soglia, punti[0][0] * 0.3) : soglia;
+    return punti.filter(function (p) { return p[0] >= (p[2] ? soglia : soglia2); }).map(function (p) { return { u: p[1].u, t: p[1].t, k: p[1].k, a: p[1].a, s: Math.round(p[0]) }; });
+  }
+
+  function pronto() {
+    if (IDX) return Promise.resolve();
+    if (!carica) carica = fetch("/static/js/cerca-indice.json").then(function (r) { return r.json(); }).then(usa);
+    return carica;
+  }
+
+  G.CERCA = { usa: usa, cerca: cerca, pronto: pronto, stems: stems, norm: norm };
+  if (typeof document === "undefined") return;
+
+  function esc(s) { return String(s).replace(/[<>&"]/g, ""); }
+  function voce(r) {
+    return '<li><a href="' + r.u + '"><span class="srch-k">' + esc(r.k) + "</span><b>" + esc(r.t) + "</b>" + (r.a ? "<small>" + esc(r.a) + "</small>" : "") + "</a></li>";
+  }
+  function frecce(inp, res) {
+    inp.addEventListener("keydown", function (e) { if (e.key === "ArrowDown") { var a = res.querySelector("a"); if (a) { e.preventDefault(); a.focus(); } } });
+    res.addEventListener("keydown", function (e) {
+      var L = [].slice.call(res.querySelectorAll("a")), i = L.indexOf(document.activeElement);
+      if (e.key === "ArrowDown" && i < L.length - 1) { e.preventDefault(); L[i + 1].focus(); }
+      if (e.key === "ArrowUp") { e.preventDefault(); i > 0 ? L[i - 1].focus() : inp.focus(); }
+    });
+  }
+
+  /* ---------- Ricerca dell'header ---------- */
+  (function () {
+    var btns = document.querySelectorAll(".srch-btn"), box = document.getElementById("srch");
+    if (!box || !btns.length) return;
+    var inp = box.querySelector("input"), res = box.querySelector(".srch-r"), sug = box.querySelector(".srch-s");
+    function open() { box.hidden = false; document.documentElement.classList.add("srch-on"); btns.forEach(function (b) { b.setAttribute("aria-expanded", "true"); }); pronto().then(run); setTimeout(function () { inp.focus(); }, 30); }
+    function close() { box.hidden = true; document.documentElement.classList.remove("srch-on"); btns.forEach(function (b) { b.setAttribute("aria-expanded", "false"); }); }
+    btns.forEach(function (b) { b.addEventListener("click", function () { box.hidden ? open() : close(); }); });
+    box.querySelector(".srch-x").addEventListener("click", close);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !box.hidden) { close(); btns[0].focus(); } });
+    box.addEventListener("click", function (e) { if (e.target === box) close(); });
+    if (sug) sug.addEventListener("click", function (e) { var c = e.target.closest("button"); if (c) { inp.value = c.textContent; pronto().then(run); } });
+    function run() {
+      var v = inp.value.trim();
+      if (!v) { res.innerHTML = ""; if (sug) sug.hidden = false; return; }
+      if (sug) sug.hidden = true;
+      var r = cerca(v);
+      if (!r.length) { res.innerHTML = '<li class="srch-0">Nessun risultato per “' + esc(v) + '”. Provi con un’altra parola, oppure <a href="/contatti/">chieda alla segreteria</a>.</li>'; return; }
+      var tutti = r.length > 10 ? '<li class="srch-all"><a href="/?cerca=' + encodeURIComponent(v) + '#cerca-home">Vedi tutti i ' + r.length + " risultati</a></li>" : "";
+      res.innerHTML = r.slice(0, 10).map(voce).join("") + tutti;
+    }
+    inp.addEventListener("input", function () { pronto().then(run); });
+    frecce(inp, res);
+  })();
+
+  /* ---------- «Da dove desidera partire?» in home ---------- */
+  (function () {
+    var r = document.getElementById("cerca-home");
+    if (!r) return;
+    var f = r.querySelector(".hc-f"), inp = f.querySelector("input"), box = r.querySelector(".hc-o"), hd = r.querySelector(".hc-n"), res = r.querySelector(".hc-r"), chips = r.querySelectorAll(".hc-e button");
+    function run() {
+      var v = inp.value.trim();
+      chips.forEach(function (c) { c.classList.toggle("on", norm(c.textContent) === norm(v)); });
+      if (!v) { box.hidden = true; res.innerHTML = ""; hd.innerHTML = ""; return 0; }
+      var o = cerca(v), x = '<button type="button" class="hc-x">Azzera la ricerca</button>';
+      box.hidden = false;
+      if (!o.length) { hd.innerHTML = "<span>Nessun risultato per <b>«" + esc(v) + "»</b>. Provi con un’altra parola, oppure <a href=\"/contatti/\">chieda alla segreteria</a>.</span>" + x; res.innerHTML = ""; return 0; }
+      hd.innerHTML = "<span>" + (o.length === 1 ? "Un risultato" : o.length + " risultati") + " per <b>«" + esc(v) + "»</b>, dal più pertinente</span>" + x;
+      res.innerHTML = o.map(voce).join("");
+      return o.length;
+    }
+    function vedi() { var b = box.getBoundingClientRect(); if (b.top > window.innerHeight - 120 || b.top < 0) box.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    inp.addEventListener("focus", function () { pronto(); }, { once: true });
+    inp.addEventListener("input", function () { pronto().then(run); });
+    f.addEventListener("submit", function (e) { e.preventDefault(); pronto().then(function () { if (run()) { var a = res.querySelector("a"); vedi(); if (a) a.focus({ preventScroll: true }); } }); });
+    chips.forEach(function (c) { c.addEventListener("click", function () { inp.value = c.textContent; pronto().then(function () { run(); vedi(); }); }); });
+    hd.addEventListener("click", function (e) { if (e.target.closest(".hc-x")) { inp.value = ""; run(); inp.focus(); } });
+    frecce(inp, res);
+    var q = new URLSearchParams(location.search).get("cerca");
+    if (q) { inp.value = q; pronto().then(function () { run(); vedi(); }); }
+  })();
+})(typeof window !== "undefined" ? window : globalThis);
