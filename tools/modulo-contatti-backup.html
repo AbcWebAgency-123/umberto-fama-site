@@ -1,0 +1,65 @@
+<!-- Modulo «Scrivi al Dottore» tolto dalla pagina Contatti il 27/11/2026.
+     Per rimetterlo: incollare questo blocco in dist/contatti/index.html dopo </header> (prima della sezione «Dove ricevo»),
+     riportare i link #form-contatti (pulsante header e barra mobile), e ripristinare il testo dell'intestazione.
+     Lo invia dist/invia.php (rimasto sul server); la validazione è in static/js/site.js. -->
+<section class="sec contact"><div class="wrap contact-in">
+  <div class="contact-t">
+    <p class="eye">Segreteria</p>
+    <h2>Lasci i Suoi <em>recapiti</em></h2>
+    <p>La segreteria la richiamerà per fissare la visita nella sede che preferisce.</p>
+    <dl class="tels">
+      <div><dt>Segreteria · tutte le sedi</dt><dd><a class="num" href="tel:+393205676353">320 5676353</a></dd></div>
+      <div><dt>E-mail</dt><dd class="mail"><a href="mailto:umbertofama65@gmail.com">umbertofama65@gmail.com</a></dd></div>
+    </dl>
+  </div>
+  <form class="form" id="form-contatti" action="/invia.php" method="POST" novalidate data-grazie="/grazie/">
+  <div class="form-h"><h3>Scrivi al Dottore</h3><p>Risponde la segreteria, per telefono o per e-mail.</p></div>
+  <div class="form-2">
+    <label for="form-contatti-nome"><span id="form-contatti-nome-l">Nome *</span><input type="text" id="form-contatti-nome" name="nome" autocomplete="given-name" required aria-labelledby="form-contatti-nome-l"><small class="err" id="form-contatti-nome-err" hidden></small></label>
+    <label for="form-contatti-cognome"><span id="form-contatti-cognome-l">Cognome *</span><input type="text" id="form-contatti-cognome" name="cognome" autocomplete="family-name" required aria-labelledby="form-contatti-cognome-l"><small class="err" id="form-contatti-cognome-err" hidden></small></label>
+  </div>
+  <div class="form-2">
+    <label for="form-contatti-tel"><span id="form-contatti-tel-l">Telefono *</span><small class="form-note" id="form-contatti-tel-help">Almeno 6 cifre, anche con prefisso</small><input type="tel" id="form-contatti-tel" name="telefono" autocomplete="tel" required aria-labelledby="form-contatti-tel-l" aria-describedby="form-contatti-tel-help"><small class="err" id="form-contatti-tel-err" hidden></small></label>
+    <label for="form-contatti-email"><span id="form-contatti-email-l">E-mail *</span><input type="email" id="form-contatti-email" name="email" autocomplete="email" required aria-labelledby="form-contatti-email-l"><small class="err" id="form-contatti-email-err" hidden></small></label>
+  </div>
+  <label for="form-contatti-msg"><span>Messaggio</span><textarea id="form-contatti-msg" name="messaggio" rows="4"></textarea></label>
+  <label class="ck" for="form-contatti-ok"><input type="checkbox" id="form-contatti-ok" name="consenso" value="si" required><span>* Ho letto l’<a href="/privacy/">informativa privacy</a> e acconsento al trattamento dei miei dati per ricevere risposta e prenotare la visita</span></label>
+  <p class="err" id="form-contatti-ok-err" hidden></p>
+  <p class="err" hidden role="alert"></p>
+
+  <p aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden"><label for="form-contatti-sw">Lasci vuoto questo campo<input type="text" id="form-contatti-sw" name="sito_web" tabindex="-1" autocomplete="off"></label></p>
+  <button type="submit" class="btn wide">Invia la richiesta</button>
+  <p class="form-note">I campi con * sono obbligatori. I dati sono usati solo per rispondere alla richiesta.</p>
+</form>
+
+</div></section>
+<div class="wrap">
+  <details class="inf"><summary>Informativa sul trattamento dei dati raccolti con questo modulo</summary><div class="prose prose-sm"><p>La scrivente fornisce, di seguito, le informazioni riguardanti l’utilizzo dei dati personali da Lei rilasciati attraverso la compilazione di questo form, in osservanza alle norme di cui al Regolamento UE 2016/679, relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati (noto anche come GDPR). I dati concernenti la Sua persona, da Lei spontaneamente forniti tramite la compilazione di moduli informatici, vengono raccolti esclusivamente per consentire il contatto con l’azienda e, eventualmente, eseguire il contratto con Lei concluso. Il conferimento, da parte Sua, dei dati in parola ha natura obbligatoria; il suo eventuale rifiuto non ci permetterà di fornirLe il prodotto/servizio da Lei richiesto (potenzialmente esponendoLa a responsabilità per inadempimento contrattuale) e, comunque, di evadere la Sua richiesta. All’interno della nostra struttura potrà venire a conoscenza dei dati solo il personale incaricato di effettuare operazioni di trattamento dei dati stessi, sempre per le citate finalità. Le ricordiamo inoltre che, facendone apposita richiesta al titolare del trattamento, potrà esercitare tutti i diritti previsti dagli articoli da 15 a 22 del predetto Regolamento UE, che Le consentono, in particolare, la facoltà di chiedere l’accesso ai dati personali e di estrarne copia (art. 15 GDPR), la rettifica (art. 16 GDPR) e la cancellazione degli stessi (art. 17 GDPR), la limitazione del trattamento che La riguardi (art. 18 GDPR), la portabilità dei dati (art. 20 GDPR, ove ne ricorrano i presupposti) e di opporsi al trattamento che La riguardi (artt. 21 e 22 GDPR, per le ipotesi ivi menzionate e, in particolare, al trattamento per finalità di marketing o che si traduca in un processo decisionale automatizzato, compresa la profilazione, che produca effetti giuridici che lo riguardano, ove ne ricorrano i presupposti). Le ricordiamo, altresì, il Suo diritto, qualora il trattamento sia basato sul consenso, di revocare detto consenso in qualsiasi momento, senza pregiudicare la liceità del trattamento basata sul consenso prestato prima della revoca; per fare ciò, può disiscriversi in ogni momento contattando il titolare del trattamento ai recapiti pubblicati sul sito stesso. La informiamo, inoltre, del diritto di proporre reclamo all’Autorità Garante per la Protezione dei Dati Personali, quale autorità di controllo operante in Italia, e di proporre ricorso giurisdizionale, tanto avverso una decisione dell’Autorità Garante, quanto nei confronti del titolare del trattamento stesso e/o di un responsabile del trattamento.</p></div></details>
+</div>
+
+
+<!-- Modulo della home (sezione #contatti «Chieda di essere richiamato»), tolto il 27/11/2026: era al posto dell'agenda MioDottore.
+     Aveva action="#": per riattivarlo va puntato a /invia.php. -->
+<div class="rv"><form class="form" id="form-home" action="#" method="POST" novalidate data-grazie="/grazie/">
+  <div class="form-h"><h3>Richiesta di visita</h3><p>Risponde la segreteria, per telefono o per e-mail.</p></div>
+  <div class="form-2">
+    <label for="form-home-nome"><span id="form-home-nome-l">Nome *</span><input type="text" id="form-home-nome" name="nome" autocomplete="given-name" required aria-labelledby="form-home-nome-l"><small class="err" id="form-home-nome-err" hidden></small></label>
+    <label for="form-home-cognome"><span id="form-home-cognome-l">Cognome *</span><input type="text" id="form-home-cognome" name="cognome" autocomplete="family-name" required aria-labelledby="form-home-cognome-l"><small class="err" id="form-home-cognome-err" hidden></small></label>
+  </div>
+  <div class="form-2">
+    <label for="form-home-tel"><span id="form-home-tel-l">Telefono *</span><small class="form-note" id="form-home-tel-help">Almeno 6 cifre, anche con prefisso</small><input type="tel" id="form-home-tel" name="telefono" autocomplete="tel" required aria-labelledby="form-home-tel-l" aria-describedby="form-home-tel-help"><small class="err" id="form-home-tel-err" hidden></small></label>
+    <label for="form-home-email"><span id="form-home-email-l">E-mail *</span><input type="email" id="form-home-email" name="email" autocomplete="email" required aria-labelledby="form-home-email-l"><small class="err" id="form-home-email-err" hidden></small></label>
+  </div>
+  <div class="form-2">
+    <label for="form-home-tr"><span>Trattamento di interesse</span><select id="form-home-tr" name="trattamento"><option value="">Non so ancora, vorrei un consiglio</option><optgroup label="Chirurgia estetica"><option>Mastoplastica additiva</option><option>Mastoplastica riduttiva</option><option>Mastopessi</option><option>Ginecomastia</option><option>Lifting facciale</option><option>Rinoplastica</option><option>Blefaroplastica</option><option>Otoplastica</option><option>Lipofilling</option><option>Cheiloplastica</option><option>Addominoplastica</option><option>Miniaddominoplastica</option><option>Liposuzione e liposcultura</option><option>Lifting delle cosce</option><option>Lifting delle braccia</option><option>Chirurgia riparativa del lobo auricolare</option><option>Chirurgia dei genitali esterni femminili</option></optgroup><optgroup label="Medicina estetica"><option>Tossina botulinica</option><option>Filler riassorbibili</option><option>Rinofiller</option><option>Rimodellamento labbra</option><option>Biostimolazione e biorivitalizzazione</option><option>Fotoringiovanimento</option><option>PRP crono e fotoaging</option><option>Cellulite e onde d’urto</option><option>Liposcultura non chirurgica</option><option>Iperidrosi</option><option>Dietologia e percorsi detox</option><option>Smagliature</option></optgroup><optgroup label="Trattamenti laser"><option>Laser frazionato</option><option>Rughe e skin resurfacing</option><option>Cicatrici, cheloidi, esiti acne</option><option>Iperpigmentazioni e macchie</option><option>Smagliature (laser)</option><option>Rimozione tatuaggi</option><option>Depilazione laser</option><option>Couperose e rosacea</option><option>Teleangectasie e varici</option><option>Angiomi e capillari</option><option>Nevi, verruche, cisti, fibromi</option></optgroup><optgroup label="Chirurgia dermatologica ricostruttiva"><option>Asportazione cisti</option><option>Asportazione nevi</option><option>Tumori cutanei</option><option>Chirurgia micrografica di Mohs</option><option>Chirurgia del melanoma</option></optgroup><optgroup label="Medicina rigenerativa"><option>PRP cuoio capelluto (alopecia)</option><option>PRP crono e fotoaging</option></optgroup></select></label>
+    <label for="form-home-sede"><span>Sede preferita</span><select id="form-home-sede" name="sede"><option value="">Indifferente</option><option value="Parioli">Roma Flaminio / Parioli</option><option value="Centocelle">Roma Centocelle / Prenestina</option><option value="EUR">Roma EUR</option><option value="Aprilia">Aprilia</option></select></label>
+  </div>
+  <label for="form-home-msg"><span>Messaggio</span><textarea id="form-home-msg" name="messaggio" rows="3"></textarea></label>
+  <label class="ck" for="form-home-ok"><input type="checkbox" id="form-home-ok" name="consenso" value="si" required><span>* Ho letto l’<a href="/privacy/">informativa privacy</a> e acconsento al trattamento dei miei dati per ricevere risposta e prenotare la visita</span></label>
+  <p class="err" id="form-home-ok-err" hidden></p>
+  <p class="err" hidden role="alert"></p>
+
+  <button type="submit" class="btn wide">Invia la richiesta</button>
+  <p class="form-note">I campi con * sono obbligatori. I dati sono usati solo per rispondere alla richiesta.</p>
+</form>
+</div>

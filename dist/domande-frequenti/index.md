@@ -27,7 +27,7 @@ Risposte riviste dal **Dott. Umberto Fama** Ultima revisione: ottobre 2026
 
 **Come si prenota una visita?**
 
-La prenotazione on-line dell’appuntamento avviene sull’agenda digitale di MioDottore: si scelgono la data e la sede che si preferisce e si riceve una e-mail di conferma. In alternativa si può telefonare al 320 5676353, scrivere su WhatsApp o compilare il modulo della pagina Contatti.
+La prenotazione on-line dell’appuntamento avviene sull’agenda digitale di MioDottore: si scelgono la data e la sede che si preferisce e si riceve una e-mail di conferma. In alternativa si può telefonare al 320 5676353 oppure scrivere su WhatsApp.
 
 **In quale sede posso essere visitato?**
 

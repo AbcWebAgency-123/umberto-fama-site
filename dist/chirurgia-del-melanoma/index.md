@@ -77,7 +77,7 @@ La valutazione clinica può essere richiesta nelle sedi di Roma e Aprilia in bas
 
 ## Informazioni e prenotazione
 
-Se ha una lesione cutanea che desidera far valutare, può richiedere un appuntamento selezionando la sede più comoda. Non invii fotografie cliniche o referti tramite il modulo generico; la segreteria potrà indicare un canale appropriato qualora servano documenti. In presenza di un sospetto urgente già segnalato da un medico, segua prioritariamente le indicazioni cliniche ricevute.
+Se ha una lesione cutanea che desidera far valutare, può richiedere un appuntamento selezionando la sede più comoda. Non invii fotografie cliniche o referti senza che la segreteria lo abbia chiesto: Le indicherà un canale appropriato qualora servano documenti. In presenza di un sospetto urgente già segnalato da un medico, segua prioritariamente le indicazioni cliniche ricevute.
 
 Testo a cura del **Dott. Umberto Fama** Ultimo aggiornamento: 16 febbraio 2024
 

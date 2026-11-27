@@ -1,6 +1,6 @@
 ---
 title: "Contatti"
-description: "Prenota una visita con il Dott. Umberto Fama: modulo di contatto, WhatsApp, telefoni, agenda online MioDottore e le quattro sedi di Roma e Aprilia."
+description: "Prenota una visita con il Dott. Umberto Fama: agenda online MioDottore, WhatsApp, telefoni e le quattro sedi di Roma e Aprilia."
 url: "https://www.dottorfamaumberto.it/contatti/"
 canonical: "https://www.dottorfamaumberto.it/contatti/"
 ---
@@ -12,27 +12,9 @@ Prenota
 
 # Chieda una visita
 
-La prenotazione on-line dell’appuntamento avviene sull’agenda digitale di Mio Dottore: scelga data e sede, riceverà una e-mail di conferma. Oppure scriva al Dottore con il modulo, su WhatsApp o per telefono.
+La prenotazione on-line dell’appuntamento avviene sull’agenda digitale di Mio Dottore: scelga data e sede, riceverà una e-mail di conferma. Oppure scriva su WhatsApp o chiami la segreteria.
 
 [Prenota su MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma) [Scrivi su WhatsApp (si apre in una nuova scheda)](https://wa.me/393205676353)
-
-Scrivi al Dottore
-
-## Lasci i Suoi recapiti
-
-La segreteria la richiamerà per fissare la visita nella sede che preferisce.
-
-Segreteria · tutte le sedi
-
-[320 5676353](tel:+393205676353)
-
-E-mail
-
-[umbertofama65@gmail.com](mailto:umbertofama65@gmail.com)
-
-**Informativa sul trattamento dei dati raccolti con questo modulo**
-
-La scrivente fornisce, di seguito, le informazioni riguardanti l’utilizzo dei dati personali da Lei rilasciati attraverso la compilazione di questo form, in osservanza alle norme di cui al Regolamento UE 2016/679, relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati (noto anche come GDPR). I dati concernenti la Sua persona, da Lei spontaneamente forniti tramite la compilazione di moduli informatici, vengono raccolti esclusivamente per consentire il contatto con l’azienda e, eventualmente, eseguire il contratto con Lei concluso. Il conferimento, da parte Sua, dei dati in parola ha natura obbligatoria; il suo eventuale rifiuto non ci permetterà di fornirLe il prodotto/servizio da Lei richiesto (potenzialmente esponendoLa a responsabilità per inadempimento contrattuale) e, comunque, di evadere la Sua richiesta. All’interno della nostra struttura potrà venire a conoscenza dei dati solo il personale incaricato di effettuare operazioni di trattamento dei dati stessi, sempre per le citate finalità. Le ricordiamo inoltre che, facendone apposita richiesta al titolare del trattamento, potrà esercitare tutti i diritti previsti dagli articoli da 15 a 22 del predetto Regolamento UE, che Le consentono, in particolare, la facoltà di chiedere l’accesso ai dati personali e di estrarne copia (art. 15 GDPR), la rettifica (art. 16 GDPR) e la cancellazione degli stessi (art. 17 GDPR), la limitazione del trattamento che La riguardi (art. 18 GDPR), la portabilità dei dati (art. 20 GDPR, ove ne ricorrano i presupposti) e di opporsi al trattamento che La riguardi (artt. 21 e 22 GDPR, per le ipotesi ivi menzionate e, in particolare, al trattamento per finalità di marketing o che si traduca in un processo decisionale automatizzato, compresa la profilazione, che produca effetti giuridici che lo riguardano, ove ne ricorrano i presupposti). Le ricordiamo, altresì, il Suo diritto, qualora il trattamento sia basato sul consenso, di revocare detto consenso in qualsiasi momento, senza pregiudicare la liceità del trattamento basata sul consenso prestato prima della revoca; per fare ciò, può disiscriversi in ogni momento contattando il titolare del trattamento ai recapiti pubblicati sul sito stesso. La informiamo, inoltre, del diritto di proporre reclamo all’Autorità Garante per la Protezione dei Dati Personali, quale autorità di controllo operante in Italia, e di proporre ricorso giurisdizionale, tanto avverso una decisione dell’Autorità Garante, quanto nei confronti del titolare del trattamento stesso e/o di un responsabile del trattamento.
 
 Le sedi
 

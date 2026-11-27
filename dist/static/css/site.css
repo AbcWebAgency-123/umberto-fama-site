@@ -980,3 +980,6 @@ body{background:#fff}
    invece di allargare la pagina sui telefoni stretti */
 body{overflow-wrap:break-word}
 h1,h2,h3,h4,.faq summary{hyphens:auto;-webkit-hyphens:auto}
+/* Sezione «Prenoti la Sua visita» / contatti: su schermi stretti una colonna sola
+   (la regola globale .contact-in con la colonna da 640px annullava quella per mobile) */
+@media (max-width:53.75em){ .contact-in{grid-template-columns:minmax(0,1fr)} }

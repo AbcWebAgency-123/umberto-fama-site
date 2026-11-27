@@ -324,9 +324,9 @@ Dopo la valutazione delle indicazioni viene formulato un preventivo personalizza
 
 Prenota
 
-## Chieda di essere richiamato
+## Prenoti la Sua visita
 
-Compili il modulo: la segreteria la richiamerà per fissare la visita nella sede che preferisce. Oppure può chiamare o prenotare direttamente.
+Chiami la segreteria, scriva su WhatsApp oppure scelga giorno, orario e sede sull’agenda online di MioDottore.
 
 - Segreteria · tutte le sedi
 
