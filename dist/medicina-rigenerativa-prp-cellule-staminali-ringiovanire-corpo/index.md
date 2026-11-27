@@ -92,7 +92,7 @@ Articolo a cura del **Dott. Umberto Fama** Pubblicato il 27 febbraio 2024
 
 Il trattamento di cui si parla
 
-[![PRP per la prevenzione e il trattamento del crono e fotoaging](https://www.dottorfamaumberto.it/wp-content/uploads/2024/01/prp-cuoio-capelluto-400x250.jpeg) Viso PRP crono e fotoaging 30-60 minuti · ripresa immediata Leggi la scheda](https://www.dottorfamaumberto.it/prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging/)
+[![PRP per la prevenzione e il trattamento del crono e fotoaging](https://www.dottorfamaumberto.it/wp-content/uploads/2026/11/prp-cronoaging-fotoaging.webp) Viso PRP crono e fotoaging 30-60 minuti · ripresa immediata Leggi la scheda](https://www.dottorfamaumberto.it/prp-per-la-prevenzione-e-il-trattamento-del-crono-e-fotoaging/)
 [![PRP cuoio capelluto – terapia dell’alopecia](https://www.dottorfamaumberto.it/wp-content/uploads/2024/01/prp-cuoio-capelluto-400x250.jpeg) PRP PRP cuoio capelluto (alopecia) 30-60 minuti · ripresa immediata Leggi la scheda](https://www.dottorfamaumberto.it/trattamento-prp-roma-cuoio-capelluto-terapia-alopecia/)
 
 Prenota
