@@ -17,7 +17,7 @@ La labioplastica riduttiva è un intervento sulle piccole labbra che ne modifica
 
 Sedi Prima visita gratuita in tutte le sedi: [Parioli](https://www.dottorfamaumberto.it/sedi/parioli/), [Centocelle](https://www.dottorfamaumberto.it/sedi/centocelle/), [EUR](https://www.dottorfamaumberto.it/sedi/eur/), [Aprilia](https://www.dottorfamaumberto.it/sedi/aprilia/)
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/?trattamento=Chirurgia+dei+genitali+esterni+femminili) [Agenda MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/?trattamento=Chirurgia+dei+genitali+esterni+femminili) [Agenda MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
 
 In questa pagina
 

@@ -14,7 +14,7 @@ IV · 5 trattamenti
 
 Una lesione cutanea deve essere valutata clinicamente prima di decidere se e come rimuoverla. Quando indicato, il percorso comprende esame istologico, definizione dei margini, scelta della tecnica e controlli successivi.
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
 
 ## Nei e chirurgia dermatologica
 

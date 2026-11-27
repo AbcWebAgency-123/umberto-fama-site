@@ -14,7 +14,7 @@ III · 11 trattamenti
 
 Non esiste un laser adatto a ogni problema cutaneo. La scelta dipende dalla diagnosi, dal fototipo, dall’area da trattare, da eventuali terapie e dal bilancio fra benefici, rischi e tempi di recupero.
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
 
 ## Pelle e laser
 

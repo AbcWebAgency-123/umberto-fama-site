@@ -17,7 +17,7 @@ La chirurgia micrografica di Mohs è una tecnica di trattamento di specifici tum
 
 Sedi Visita in tutte le sedi: [Parioli](https://www.dottorfamaumberto.it/sedi/parioli/), [Centocelle](https://www.dottorfamaumberto.it/sedi/centocelle/), [EUR](https://www.dottorfamaumberto.it/sedi/eur/), [Aprilia](https://www.dottorfamaumberto.it/sedi/aprilia/)
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/?trattamento=Chirurgia%20micrografica%20di%20Mohs) [Agenda MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/?trattamento=Chirurgia%20micrografica%20di%20Mohs) [Agenda MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
 
 ![Chirurgia micrografica di Mohs: esame della pelle del viso con il dermatoscopio](https://www.dottorfamaumberto.it/static/img/mohs.webp)
 

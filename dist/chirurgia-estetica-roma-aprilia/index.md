@@ -14,7 +14,7 @@ I · 17 trattamenti
 
 Una valutazione specialistica permette di discutere obiettivi, indicazioni e limiti di un intervento, considerando caratteristiche individuali, aspettative, alternative e rischi. Non tutti i trattamenti sono indicati per ogni persona.
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/)
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/)
 
 ## Seno
 

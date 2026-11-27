@@ -11,7 +11,7 @@ Roma · Aprilia La cura parte dall’ascolto
 
 Sono il Dott. Umberto Fama, medico chirurgo specialista in Chirurgia Plastica, Ricostruttiva ed Estetica. Mi occupo di chirurgia estetica e dermatologica, medicina estetica, trattamenti laser e percorsi selezionati di medicina rigenerativa. Ricevo in quattro sedi tra Roma e Aprilia.
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/)
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/)
 Trova il trattamento
 
 - **981** recensioni su MioDottore
@@ -324,22 +324,16 @@ Dopo la valutazione delle indicazioni viene formulato un preventivo personalizza
 
 Prenota
 
-## Prenoti la Sua visita
+## Prenoti una visita gratuita
 
-Chiami la segreteria, scriva su WhatsApp oppure scelga giorno, orario e sede sull’agenda online di MioDottore.
+La visita con il Dott. Umberto Fama è **gratuita** in tutte le sedi, ad eccezione della visita nutrizionale. Può prenotarla direttamente sull’agenda online di MioDottore, scrivere su WhatsApp o chiamare la segreteria.
 
-- Segreteria · tutte le sedi
+### Come desidera contattarmi?
 
-[320 5676353](tel:+393205676353)
+Scelga la modalità più adatta alle Sue esigenze.
 
-Risponde anche su WhatsApp.
+- [Prenoti una visita gratuita](https://www.dottorfamaumberto.it/contatti/#prenota): scelga la sede, il giorno e l’orario disponibili.
+- [Mi scriva su WhatsApp](https://wa.me/393205676353): per informazioni organizzative e sulle prenotazioni.
+- [Mi contatti telefonicamente](tel:+393205676353): 320 5676353, per informazioni e appuntamenti.
 
-[WhatsApp (si apre in una nuova scheda)](https://wa.me/393205676353)
-
-- Prenotazione online
-
-Agenda MioDottore
-
-Scelga il giorno e l’orario della visita
-
-[Apri l’agenda (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
+I canali di contatto non sono destinati alle emergenze sanitarie.

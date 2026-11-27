@@ -983,3 +983,31 @@ h1,h2,h3,h4,.faq summary{hyphens:auto;-webkit-hyphens:auto}
 /* Sezione «Prenoti la Sua visita» / contatti: su schermi stretti una colonna sola
    (la regola globale .contact-in con la colonna da 640px annullava quella per mobile) */
 @media (max-width:53.75em){ .contact-in{grid-template-columns:minmax(0,1fr)} }
+
+/* ---------- «Come desidera contattarmi?» (Contatti e home) ---------- */
+.scelte{margin-top:clamp(18px,2.4vw,28px);background:#eef5f1;border:1px solid var(--line);border-radius:16px;padding:clamp(16px,2.2vw,24px);color:var(--ink);text-align:left;width:100%;max-width:560px}
+.scelte-h{margin:0;font-family:inherit;font-size:clamp(1.2rem,1.6vw,1.4rem);font-weight:700;letter-spacing:-.01em;line-height:1.25;color:var(--ink)}
+.scelte-p{margin:6px 0 0;font-size:.95rem;color:var(--muted)}
+.scelte ul{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:10px}
+.scelte li{margin:0;padding:0}
+.sc{display:grid;grid-template-columns:24px minmax(0,1fr) 16px;align-items:center;gap:14px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:10px;color:var(--ink);text-decoration:none;transition:border-color .2s,background .2s}
+.sc b{display:block;font-weight:600;font-size:1rem;line-height:1.3}
+.sc small{display:block;margin-top:3px;font-size:.86rem;line-height:1.4;color:var(--muted)}
+.sc svg{width:22px;height:22px}
+.sc .chev{width:16px;height:16px;opacity:.7}
+.sc:hover{border-color:var(--ink)}
+.sc:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.sc-go{background:var(--ink);border-color:var(--ink);color:#fff}
+.sc-go small{color:#cfe3da}
+.sc-go:hover{background:#0f2f2a}
+.scelte-n{margin:12px 0 0;font-size:.78rem;line-height:1.4;color:var(--muted)}
+.contact .scelte{max-width:none}
+
+/* ---------- Barra fissa su telefono: Prenota · WhatsApp · Chiama, icona sopra ---------- */
+@media (max-width:47.5em){
+  .mbar{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding:8px 10px calc(8px + env(safe-area-inset-bottom,0px));background:#f3f8f5;border-top:1px solid var(--line)}
+  .mbar a{flex-direction:column;gap:4px;height:58px;padding:0 4px;border:0;border-radius:10px;background:#fff;box-shadow:0 0 0 1px var(--line);font-weight:600;font-size:.8rem}
+  .mbar svg{width:20px;height:20px;stroke:var(--ink);stroke-width:1.6}
+  .mbar a.go{background:var(--ink);box-shadow:none;color:#fff}
+  .mbar a.go svg{stroke:#fff}
+}

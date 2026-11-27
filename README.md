@@ -23,6 +23,11 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 
 ## Configurazione di produzione
 
+- **Visita gratuita** (novembre 2026, `tools/prenota-gratuita.py`, rilanciabile): i pulsanti dicono «Prenota una visita
+  gratuita» tranne nella pagina Dietologia (la visita nutrizionale non è gratuita); Contatti è la pagina di arrivo
+  («Prenoti una visita gratuita», blocco «Come desidera contattarmi?» con agenda, WhatsApp e telefono); lo stesso blocco
+  è nella sezione prenotazioni della home; barra mobile Prenota · WhatsApp · Chiama. Moduli di contatto tolti:
+  copia in `tools/modulo-contatti-backup.html`.
 - **Pagina Contatti**: a destra di «Chieda una visita» c'è il widget ufficiale di MioDottore (`umberto-fama-2`),
   trattato come «Contenuto esterno»: si carica se il visitatore ha accettato i contenuti esterni o se preme
   «Mostra l'agenda di MioDottore». Il modulo non ha più i menu Trattamento e Sede e si intitola «Scrivi al Dottore».

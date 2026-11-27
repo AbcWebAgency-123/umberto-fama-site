@@ -14,7 +14,7 @@ V · 2 trattamenti
 
 Il PRP è una procedura che utilizza una componente del sangue del paziente preparata secondo protocolli specifici. Indicazioni, risultati e qualità delle evidenze variano secondo l’impiego clinico: la valutazione preliminare è indispensabile.
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
 
 ## PRP
 

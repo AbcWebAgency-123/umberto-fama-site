@@ -17,7 +17,7 @@ La comparsa di una macchia della pelle può dipendere da lentigo solari, discrom
 
 Sedi Visita in tutte le sedi: [Parioli](https://www.dottorfamaumberto.it/sedi/parioli/), [Centocelle](https://www.dottorfamaumberto.it/sedi/centocelle/), [EUR](https://www.dottorfamaumberto.it/sedi/eur/), [Aprilia](https://www.dottorfamaumberto.it/sedi/aprilia/)
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/?trattamento=Iperpigmentazioni%20e%20macchie) [Agenda MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/?trattamento=Iperpigmentazioni%20e%20macchie) [Agenda MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma)
 
 Scheda sintetica
 

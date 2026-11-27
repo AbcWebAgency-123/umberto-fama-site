@@ -14,7 +14,7 @@ II · 12 trattamenti
 
 Il percorso di medicina estetica parte dalla valutazione delle esigenze e dalle caratteristiche del viso o del corpo. Il medico illustra possibili trattamenti, durata prevedibile degli effetti, limiti e controindicazioni, senza promettere risultati standardizzati.
 
-[Prenota una visita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
+[Prenota una visita gratuita](https://www.dottorfamaumberto.it/contatti/) La visita di medicina estetica è gratuita.
 
 ## Viso
 

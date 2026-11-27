@@ -10,11 +10,19 @@ canonical: "https://www.dottorfamaumberto.it/contatti/"
 
 Prenota
 
-# Chieda una visita
+# Prenoti una visita gratuita
 
-La prenotazione on-line dell’appuntamento avviene sull’agenda digitale di Mio Dottore: scelga data e sede, riceverà una e-mail di conferma. Oppure scriva su WhatsApp o chiami la segreteria.
+La visita con il Dott. Umberto Fama è **gratuita** in tutte le sedi, ad eccezione della visita nutrizionale. Può prenotarla direttamente sull’agenda online di MioDottore, scrivere su WhatsApp o chiamare la segreteria.
 
-[Prenota su MioDottore (si apre in una nuova scheda)](https://www.miodottore.it/umberto-fama-2/chirurgo-plastico-chirurgo-estetico-medico-estetico/roma) [Scrivi su WhatsApp (si apre in una nuova scheda)](https://wa.me/393205676353)
+### Come desidera contattarmi?
+
+Scelga la modalità più adatta alle Sue esigenze.
+
+- [Prenoti una visita gratuita](https://www.dottorfamaumberto.it/contatti/#prenota): scelga la sede, il giorno e l’orario disponibili.
+- [Mi scriva su WhatsApp](https://wa.me/393205676353): per informazioni organizzative e sulle prenotazioni.
+- [Mi contatti telefonicamente](tel:+393205676353): 320 5676353, per informazioni e appuntamenti.
+
+I canali di contatto non sono destinati alle emergenze sanitarie.
 
 Le sedi
 
