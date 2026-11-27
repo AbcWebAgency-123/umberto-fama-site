@@ -22,6 +22,7 @@ dist = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__)
 try:
     dati = json.loads((dist / "data" / "miodottore.json").read_text(encoding="utf-8"))
     n = int(dati["reviewCount"])
+    voto = float(dati.get("ratingValue") or 0)
     quando = datetime.fromisoformat(dati["updatedAt"]).astimezone(ZoneInfo("Europe/Rome"))
 except (OSError, ValueError, KeyError, TypeError) as e:
     print(f"miodottore.json assente o non valido ({e}): pagine invariate")
@@ -31,6 +32,7 @@ if n < 1:
     sys.exit(0)
 
 num = str(n)
+voto_txt = f"{voto:.1f}".replace(".", ",") if 0 < voto <= 5 else None
 data = f"{quando.day} {MESI[quando.month - 1]} {quando.year}"
 DATA_RE = r"\d{1,2} (?:%s) \d{4}" % "|".join(MESI)
 
@@ -41,6 +43,12 @@ def html(t: str) -> str:
         return f"{apertura}{num}{m.group(2)}"
     t = re.sub(r'(<[^<>]*\bdata-md="recensioni"[^<>]*>)\d+(<)', tag, t)
     t = re.sub(r'(<[^<>]*\bdata-md="data"[^<>]*>)[^<]*(<)', lambda m: f"{m.group(1)}{data}{m.group(2)}", t)
+    if voto_txt:
+        t = re.sub(r'(<[^<>]*\bdata-md="voto"[^<>]*>)[^<]*(<)', lambda m: f"{m.group(1)}{voto_txt}{m.group(2)}", t)
+        def stelle(m):
+            tag = re.sub(r'style="--v:[0-9.]+"', f'style="--v:{voto}"', m.group(0))
+            return re.sub(r'aria-label="Voto [0-9,]+ su 5"', f'aria-label="Voto {voto_txt} su 5"', tag)
+        t = re.sub(r'<[^<>]*\bdata-md="stelle"[^<>]*>', stelle, t)
     return t
 
 MD = {
@@ -76,4 +84,4 @@ for nome, regole in MD.items():
         p.write_text(nuovo, encoding="utf-8")
         cambiati.append(p)
 
-print(f"{num} recensioni, rilevate il {data}: {len(cambiati)} file aggiornati")
+print(f"{num} recensioni, voto {voto_txt}, rilevate il {data}: {len(cambiati)} file aggiornati")

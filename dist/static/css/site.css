@@ -1019,5 +1019,16 @@ h1,h2,h3,h4,.faq summary{hyphens:auto;-webkit-hyphens:auto}
 .zl-rev{min-height:360px;margin:clamp(18px,2.4vw,28px) auto;width:100%;max-width:760px;text-align:left}
 .rb .zl-rev{margin-left:auto;margin-right:auto;width:100%}
 .zl-ph .link{font-size:.88rem}
-.rst{grid-template-columns:repeat(2,minmax(0,1fr))}
 .zl-ph a,.zl-ph .link{color:var(--ink)}
+
+/* ---------- Stelle MioDottore (voto aggiornato ogni giorno da data/miodottore.json) ---------- */
+.stelle{--s:15px;display:inline-block;width:calc(var(--s) * 5);height:var(--s);vertical-align:-2px;
+  background:linear-gradient(90deg,#c69b2b calc(var(--v) / 5 * 100%),#cfdcd6 0);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.6l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17.2l-5.9 3.2 1.3-6.5L2.5 9.4l6.6-.8z'/%3E%3C/svg%3E") 0 0/var(--s) var(--s) repeat-x;
+          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.6l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17.2l-5.9 3.2 1.3-6.5L2.5 9.4l6.6-.8z'/%3E%3C/svg%3E") 0 0/var(--s) var(--s) repeat-x}
+.f-rev{display:flex;flex-wrap:wrap;align-items:center;gap:3px 6px;margin-top:8px;color:var(--ink);text-decoration:none}
+.f-rev b{font-family:inherit;font-size:.92rem;font-weight:700;letter-spacing:0;line-height:1}
+.f-rev small{flex-basis:100%;font-size:.74rem;line-height:1.3;color:var(--muted);font-weight:500}
+.f-rev:hover small,.f-rev:focus-visible small{text-decoration:underline}
+.stelle-c{--s:18px;display:block;margin:4px auto 6px}
+.stelle-l{--s:26px;display:block;margin:6px auto 10px}

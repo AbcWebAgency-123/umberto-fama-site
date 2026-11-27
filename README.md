@@ -36,13 +36,12 @@ Non serve nessuna build: `dist/` va caricata così com'è tramite il workflow `.
 - **Pagina Contatti**: a destra di «Chieda una visita» c'è il widget ufficiale di MioDottore (`umberto-fama-2`),
   trattato come «Contenuto esterno»: si carica se il visitatore ha accettato i contenuti esterni o se preme
   «Mostra l'agenda di MioDottore». Il modulo non ha più i menu Trattamento e Sede e si intitola «Scrivi al Dottore».
-- **AICPE e widget recensioni**: in home il logo «Socio ordinario AICPE» (`static/img/aicpe-*.webp`) sostituisce il
-  numero di recensioni tra i dati in evidenza; nella sezione recensioni della home e in /recensioni/ c'è il widget
-  ufficiale MioDottore (stesso formato dell'agenda, `big_with_calendar` con recensioni attive), caricato con il consenso ai contenuti esterni.
+- **AICPE e stelle**: in home il logo «Socio ordinario AICPE» (`static/img/aicpe-*.webp`) e sotto le stelle con voto e
+  numero di recensioni MioDottore; stesso riepilogo a stelle nella sezione recensioni e in /recensioni/.
 - **Recensioni MioDottore** (numero nelle versioni .md): ogni giorno `.github/workflows/aggiorna-recensioni.yml` esegue
-  `tools/aggiorna-miodottore.php`, che legge il numero di recensioni (`aggregateRating.reviewCount`) dal profilo
-  MioDottore e scrive `dist/data/miodottore.json` solo se è cambiato; poi `tools/applica-recensioni.py` riporta
-  numero e data nelle pagine HTML (elementi `data-md="recensioni"` e `data-md="data"`) e in `index.md` e
+  `tools/aggiorna-miodottore.php`, che legge voto e numero di recensioni (`aggregateRating`) dal profilo
+  MioDottore e scrive `dist/data/miodottore.json` solo se sono cambiati; poi `tools/applica-recensioni.py` riporta
+  voto, stelle, numero e data nelle pagine HTML (elementi `data-md="voto|stelle|recensioni|data"`) e in `index.md` e
   `recensioni/index.md`. Se qualcosa cambia, il workflow fa il commit e pubblica con il deploy.
   `static/js/site.js` legge comunque il JSON, per le pagine rimaste in cache nel browser.
 - **Modulo contatti**: `dist/invia.php` riceve il modulo della pagina Contatti e lo invia con `mail()` a

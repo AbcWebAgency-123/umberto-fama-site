@@ -230,15 +230,18 @@
   if(!els.length||!window.fetch) return;
   fetch("/data/miodottore.json",{cache:"no-cache",credentials:"omit"}).then(function(r){return r.ok?r.json():null}).then(function(d){
     if(!d) return;
-    var n=parseInt(d.reviewCount,10), t=d.updatedAt?new Date(d.updatedAt):null;
+    var n=parseInt(d.reviewCount,10), v=parseFloat(d.ratingValue), t=d.updatedAt?new Date(d.updatedAt):null;
     if(!(n>=1)) return;
     var val={
       recensioni:String(n),
+      voto:(v>0&&v<=5)?v.toFixed(1).replace(".",","):null,
       data:(t&&!isNaN(t))?t.toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric",timeZone:"Europe/Rome"}):null
     };
     function metti(){
       for(var i=0;i<els.length;i++){
-        var k=els[i].getAttribute("data-md"); if(val[k]==null) continue;
+        var k=els[i].getAttribute("data-md");
+        if(k==="stelle"){ if(val.voto){ els[i].style.setProperty("--v",String(v)); els[i].setAttribute("aria-label","Voto "+val.voto+" su 5"); } continue; }
+        if(val[k]==null) continue;
         if(els[i].hasAttribute("data-count")) els[i].setAttribute("data-count",val[k]);
         els[i].textContent=val[k];
       }
